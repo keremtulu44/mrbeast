@@ -992,3 +992,78 @@ Kalan okuma:
 
 **İstenen:** görselde ne var? Metin varsa **aynen yaz** — özellikle
 son kelimesi ve 9. kelimesi (6'şar harf olabilirler → `(66)`).
+
+---
+# 0-L) ImageShack GÖRSELİ = BULMACA KARTI (tur 6) — ÜÇÜNCÜ TARAF ANALİZİNİN DENETİMİ
+
+Kullanıcı `KqjfA5.png` görselini bir görsel analiz aracına verdirdi ve
+"tamamen doğru demiyorum, körü körüne güvenme, sen bak" dedi.
+**Analiz 240×310 KÜÇÜK sürümden yapılmış** (orijinal 2550×3300).
+
+## ✅ BENİM DENETİMİM — MAKRO DOĞRU (GÜVEN)
+| Kontrol | Sonuç |
+|---|---|
+| **Başlık: `$1 TO $500,000 EXPERIENCES!`** | ✅ **Video 4'ün başlığıyla BİREBİR AYNI** — bu kart gerçekten video 4'ün "souvenir"ı |
+| Giriş cümlesi: "I went all over the world for these experiences. Where did I go?" | ✅ Tema uyumlu (dünya gezisi, destinasyonlar) |
+| 15 satır / 21 kutu | ✅ İçsel tutarlı (6 satırda 2 kutu = 12 + 9 tek = 21 ✓) |
+| 7 renk paleti | ✅ Tutarlı |
+| Yapı: anagram (karışık harf) bulmacası | ✅ İpucu 9'daki anagram mantığıyla UYUMLU |
+
+### 🚨 SONUÇ: `(66) = FOURTH UPLOAD` ZİNCİRİ DOĞRULANDI
+```
+(66) = "FOURTH UPLOAD" → 4. video → sabit yorum → ImageShack → BU KART
+```
+Kartın başlığı video 4'ün başlığıyla birebir aynı → **zincir artık tahmin değil, KANIT.**
+
+## ⚠️ MİKRO (HARF OKUMALARI) — GÜVENİLMEZ
+Analiz **240 px genişliğinde** bir küçük sürümden yapılmış; orijinal 2550 px
+(**10,6 kat** daha yüksek çözünürlük). Analizin kendi metni de emin değil:
+`NASCAN?( ')`, `MCGLL.'(?)`, `TUAIOVEA(?)`, `JAASEF(?)OYAS` — **? işaretleri var.**
+→ **Harf düzeyindeki veri KANIT DEĞİL, ön okuma.**
+
+## ❌ `(66)` YAPISAL TESTİ — OKUMALARLA UYUŞMUYOR
+Kural: `(66)` = **iki ayrı 6-harfli kelime**. Karta uygulanınca:
+| Okuma | LAST WORD | 9. (NINTH) | (66)? |
+|---|---|---|---|
+| 21 kutudan sonuncusu + 9.su | kutu21 `LLDMCGREGOY` (11) | kutu9 `TUAIOVEA` (8) | ❌ |
+| Giriş cümlesinin son kelimesi + 9. kelimesi | `go` (2) | `experiences` (11) | ❌ |
+→ **Ya harf okumaları yanlış (muhtemel) ya da uygulama farklı.**
+
+## 📋 KARTIN İÇERİĞİ (ön okuma — KESİN DEĞİL)
+```
+BAŞLIK : $1 TO $500,000 EXPERIENCES!
+SORU   : I went all over the world for these experiences. Where did I go?
+YAPI   : 15 satır / 21 kutu / 7 renk
+Renkler: kırmızı #E8434A · mavi #4E68AF · turuncu #F8B447 · sarı #F2EE4F
+         yeşil #82C562 · koyu mor #5E4089 · orkide #CE8CBB
+Kart   : beyaz zemin, hot-pink #E24882 kenarlık, başlık lacivert #082846
+```
+Satır dökümü (anlamlandırılamadı — ? = belirsiz glif):
+```
+ 1 kırmızı        GLENECA.RY
+ 2 mavi+turuncu   NASCAN?(')  · CIFTEL
+ 3 kırmızı+mavi   NESTACGA    · CAMOIN
+ 4 koyu mor       LSIPAIZER
+ 5 kırmızı+sarı   MCGLL.'(?)  · F.LIRCKA
+ 6 orkide         TUAIOVEA(?)
+ 7 yeşil+mor      GLENAVON    · COLFAX
+ 8 orkide         JAASEF(?)OYAS
+ 9 turuncu        TOVERCOUIT
+10 sarı           GOCKYFORIST
+11 orkide         DALIAAGLEN
+12 yeşil          MCGECBIAN
+13 yeşil+mor      AALYISC     · LOSTHEN
+14 mavi+turuncu   ATGIPSCY    · BIUTOS
+15 sarı           LLDMCGREGOY
+```
+
+## ⚠️ BEN ÇÖZEMİYORUM — TEKNİK ENGEL
+Anagramları çözmek için sözlük gerekli. Sandbox'ta:
+- `/usr/share/dict/` BOŞ · `wordfreq` YOK · `nltk` YOK
+- doğrudan internet erişimi YOK (python TLS hatası) → sözlük indirilemiyor
+
+## 👉 SIRADAKİ ADIM (öncelik sırası)
+1. **Aynı analizi 2550×3300 ORİJİNAL üzerinde tekrarla** → harfler netleşir
+   `https://web.archive.org/web/20260209005254/https://imagizer.imageshack.com/v2/2550x3300q70/922/KqjfA5.png`
+2. 21 kutunun **çözülmüş destinasyon adlarını** listele (21 yer adı)
+3. Sonra `(66)` testini tekrarla: **21. (son) ve 9. ad** 6'şar harf mi?
