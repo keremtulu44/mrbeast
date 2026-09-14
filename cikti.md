@@ -872,3 +872,68 @@ Plaka 364 lejantındaki 6 harfli kelimeler: **WINGED** (White-**winged**) ve
 - **`B` (FOURTH UPLOAD) yapıyı karşılıyor** ama ifade tahmin.
 - **`(364)` HÂLÂ AÇIK.** Sıradaki test: hem plaka hem ikinci bir girdi olarak
   okunabilen, 6+6 üreten bir kaynak var mı?
+
+---
+# 0-J) VİDEO 4 SABİT YORUMU + AÇIKLAMA — ImageShack `BeastForce67` (tur 6)
+
+## 1) Sabit yorum — DOĞRULANDI (video 4 = `Xj0Jtjg3lHQ`)
+```
+@MrBeast · 1 yıl önce (düzenlendi) · +107.408 beğeni
+"Oh man, that was a trip. Several, actually. Here's a little souvenir for you."
+https://imageshack.com/user/BeastForce67
+```
+✅ Kaynak: ruclips.net/video/Xj0Jtjg3lHQ/$1-vs-$500-000-experiences.html
+   → yorum aynen bu videoda, **4. video** = `$1 vs $500,000 Experiences!` ✓
+
+## 2) 🚨 YENİ HİPOTEZ — `(66) = FOURTH UPLOAD` TAM BURAYA ÇIKIYOR
+```
+(66) = "FOURTH UPLOAD"  ← İKİ OKUMA BİRDEN, İKİSİ DE AYNI YERE:
+  (a) upload = YouTube videosu → 4. video → `$1 vs $500,000 Experiences!`
+      → SABİT YORUM → imageshack.com/user/BeastForce67
+  (b) upload = ImageShack yüklemesi → o hesabın 4. yüklemesi (4th upload)
+→ "LAST WORD" → (6) = o yüklemenin son kelimesi (6 harf)
+```
+**"upload" kelimesinin bir resim barındırma hesabına çıkması tesadüf değil gibi.**
+Hesap adı `BeastForce67` — İpucu 16'daki `674`/`214` ile "67" örtüşmesi not edildi (kanıt değil).
+
+### ❌ Erişilemedi
+`imageshack.com/user/BeastForce67` → **ana sayfaya yönlendiriyor (giriş duvarı)**
+Denenen: `/user/BeastForce67`, `/user/BeastForce67/images`, `imageshack.us/user/BeastForce67`
+→ **üçü de aynı.** Hesabın içeriği (yükleme sayısı, başlıklar, sıra) BİLİNMİYOR.
+
+## 3) Açıklama (description) — analiz
+Kullanıcı "şüpheli geldi" dedi. İncelenen öğeler:
+| Öğe | Değerlendirme |
+|---|---|
+| **Kutu sanatı** (4 satır ╔═╦╗...) | Karakter sayıları **19 / 18 / 19 / 19** → temiz ızgara değil. Sadece kutu-çizim karakterleri, **okunur metin yok.** Büyük ihtimalle dekoratif banner. ⚠️ Kayıtta, düşük öncelik. |
+| `chucky@mrbeastbusiness.com` | Gerçek iş iletişim adresi (standart şablon) |
+| MrBeast Lab Swarms / Walmart / Target / Amazon | Moose Toys sponsorluk metni (standart) |
+| "ABONE OLUN YA DA KÖPEĞİNİZİ ALIRIM" | Standart şaka şablonu |
+| mrbeast.store · viewstats · extrememusic | Standart bağlantılar |
+
+## 4) `BeastForce67` bir TOPLULUK ADI — ⚠️ DİKKAT
+- **r/BeastForce67** subreddit'i var (Şub 2026): "Join our discord server to help us solve the puzzle: discord.gg/BeastForce67"
+- imgpile'da `beastforce67` kullanıcısı "Puzzle" başlıklı görsel paylaşmış (84.405 görüntüleme)
+  → **sayfa artık kaldırılmış** ("Not found")
+- Yorumlarda `discord.gg/tq5TQN59` "OFFICIAL DISCORD" iddiası
+⚠️ **Bunların hiçbiri resmî değil.** Topluluk adı, MrBeast'in sabit yorumundaki
+hesaptan geliyor. "Resmî Discord" iddiası **kanıtsız → oltalama/ scam riski.**
+  → **Kural: bu sunuculara giriş yapılmaz, bağlantılara tıklanmaz.**
+
+## 5) 🆕 ÜÇÜNCÜ TARAF İDDİALARIN DENETİMİ (Reddit r/MrBeast 1w5g827)
+Kuralımız: doğrulanmadan KABUL YOK, mantıksızsa ŞÜPHELİ KAYDET.
+| İddia | Test | Sonuç |
+|---|---|---|
+| **İpucu 9 = "rail fence cipher"** (3 satır) | 2–8 ray decode + **720 kolon permütasyonu** denendi | ❌ **ÇÜRÜDÜ** — hiçbiri `LASTWORDTHENNINTH` üretmiyor, hiçbiri İngilizce değil. Çözüm **anagram** (harf envanteri birebir). "bird fence?" = ESPri (kuş temalı şaka), mekanizma adı değil. |
+| **`QX = TH`** (yeşil not) | Bizim **İpucu 5** ile birebir aynı | ✅ **BAĞIMSIZ TEYİT** (bizim kaydımız doğrulanmış oldu) |
+| **`021 XIV` / `SeaHawks?`** (turuncu not) | Bizim **İpucu 3** ile aynı | ✅ BAĞIMSIZ TEYİT |
+| **84 sayfalık PDF: `mrb.gg/p/puzzle`** | Daha önce 3+ denemede **HTTP 500** | ⚠️ erişilemiyor, içerik doğrulanamadı |
+| **"+674 → Nauru, telefon numarası çözüyoruz"** | İpucu 16'daki `674` ile uyumlu ama "telefon numarası" sonucu **gösterilmemiş** | ⚠️ **ŞÜPHELİ** |
+| İpucu 2 transkripsiyonu farklı (`329 XXVI`, `253 XIV 337 VI`) | Bizim kullanıcı kaydımız farklı (`329 X`, `337 VI`) | ⚠️ **BİZİM KAYIT ESAS** (kullanıcı teyidi) |
+
+## 6) SIRADAKİ ADIM — kullanıcıya soru
+ImageShack hesabının içeriği **bizim için erişilemez** (giriş duvarı).
+Kullanıcı tarayıcıda açıp şunları söylerse `(66)/(6)` kırılabilir:
+1. Hesapta **kaç yükleme** var?
+2. **4. yüklemenin** başlığı / üzerindeki yazı ne?
+3. Yüklemelerin **sırası** ve tarihleri?
