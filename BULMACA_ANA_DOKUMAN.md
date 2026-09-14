@@ -295,7 +295,7 @@ başlığı/transkripti, plaka 364 lejantı) → **kaynak metin hâlâ bilinmiyo
 | **C** | PLAKA 364 | ❌ CROSSBILL→L (1 harf) | ❌ | ✅ ama 1 harf | ❌ çürüdü |
 | **D** | uzunluk kodu 3,6,4 (13 harf) | ? | ? | ? | ❓ kaynak metin yok |
 
-## ✅✅ VİDEO 4 SABİT YORUMU — `(66) = FOURTH UPLOAD` **DOĞRULANDI (KANIT)**
+## ❌ VİDEO 4 SABİT YORUMU / ImageShack `BeastForce67` — **$1M AVINA AİT, $10K İÇİN ELENDİ (KANITLI)**
 Video 4 (`Xj0Jtjg3lHQ` = `$1 vs $500,000 Experiences!`) sabit yorumu, +107.408 beğeni:
 ```
 @MrBeast · 1 yıl önce (düzenlendi)
@@ -311,16 +311,42 @@ https://imageshack.com/user/BeastForce67
 `"upload"` kelimesinin bir **resim barındırma hesabına** çıkması dikkat çekici.
 Hesap adı `BeastForce67` — İpucu 16'daki `674` ile "67" örtüşmesi not edildi (kanıt değil).
 
-### 🎯 KANIT: hesaptaki görsel bir BULMACA KARTI ve başlığı video 4'ün başlığıyla BİREBİR AYNI
+### 🚨 KANIT: bu kart **$1M AVININ** malzemesi — $10K'DA KULLANILMAZ
 Arşivden çıkan görsel (`KqjfA5`, 2550×3300) incelendi:
 ```
-BAŞLIK : $1 TO $500,000 EXPERIENCES!      ← VİDEO 4'ÜN BAŞLIĞIYLA AYNI ✅✅
+BAŞLIK : $1 TO $500,000 EXPERIENCES!   ← video 4'ün başlığıyla aynı
 SORU   : "I went all over the world for these experiences. Where did I go?"
 YAPI   : 15 satır / 21 kutu / 7 renk — her kutu KARIŞIK HARF (anagram) = bir destinasyon
-Kart   : beyaz zemin, hot-pink #E24882 kenarlık, lacivert #082846 başlık bandı
-Renkler: kırmızı · mavi · turuncu · sarı · yeşil · koyu mor · orkide
 ```
-→ **Zincir artık tahmin değil: `FOURTH UPLOAD` → video 4 → sabit yorum → bu kart.**
+**4 BAĞIMSIZ KANIT → bu $1M avına ait:**
+| # | Kanıt |
+|---|---|
+| 1 | **WATER = 67** (A=1..Z: 23+1+20+5+18) ↔ hesap adı **BeastForce67** — *kendim hesapladım* |
+| 2 | $1M av takipçisi `lightspeedup.com/mrbeast/`: *"Validation: WATER checksum = 67 = **BeastForce67** Hint #3 confirms"* |
+| 3 | **Zamanlama:** hesap Wayback'e **9 ve 11 Şub 2026**'da alınmış = $1M avının **İpucu 1 (9 Şub)** ve **İpucu 3 (11 Şub)** günleri. Av **6 Mart 2026**'da Colin kazandı → $10K'dan (Eyl 2026) **6 ay önce** |
+| 4 | Kullanıcı doğrulaması: 4. video = **$1M avı playlist'inin** 4. videosu |
+
+⚠️ **ÖZ ELEŞTİRİ:** bir önceki turda buraya "zincir kanıtlandı" yazmıştım —
+**YANLIŞTI.** Kartın başlığının video 4'le aynı olması, yalnızca kartın o
+videonun *souvenir'ı* olduğunu kanıtlar; $10K'nın `(66)` adımının oraya
+işaret ettiğini kanıtlamaz. Kullanıcı kuralı: **"orada kullanıldıysa tekrara
+düşmez"** → §8 mezarlığına gömüldü.
+
+### ❓ `(364)` ↔ video 4 BAĞLANTISI: **YOK — kurulamadı**
+```
+İpucu 15:  (364)  +  (4445)  →  (66)  →  (6)
+             ↑         ↑          ↑
+             ?    LAST WORD   FOURTH UPLOAD  ← TAHMİN (17 ipucunun hiçbirinde geçmiyor)
+                  THEN NINTH
+                  ✅ KANITLI
+```
+- `(4445)` → `LAST WORD THEN NINTH` ✅ **kendi çözümümüz, kanıtlı**
+- `(66)` = `FOURTH UPLOAD` ⚠️ **üçüncü taraf iddiası** — hiçbir ipucumuzda bu
+  ifade geçmiyor; tek dayanağı 6+6 uzunluk kodu
+- **`(364)` → `(66)` adımı hiçbir zaman türetilemedi.** 364'ten "FOURTH UPLOAD"
+  çıkan bir mekanizma bulunamadı. Video 4'e giden bağ yalnızca o tahminden
+  geliyor, **364'ten değil.**
+→ Kayıt: **"364'ün neyle bağlantılı olduğu bulunamadı."** `(364)` AÇIK.
 
 ### ⚠️ Kartın harf okumaları GÜVENİLMEZ
 Analiz **240×310 küçük sürümden** yapıldı (orijinal 2550 px = 10,6 kat).
@@ -407,6 +433,9 @@ HOLSTER + renkli harfler → 7 harfli cevap = **TOWARDS**).
 | "HAND havuzdan yazılabiliyor" kanıtı | Havuzdan 899 dört-harfli kelime çıkıyor → kanıt değil |
 | Kalan 13 harften İspanyolca/Latince grup | 9 dil tarandı, hiçbiri anlamlı değil; Latincede W yok |
 | `(364)` = PLAKA 364 (White-winged Crossbill) | Kuş doğru (3 kaynak) ama `CROSSBILL→L` **tek harf**; lejantın LAST WORD=<br>`alder`(5), 9. kelime=`Young`(5) → **`(66)` üretilemiyor** (§7) |
+| **ImageShack `BeastForce67` + video 4 sabit yorumu + 2550×3300 kart** | ❌ **$1M AVININ MALZEMESİ — $10K'DA KULLANILMAZ.** 4 kanıt: **WATER=67** ↔ BeastForce67 · $1M takipçisinde "Hint #3 confirms" · hesap **9/11 Şub 2026**'da arşivlenmiş (= $1M İpucu 1 ve 3) · video 4 zaten $1M playlist'inin 4. videosu. Kullanıcı kuralı: *"orada kullanıldıysa tekrara düşmez"* |
+| "İpucu 9 mekanizması = rail fence cipher" | 2–8 ray decode + **720 kolon permütasyonu** denendi → hiçbiri `LASTWORDTHENNINTH` üretmiyor, hiçbiri İngilizce. Çözüm **anagram**; "bird fence?" = ESPri (kuş temalı şaka) |
+| "FOURTH UPLOAD → video 4 → kart" zinciri | ⚠️ **Kanıt sanıldı, değilmiş.** Kart video 4'ün souvenir'ı (doğru) ama bu, $10K'nın `(66)`'sının oraya işaret ettiğini **kanıtlamaz**; üstelik kart $1M avına ait |
 
 ---
 
