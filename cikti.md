@@ -801,3 +801,74 @@ bakıyordu: kitap *Birds of America* ve koordinat sayfa değil **PLAKA.**
 ## 6) ❓ Sıradaki
 `(6)` için yeni aday: **`WINGED`** (6 harf, plaka 364'ün adında).
 Doğrulanması gereken: plaka 364'ün lejantında/altyazısında 6 harfli bir şey var mı?
+
+---
+# 0-I) (364) OKUMALARI — YAPISAL (66)/(6) TESTİ (tur 6, 2026-09-14)
+
+## Kullanıcının itirazı (iki ayaklı)
+1. **"İpucu 17'nin 364 günü olamaz"** — o 364 zaten İpucu 14'te kullanıldı
+   (iki tarih arası 364 gün, ikisi de CUMA → FRIDAY). İpucu 15'in `(364)`'ü
+   aynı girdi olamaz → **bu plaka 364'ü öne çıkarır.**
+2. **"ama sorun şu ki"** — plaka 364 → son kelime CROSSBILL → 9. harf = **L**
+   → bu TEK HARF. `(66)` (iki 6-harfli kelime) ve `(6)` nasıl olacak?
+
+## Yapısal şart (uzunluk-kodu kuralımızdan)
+```
+(66) = 2 kelime × 6 harf = 12 harf
+(6)  = 1 kelime × 6 harf
+→ (364)'ün kaynak metni, "LAST WORD" ve "9. KELİME" çıkarımıyla
+  İKİ AYRI 6-HARFLİ KELİME vermek ZORUNDA.
+```
+
+## 🆕 PLAKA 364'ÜN TAM LEJANTI — DOĞRULANDI (3. bağımsız kaynak)
+Kaynak: Boston Public Library, Havell baskısı, 1837, *The Birds of America*
+(digitalcommonwealth.org · ark:/50959/9s16d7299 · Appleton kopyası)
+```
+Lejant: "White-winged crossbill : Loxia leucoptera, Gm. Male adult, 1, 2.
+         Female adult, 3. Young F., 4. New Foundland alder"
+Gravür: "Drawn from nature by J. J. Audubon F.R.S. F.L.S. Engraved, printed
+         & coloured by R. Havell, 1837."
+Numara: her plaka iki kez numaralı — set 73, plaka CCCLXIV (364) ✓
+```
+Latince ad (otorite hariç, kuralımız): **LOXIA LEUCOPTERA** (Gm. = Gmelin).
+Plakanın bitkisi: **New Foundland alder** (Newfoundland kızılağacı).
+
+### Lejant üzerinde (66) testi — ÜÇ VARYANT
+| Varyant | Kelime sayısı | LAST WORD | 9. kelime | (66) şartı? |
+|---|---|---|---|---|
+| tüm kelimeler | 18 | alder (5) | 2 (1) | ❌ |
+| sayılar atılmış | 14 | alder (5) | adult (5) | ❌ |
+| sayı + otorite atılmış | 13 | alder (5) | Young (5) | ❌ |
+
+**→ PLAKA 364, `(66)`'yı ÜRETEMİYOR. Kullanıcının itirazı VERİYLE DOĞRULANDI.**
+(`CROSSBILL → 9. harf = L` tek harf verir; 6+6 vermez. Lejant da 6+6 vermiyor.)
+
+## Üç okuma — karşılaştırma tablosu
+| # | `(364)` = | `(66)` üretir mi? | `(6)` | `(4445)` rolü | Durum |
+|---|---|---|---|---|---|
+| **A** | 364 gün (İp 17/14) → iki tarih → ikisi de CUMA | ✅ **FRIDAY \| FRIDAY** (6,6) | ✅ **FRIDAY** (6) | ❓ rolü yok | ✅ **YAPININ TEK KARŞILIĞI** — ama "İp 14'te kullanıldı" itirazı var |
+| **B** | FOURTH UPLOAD | ✅ FOURTH \| UPLOAD (6,6) | ✅ UPLOAD (6) | ✅ LAST WORD = son kelime | ⚠️ ifade **TAHMİN** + `(364)`'ü açıklamıyor |
+| **C** | PLAKA 364 = White-winged Crossbill | ❌ (CROSSBILL→L = 1 harf; lejant 5+5) | ❌ | ✅ uygulanıyor ama 1 harf | ❌ **YAPIYI ÜRETMİYOR** (lejant testiyle kanıtlandı) |
+| **D** | uzunluk kodu 3,6,4 = 13 harf | ? | ? | ? | ❓ kaynak metin bilinmiyor |
+
+## ✅ FRIDAY YOLU — KAYIT (kullanıcı istedi: "bunu da kaydetmek lazım")
+```
+İPUCU 14 (mavi kağıt / mavi yazı, video bitimi):
+  (364) = 364 GÜN (İpucu 17) → 1 Tem 1988 (CUMA) + 30 Haz 1989 (CUMA)
+  (66)  = FRIDAY | FRIDAY          → 6 + 6  ✅ kendi uzunluk-kodu kuralımızla BİREBİR
+  (6)   = FRIDAY                   → 6      ✅ (LAST WORD / tekilleştirme)
+```
+⚠️ Bu, **elimizdeki doğrulanmış veriyle `(66)`→`(6)` yapısını karşılayan TEK okuma.**
+   Kayda geçti. Kullanıcı notu: bu 364 İpucu 17'den geliyor → İpucu 15'te
+   tekrar kullanılması mantıksız → **İpucu 15 için hâlâ yeni bir `(364)` aranıyor.**
+
+## Zayıf gözlem (kanıt değil, not)
+Plaka 364 lejantındaki 6 harfli kelimeler: **WINGED** (White-**winged**) ve
+**FEMALE** (Female adult). Talimatın bunları seçtiğine dair hiçbir kanıt yok.
+
+## SONUÇ
+- **`C` (plaka 364) çürüdü** — kullanıcının itirazı doğru, lejant testiyle kanıtlandı.
+- **`A` (FRIDAY) yapıyı karşılıyor** ama İpucu 14'e ait → İpucu 15 için açık.
+- **`B` (FOURTH UPLOAD) yapıyı karşılıyor** ama ifade tahmin.
+- **`(364)` HÂLÂ AÇIK.** Sıradaki test: hem plaka hem ikinci bir girdi olarak
+  okunabilen, 6+6 üreten bir kaynak var mı?
