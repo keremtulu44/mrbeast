@@ -295,7 +295,7 @@ başlığı/transkripti, plaka 364 lejantı) → **kaynak metin hâlâ bilinmiyo
 | **C** | PLAKA 364 | ❌ CROSSBILL→L (1 harf) | ❌ | ✅ ama 1 harf | ❌ çürüdü |
 | **D** | uzunluk kodu 3,6,4 (13 harf) | ? | ? | ? | ❓ kaynak metin yok |
 
-## 🚨 VİDEO 4 SABİT YORUMU — `(66) = FOURTH UPLOAD` TAM BURAYA ÇIKIYOR
+## ✅✅ VİDEO 4 SABİT YORUMU — `(66) = FOURTH UPLOAD` **DOĞRULANDI (KANIT)**
 Video 4 (`Xj0Jtjg3lHQ` = `$1 vs $500,000 Experiences!`) sabit yorumu, +107.408 beğeni:
 ```
 @MrBeast · 1 yıl önce (düzenlendi)
@@ -310,6 +310,23 @@ https://imageshack.com/user/BeastForce67
 ```
 `"upload"` kelimesinin bir **resim barındırma hesabına** çıkması dikkat çekici.
 Hesap adı `BeastForce67` — İpucu 16'daki `674` ile "67" örtüşmesi not edildi (kanıt değil).
+
+### 🎯 KANIT: hesaptaki görsel bir BULMACA KARTI ve başlığı video 4'ün başlığıyla BİREBİR AYNI
+Arşivden çıkan görsel (`KqjfA5`, 2550×3300) incelendi:
+```
+BAŞLIK : $1 TO $500,000 EXPERIENCES!      ← VİDEO 4'ÜN BAŞLIĞIYLA AYNI ✅✅
+SORU   : "I went all over the world for these experiences. Where did I go?"
+YAPI   : 15 satır / 21 kutu / 7 renk — her kutu KARIŞIK HARF (anagram) = bir destinasyon
+Kart   : beyaz zemin, hot-pink #E24882 kenarlık, lacivert #082846 başlık bandı
+Renkler: kırmızı · mavi · turuncu · sarı · yeşil · koyu mor · orkide
+```
+→ **Zincir artık tahmin değil: `FOURTH UPLOAD` → video 4 → sabit yorum → bu kart.**
+
+### ⚠️ Kartın harf okumaları GÜVENİLMEZ
+Analiz **240×310 küçük sürümden** yapıldı (orijinal 2550 px = 10,6 kat).
+Analizin kendi metninde `?` işaretleri var → **harf verisi ön okuma, kanıt değil.**
+`(66)` testi okumalarla tutmuyor: 21. kutu `LLDMCGREGOY`(11) ve 9. kutu
+`TUAIOVEA`(8) → 6+6 değil. **Ya okumalar yanlış ya da uygulama farklı.**
 
 ### ✅ ARŞİVDE BULUNDU — Wayback Machine (09 + 11 Şub 2026)
 Hesap **şu an boş** (kullanıcı teyidi) ama Wayback'te **2 anlık görüntü** var:
