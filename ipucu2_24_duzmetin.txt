@@ -1,0 +1,98 @@
+================================================================================================================
+ MRBEAST GİZLİ $10.000 BULMACASI  —  İPUCU 2 :  24 PLAKA → 24 HARF
+ DÜZ METİN / TAM ANALİZ   (2026-09-13)
+================================================================================================================
+
+[1] KURAL SETİ — BU LATİNCE ADLAR NEDEN SEÇİLDİ?
+----------------------------------------------------------------------------------------------------------------
+• Sayı = Audubon 'Birds of America' HAVEL baskısı (1-435) PLAKA numarası.  (İpucu 7: PLATES)
+• Roma rakamı = o plakaya KAZINMIŞ ORİJİNAL Latince adın harf pozisyonu.   (İpucu 11: 'Roman numbers for Roman words?')
+• Boşluk, nokta ve otorite kısaltması (L., Aud., Bonap., Swains.) SAYILMAZ; ad tek kelime gibi okunur.
+• '424-6' = plaka 424'in 6. FIGÜRÜ (aynı plakada 7 figür var; erkek/dişi ayrı numaralanmış).
+• MODERN ad kullanılmaz: İpucu 10 'Book w/ old names...' + İpucu 11 'Roman words'.
+• KESİN KANIT (İpucu 1 / görsel 7): 😂 = Laughing Gull → İngilizce adı 12 harf, mavi rakam XIV = 14.
+   14 > 12 → İngilizcede saymak imkânsız; sayım Latince ad üzerinden yapılmak ZORUNDA (LARUS ATRICILLA, 14 harf).
+
+[2] TABLO
+----------------------------------------------------------------------------------------------------------------
+#   PLAKA   ROMA  KUŞ (Audubon'un adı)               LATİNCE LEJANT (seçilen)  SAYIM (birleşik)                 HARF
+----------------------------------------------------------------------------------------------------------------
+1   029     III   Towhe Bunting                      Fringilla erythrophthalma fringillaerythrophthalma[3]=I    I
+2   039     VI    Crested Titmouse                   Parus bicolor             parusbicolor[6]=B                B
+3   042     V     Orchard Oriole                     Icterus spurius           icterusspurius[5]=R              R
+4   061     II    Great Horned Owl                   Strix virginiana          strixvirginiana[2]=T             T
+5   074     IX    Indigo Bird                        Fringilla cyanea          fringillacyanea[9]=A             A
+6   076     IV    Virginian Partridge                Perdix virginiana         perdixvirginiana[4]=D            D
+7   081     XIV   Fish Hawk (Osprey)                 Falco haliaetus           falcohaliaetus[14]=S             S
+8   083     XI    House Wren                         Troglodytes aedon         troglodytesaedon[11]=S           S
+9   101     II    Raven                              Corvus corax              corvuscorax[2]=O                 O
+10  102     III   Blue Jay                           Corvus cristatus          corvuscristatus[3]=R             R
+11  112     IX    Downy Woodpecker                   Picus pubescens           picuspubescens[9]=E              E
+12  162     V     Zenaida Dove                       Columba zenaida           columbazenaida[5]=M              M
+13  184     V     Mango Humming Bird                 Trochilus mango           trochilusmango[5]=H              H
+14  216     I     Wood Ibiss                         Tantalus loculator        tantalusloculator[1]=T           T
+15  225     VI    Kildeer Plover                     Charadrius vociferus      charadriusvociferus[6]=D         D
+16  235     VII   Sooty Tern                         Sterna fuliginosa         sternafuliginosa[7]=F            F
+17  245     VIII  Thick-billed Murre                 Uria brunnichii           uriabrunnichii[8]=N              N
+18  246     VIII  Eider Duck                         Fuligula mollissima       fuligulamollissima[8]=A          A
+19  253     XIV   Jager (Parasitic Jaeger)           Lestris parasiticus       lestrisparasiticus[14]=T         T
+20  275     III   Noddy Tern                         Sterna stolida            sternastolida[3]=E               E
+21  329     X     Yellow-breasted Rail               Rallus noveboracensis     rallusnoveboracensis[10]=E       E
+22  337     VI    American Bittern                   Ardea minor               ardeaminor[6]=M                  M
+23  358     IX    Pine Grosbeak                      Pyrrhula enucleator       pyrrhulaenucleator[9]=E          E
+24  424-6   XVI   Brown Longspur (424'ün 6. figürü)  Plectrophanes townsendi   plectrophanestownsendi[16]=W     W
+----------------------------------------------------------------------------------------------------------------
+
+[3] SATIR SATIR 'NEDEN' NOTLARI
+----------------------------------------------------------------------------------------------------------------
+   029 : Audubon'un 'Towhe Bunting'i (günümüz Eastern Towhee). Modern Pipilo erythrophthalmus kullanılsaydı 3. harf P olurdu → eski ad ŞART.
+   039 : 'Crested Titmouse' = günümüz Tufted Titmouse. Audubon'un lejantı Parus bicolor. Modern Baeolophus olsaydı 6. harf O.
+   042 : Latince ad hiç değişmemiş (Icterus spurius). Nadir 'güvenli' satırlardan.
+   061 : Great Horned Owl = Strix virginiana — Havell baskı etiketinde birebir geçiyor, DOĞRULANDI. Modern Bubo virginianus → U verirdi, T değil.
+   074 : 'Indigo Bird' = Indigo Bunting. Bu satır ayırt edici değil: modern Passerina cyanea da A verir (9. harf).
+   076 : Virginian Partridge = günümüz Northern Bobwhite. Perdix virginiana → D. Modern Colinus → C.
+   081 : 'Fish Hawk' = Osprey. Audubon Falco haliaetus (tam 14 harf). Modern Pandion haliaetus 14. harfte T verir → S değil. Ayırt edici.
+   083 : Troglodytes aedon değişmemiş → güvenli satır.
+   101 : Corvus corax değişmemiş → güvenli satır.
+   102 : ⚠️ Kritik: Blue Jay = Corvus cristatus (modern Cyanocitta cristata DEĞİL). audubon.org + kazınmış 'PLATE CII' ile DOĞRULANDI. Modern ad A verirdi.
+   112 : Picus pubescens → E. Modern Dryobates pubescens → S. Ayırt edici.
+   162 : Zenaida Dove = Columba zenaida → M. Modern Zenaida aurita → I. Ayırt edici.
+   184 : Mango Humming Bird = Trochilus mango → H. Modern Anthracothorax mango → R. Ayırt edici (H, HAND için gerekli!).
+   216 : 'Wood Ibiss' = günümüz Wood Stork. Tantalus loculator → T (1. harf). Modern Mycteria → M.
+   225 : Charadrius vociferus değişmemiş (sadece yazım: Kildeer→Killdeer) → güvenli satır.
+   235 : Sterna fuliginosa → F. Modern Onychoprion fuscatus → P. Ayırt edici.
+   245 : Uria brunnichii → N. Modern Uria lomvia → V. Ayırt edici (N, HAND/SAND için gerekli!).
+   246 : Fuligula mollissima → A. Modern Somateria mollissima → I. Ayırt edici.
+   253 : 'Jager' = Parasitic Jaeger = Lestris parasiticus → T. Modern Stercorarius parasiticus → A.
+   275 : Sterna stolida → E. Modern Anous stolidus → A. Ayırt edici.
+   329 : Yellow-breasted Rail = Rallus noveboracensis → E (10. harf).
+   337 : American Bittern = Ardea minor — Havell lejantı 'American bittern : Ardea minor. Female, 2.' (Boston PL) DOĞRULANDI. Modern Botaurus lentiginosus → R, M değil.
+   358 : Pyrrhula enucleator → E. Modern Pinicola enucleator de E verir → bu satır ayırt edici değil.
+ 424-6 : ⚠️ EN ÖNEMLİSİ: Plaka 424'te 7 figür var. Orijinal lejant: '...5. Female. 6. Young male. Plectrophanes Townsendi, Aud. 7. Female.' → 6. figür = Plectrophanes Townsendi ✓ (digitalcommonwealth.org, Havell). plectrophanestownsendi[16] = W. Modern Calcarius (14 harf) ile XVI=16 OKUNAMAZ → eski adın zorunlu olduğunun en güçlü kanıtı.
+
+[4] MODERN ADLARLA AYNI SAYIMI DENERSEN (eski adın zorunluluğunun kanıtı)
+----------------------------------------------------------------------------------------------------------------
+  Modern adlarla 24 harf : P O R U A I T S O A S I R M D P V I A O P R E ?
+  → Tamamen anlamsız. Ayrıca 24. satır (XVI=16) modern 'Calcarius pictus' (14 harf) ile
+     OKUNAMAZ. Yani eski lejant adları zorunlu, tercih değil.
+
+[5] 24 HARFTEN NE ÇIKTI? (dürüst özet)
+----------------------------------------------------------------------------------------------------------------
+  24 HARF (plaka sırası) : I B R T A D S S O R E M H T D F N A T E E M E W
+  HARF HAVUZU            : A2 B1 D2 E4 F1 H1 I1 M2 N1 O1 R2 S2 T3 W1
+  Alfabetik (eski İng. ada göre) : M R W B E A S T S A T D H E R E O F N I D T E M
+      → içinde görünenler : MR · BEAST(S) · SAT · HERE · ITEM · OF
+
+  ✅ ÇIKAN 1 : Havuzdan MRBEAST (ve HAND de SAND da) yazılabiliyor.
+  ❌ AMA     : Bu bir kanıt DEĞİL. 114.000 kelimelik sözlükle tarandı: havuzdan
+              899 dört-harfli, 1131 beş-harfli kelime çıkıyor. HAND/SAND ayrımı
+              bu havuzla çözülemez. (Önceki turdaki 'KANITLANDI' ifadesini geri aldım.)
+  ✅ ÇIKAN 2 : 83544 = 8+3+5+4+4 = 24  ← 24 harf sayısıyla birebir örtüşüyor.
+              (527 = BIRDS(5) OF(2) AMERICA(7) = 14; 4445 = LAST WORD THEN NINTH = 4,4,4,5)
+              → (83544) bir KELİME UZUNLUĞU KODU: 24 harf 5 kelimeye (8,3,5,4,4) bölünüyor.
+  ⚠️ ÇIKAN 3 : İlk kelime 8 harf olmak zorunda →
+              SAND : MRBEASTS(8) + AND(3)   → iki kelime de temiz  ✔
+              HAND : MRBEASTH(8) + AND(3)   → 'MRBEASTH' kelime değil  ✘
+              → Bu, SAND lehine / HAND aleyhine ilk somut delil.
+  ❌ ÇÖZÜLEMEYEN : 5 kelimelik cümle bulunamadı (8,3,5,4,4 kalıbıyla 4.000+ aday,
+                   en yüksek sıklıklıları bile anlamsız: 'HANDMADE BET FIRST WERE MOST').
