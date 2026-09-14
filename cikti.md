@@ -1197,3 +1197,51 @@ mantıksız. **"Kanıtlandı" ifadesi geri alındı.**
   çıkan bir mekanizma bulamadık. Video 4'e giden bağ yalnızca
   "FOURTH UPLOAD" tahmininden geliyor, 364'ten DEĞİL.
 → **Bu yüzden "FOURTH UPLOAD" şüpheli listesinde kalır; (364) AÇIK.**
+
+---
+# 0-O) DIŞARIDAKİ $10K TOPLULUĞU — DENETİM (tur 7, 2026-09-14)
+
+## ✅ VİDEO TARİHİ DOĞRULANDI
+`82CX6WULNA0` — **yayın tarihi: 2 Eylül 2026** (YouTube metadata).
+→ $10K bulmacamız **12 günlük.** $1M avı (Şub–Mar 2026) biteli 6 ay olmuş.
+
+## 🆕 TOPLULUĞUN DURUMU (r/MrBeast `1w78rdv`, 4 Eyl 2026)
+Topluluk da bizimle AYNI noktada:
+```
+527  → birds of america → Roman/index → alphabetize → BEASTSAND      ✅
+9    → beastsand (kırmızı havuz)                                     ✅
+364  → xor superb owls                                               ⚠️
+4445 → last word then ninth                                          ✅
+66   → fourth upload                                                 ⚠️
+6    → STUNTS (iddia)                                                ❌
+join → red → blue → "beastsandstunts"
+```
+
+## ✅ BAĞIMSIZ TEYİT — BİZİM KIRMIZI TARAFIMIZ DOĞRULANDI
+Topluluk **kendi başına** `BEASTSAND`'a ulaşmış (527 → Birds of America →
+alfabetik → ~~MR~~ → 9 harf). Bu, bizim çözümümüzün **dışarıdan bağımsız
+doğrulamasıdır.** Ayrıca onlar da "MR'nin üstünün fiziksel olarak çizili
+olduğunu" teyit ediyor (bizim 1 numaralı kanıtımızla aynı).
+
+## ❌ ONLARIN `(364)` OKUMASI — TESTTEN GEÇEMİYOR
+`XOR | SUPERB | OWLS` (3,6,4 ✓ uzunluk kodu).
+Test: "LAST WORD" = **OWLS (4 harf)** ✗ (6 olmalı) · **9. kelime YOK** (3 kelime).
+→ Yapısal şartı karşılamıyor. `XOR` hâlâ kaynaksız → **ŞÜPHELİ kalıyor.**
+
+## ❌ ONLARIN `(6) = STUNTS` İDDİASI — BİZDE 4 KEZ ÇÜRÜDÜ
+Gerekçeleri: "fourth upload → last word → ninth extraction → stunts"
+→ ** ara adım gösterilmemiş.** Bizim 4 çürütmemiz (24 harfli havuzda U yok,
+4. video başlığında T/U yok, transkriptte "stunt" geçmiyor, adım kanıtsız)
+GEÇERLİLİĞİNİ KORUYOR.
+
+## 🆕 BİZDE OLMAYAN İKİ YENİ BİLGİ
+| Bulgu | Kaynak | Değerlendirme |
+|---|---|---|
+| `(66)` = "**Oct 4th** + upload" — *gateway captions* (altyazı) okuması | HoldingAdvisory | ⚠️ doğrulanamadı; bizim kayıtlarımızda da "Oct 4th + upload" şüpheli olarak geçiyordu |
+| **Path B:** $10.000 çizimindeki ada konturu → **Christmas Island** → Christmas Island Hawk-Owl → *Ninox natalis* | gg4999 | 🟡 İLGİNÇ: bizim `(6)` adayımız **`ISLAND` (6 harf)** ile örtüşüyor |
+| Test edilecek sayı listesi: `VII, IX, 61, 46, 97, 121, 171, 364, 66, 6, 674, 4445, 251634` | HoldingAdvisory | `97, 121, 171` bizde de şüpheli listede; `61` yeni |
+
+## 🎯 SONUÇ
+- Kırmızı taraf: **biz + topluluk aynı sonuç** → artık tartışmasız.
+- Mavi taraf: topluluk da **bilmiyor.** STUNTS iddiası onlarda da kanıtsız.
+- `(364)` hâlâ **AÇIK** ve her iki tarafta da çözülmemiş.
