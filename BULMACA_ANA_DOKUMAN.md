@@ -311,12 +311,28 @@ https://imageshack.com/user/BeastForce67
 `"upload"` kelimesinin bir **resim barındırma hesabına** çıkması dikkat çekici.
 Hesap adı `BeastForce67` — İpucu 16'daki `674` ile "67" örtüşmesi not edildi (kanıt değil).
 
-### ❌ Erişilemedi — KULLANICIYA GEREKLİ
-`imageshack.com/user/BeastForce67` **giriş duvarına** yönlendiriyor.
-Denenen 3 URL (`/user/BeastForce67`, `/user/BeastForce67/images`, `imageshack.us/...`)
-→ hepsi ana sayfa. **Hesabın içeriği bilinmiyor.**
-👉 Kullanıcı tarayıcıda açıp şunları söylemeli: **kaç yükleme var · 4. yüklemenin
-başlığı/üzerindeki yazı · sıralama ve tarihler.**
+### ✅ ARŞİVDE BULUNDU — Wayback Machine (09 + 11 Şub 2026)
+Hesap **şu an boş** (kullanıcı teyidi) ama Wayback'te **2 anlık görüntü** var:
+```
+Görsel ID : KqjfA5 · Dosya adı: 9ErN78U5uxbnR2WTkd6S.png (rastgele)
+Görsel sayısı: 1  ← iki anlık görüntüde de TEK görsel
+Albüm: "No Albums"
+TAM BOYUT: 2550 × 3300 px
+   2550/3300 = 0,772727…   8,5/11 = 0,772727…  → ABD LETTER @ 300 DPI (BİREBİR)
+   Boyut menüsünde bu seçenek yok (1600x1200'a kadar) → ORİJİNAL BOYUT
+   → telefon fotoğrafı DEĞİL, taranmış/dijital bir BELGE
+```
+⚠️ **"4. yükleme" okuması (b) DÜŞTÜ** (hesapta tek görsel var).
+Kalan zincir: `FOURTH UPLOAD` = **4. video** → sabit yorum → hesap → TEK görsel
+→ `LAST WORD` → `(6)` = belgedeki metnin son kelimesi.
+
+**📎 Kullanıcının açacağı bağlantılar** (benz göremiyor: ağ erişimi + vision yok):
+1. Tam boyut: `https://web.archive.org/web/20260209005254/https://imagizer.imageshack.com/v2/2550x3300q70/922/KqjfA5.png`
+2. Görsel sayfası: `https://web.archive.org/web/20260209031715/https://imageshack.com/i/pmKqjfA5p`
+3. Canlı CDN: `https://imagizer.imageshack.com/v2/2550x3300q70/922/KqjfA5.png`
+
+👉 **İstenen:** görselde ne var? Metni **aynen yaz** — özellikle **son kelime** ve
+**9. kelime** (ikisi 6'şar harfse `(66)` kırılır).
 
 ### ⚠️ `BeastForce67` aynı zamanda bir TOPLULUK ADI — DİKKAT
 - **r/BeastForce67** (Şub 2026) + `discord.gg/BeastForce67` + `discord.gg/tq5TQN59` ("OFFICIAL" iddiası)
