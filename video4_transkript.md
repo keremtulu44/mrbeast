@@ -2,8 +2,10 @@
 
 **Video ID:** `Xj0Jtjg3lHQ` · **Kanal:** MrBeast · **Yükleme:** 2 Kasım 2024 · **Süre:** 17:39
 **Kaynak:** youtubetotranscript.com (otomatik altyazı, 3 parça birleştirildi)
-**Neden:** İpucu 15'in `(66) = FOURTH UPLOAD`ı bu videoyu işaret ediyor;
-`(4445) = LAST WORD THEN NINTH` talimatı buraya uygulanacak.
+**Neden:** bu video `(66) = FOURTH UPLOAD` tahminiyle çekilmişti.
+> ⚠️ **[TUR 9: o tahmin ÇÜRÜDÜ — "4"ün hiçbir girdide kaynağı yok (`cikti.md` §0-R/1),
+> ayrıca video zaten $1M avının parçası (§0-N). Transkript yine de geçerli BİRİNCİL VERİ:
+> "stunt" kelimesinin geçmediği ve "upload"ın yalnızca bir kez geçtiği buradan doğrulandı.]**
 
 ---
 

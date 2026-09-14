@@ -452,11 +452,11 @@ c o | e d | a f | n v | l i | n a | c L | i a | i a | ? | o t | y a | c h | e a
 | 5 | `QX = TH` | ✅ **Ordinal ek (-th)** — ana zincirde kullanıldı ✓ |
 | 6 | `142674 / 251634 / 461427` | ✅ 251634 = ANAHTAR; 214674'e uygulandı |
 | 7 | `PLATES` | ✅ Sayılar = plaka numarası; `46TH PLATE` |
-| 8 | `Youtube link watch?` | 🟡 Meta. Eski okuma: `NQX FILM` → `NTH FILM` |
+| 8 | `Youtube link watch?` | ⚠️ **TAMAMEN AÇIK** (tur 9): eski `NQX FILM → NTH FILM` notu **kaynaksız** → §0-R/2'de mezarlığa gömüldü |
 | 9 | Transpozisyon → `LAST WORD THEN NINTH` | ✅ **Çözüldü + mekanizma kodla doğrulandı** (ikiye böl 8+9, 2. yarıyı ters çevir, dönüşümlü oku) — klasik rail fence değil, bkz. §0-Q/1 |
 | 10 | `Book w/ old names… Alphabetize?` | 🟡 Meta/doğrulama (işlem değil) |
 | 11 | `Roman numbers for Roman words?` | ✅ Latince ad kuralını doğruluyor |
-| 12 | `Boo!` (kitap üstünde) + `Five of these` | 🟡 **BOO + K = BOOK** → Birds of America. "Five of these" = FIVE+TH = **FIFTH** |
+| 12 | `Boo!` (kitap üstünde) + `Five of these` | 🟡 **BOO + K = BOOK** · 🆕 **"Five" = 5 ciltlik *Ornithological Biography*** (Birds of America'nın metin eşlikçisi, doğrulandı) → İpucu 10'un "old names" kitabı bu olabilir. Bizim verideki **TEK sayı-kelimesi** → `(66)` buradan kurulmalı |
 | 13 | `(527)→(83544)→M̶R̶(9)` | ✅ **`BEASTSAND`** (MR̶ atılınca kalan 9 harf) — bkz. §4 |
 | 14 | `(364)→(66)→(6)` (video sonu, mavi/mavi) | 🟡 364 = iki tarih arası; (6) = **FRIDAY** (6 harf) hipotezi |
 | 15 | `(364)(4445)→(66)→(6)` (beyaz/mavi) | 🟡 4445 = `LAST WORD THEN NINTH` uzunluk kodu |
@@ -521,7 +521,7 @@ Topluluk (Reddit r/MrBeast, 4 Eyl 2026) `STUNTS` diyor. **Bağımsız denetimim:
 | Adım | Durum |
 |---|---|
 | `(4445)` = LAST WORD THEN NINTH | ✅ **kendi çözümümüz** (İpucu 9 rail fence) |
-| `(66)` = FOURTH UPLOAD (6+6) | ⚠️ uzunluk koduyla uyumlu AMA kaynağı doğrulanamadı ("Oct 4th + upload" altyazı iddiası) |
+| `(66)` = FOURTH UPLOAD (6+6) | ❌ **tur 9'da çürüdü (§0-R/1)** — uzunluk kodu uyuyordu ama "4"ün hiçbir girdide kaynağı yok |
 | `(364)` = XOR SUPERB OWLS (3+6+4) | ⚠️ uzunluk koduyla uyumlu; "SUPERB OWLS" = **Super Bowl** punu mantıklı ($1M bulmaca Super Bowl LX reklamındaydı — spor sitesinden bağımsız doğrulandı) AMA **`XOR` 17 ipucumuzda hiç yok** → şüpheli |
 | "fourth upload → last word → ninth → **STUNTS**" | ❌ **KİMSE GÖSTERMEDİ.** Gerekçe olarak sunulan tek şey: *"birkaç MrBeast videosu stuntlarla ilgili"* — bu çıkarım değil, tahmin. |
 
@@ -591,7 +591,7 @@ birleştirilmiş tek kelime DEĞİL. Bu okumada `BEASTSAND` + 6 harfli bir KONUM
 | Aday | Gerekçe | Güven |
 |---|---|---|
 | `STUNTS` | sadece "6 harf" şartını sağlıyor; çıkarım **hiç gösterilmedi** | ❌ zayıf |
-| `UPLOAD` | `(66)=FOURTH UPLOAD` → "LAST WORD" → 6 harf ✓ mekanik | ⚠️ orta |
+| ~~`UPLOAD`~~ | dayanağı `(66)=FOURTH UPLOAD` idi | ❌ **dayanağı tur 9'da çürüdü (§0-R/1)** |
 | `ISLAND` | 6 harf + anahtar cümle KONUM diyor + $10.000 çizimindeki **kontur/ada** + Christmas Island kolu | ⚠️ orta |
 | `PUZZLE` | video başlığının son kelimesi, 6 harf | ⚠️ spekülatif |
 
@@ -608,7 +608,9 @@ birleştirilmiş tek kelime DEĞİL. Bu okumada `BEASTSAND` + 6 harfli bir KONUM
 Kullanıcı doğruladı: **4. videonun başlığı "1 Dolar vs. 500.000 Dolarlık
 Deneyimler!"** = `$1 vs $500,000 Experiences!`.
 Bu, $1M avı playlist'inin **4. videosuyla BİREBİR aynı** (kaynak: resmî playlist
-listesi). → **`(66) = FOURTH UPLOAD` artık senin verinle teyitli ✅**
+listesi). → ~~**`(66) = FOURTH UPLOAD` artık senin verinle teyitli ✅**~~
+> ⚠️ **[TUR 9 GERİ ALMA: bu "teyit" geçersiz.** Kullanıcının doğruladığı şey *4. videonun başlığı*,
+> "FOURTH UPLOAD" ifadesi değil. "4"ün hiçbir girdimizde kaynağı yok → §0-R/1, mezarlık.]
 
 ## "LAST WORD THEN NINTH" uygulaması
 ```
@@ -644,7 +646,7 @@ Hiçbiri `(6)` havuzu için ikna edici değil (başlıktan 6 harfli kelime
 | Aday | Durum |
 |---|---|
 | `STUNTS` | ❌ **ÇÜRÜDÜ** (T,U yok) |
-| `UPLOAD` | ⚠️ `(66)=FOURTH UPLOAD` → "LAST WORD" → 6 harf ✓ en mekanik okuma |
+| ~~`UPLOAD`~~ | ❌ dayanağı `FOURTH UPLOAD` tur 9'da çürüdü (§0-R/1) |
 | başlıktan türetme | ❌ çıkmıyor |
 
 ## ❓ Kalan soru
@@ -845,7 +847,7 @@ Plakanın bitkisi: **New Foundland alder** (Newfoundland kızılağacı).
 | # | `(364)` = | `(66)` üretir mi? | `(6)` | `(4445)` rolü | Durum |
 |---|---|---|---|---|---|
 | **A** | 364 gün (İp 17/14) → iki tarih → ikisi de CUMA | ✅ **FRIDAY \| FRIDAY** (6,6) | ✅ **FRIDAY** (6) | ❓ rolü yok | ✅ **YAPININ TEK KARŞILIĞI** — ama "İp 14'te kullanıldı" itirazı var |
-| **B** | FOURTH UPLOAD | ✅ FOURTH \| UPLOAD (6,6) | ✅ UPLOAD (6) | ✅ LAST WORD = son kelime | ⚠️ ifade **TAHMİN** + `(364)`'ü açıklamıyor |
+| **B** | ~~FOURTH UPLOAD~~ | ✅ (6,6) yapısal olarak uyuyor | — | — | ❌ **ÇÜRÜDÜ (tur 9): "4" kaynaksız + `(364)`'ü zaten açıklamıyordu → §0-R/1** |
 | **C** | PLAKA 364 = White-winged Crossbill | ❌ (CROSSBILL→L = 1 harf; lejant 5+5) | ❌ | ✅ uygulanıyor ama 1 harf | ❌ **YAPIYI ÜRETMİYOR** (lejant testiyle kanıtlandı) |
 | **D** | uzunluk kodu 3,6,4 = 13 harf | ? | ? | ? | ❓ kaynak metin bilinmiyor |
 
@@ -867,7 +869,7 @@ Plaka 364 lejantındaki 6 harfli kelimeler: **WINGED** (White-**winged**) ve
 ## SONUÇ
 - **`C` (plaka 364) çürüdü** — kullanıcının itirazı doğru, lejant testiyle kanıtlandı.
 - **`A` (FRIDAY) yapıyı karşılıyor** ama İpucu 14'e ait → İpucu 15 için açık.
-- **`B` (FOURTH UPLOAD) yapıyı karşılıyor** ama ifade tahmin.
+- ~~**`B` (FOURTH UPLOAD) yapıyı karşılıyor** ama ifade tahmin.~~ → ❌ **tur 9'da çürüdü (§0-R/1)**
 - **`(364)` HÂLÂ AÇIK.** Sıradaki test: hem plaka hem ikinci bir girdi olarak
   okunabilen, 6+6 üreten bir kaynak var mı?
 
@@ -883,7 +885,8 @@ https://imageshack.com/user/BeastForce67
 ✅ Kaynak: ruclips.net/video/Xj0Jtjg3lHQ/$1-vs-$500-000-experiences.html
    → yorum aynen bu videoda, **4. video** = `$1 vs $500,000 Experiences!` ✓
 
-## 2) 🚨 YENİ HİPOTEZ — `(66) = FOURTH UPLOAD` TAM BURAYA ÇIKIYOR
+## 2) ~~🚨 YENİ HİPOTEZ — `(66) = FOURTH UPLOAD` TAM BURAYA ÇIKIYOR~~
+> ⚠️ **[TUR 9: ÇÜRÜDÜ. "4"ün hiçbir girdide kaynağı yok; bu bölüm tarihî kayıt olarak duruyor → §0-R/1.]**
 ```
 (66) = "FOURTH UPLOAD"  ← İKİ OKUMA BİRDEN, İKİSİ DE AYNI YERE:
   (a) upload = YouTube videosu → 4. video → `$1 vs $500,000 Experiences!`
@@ -1007,7 +1010,8 @@ Kullanıcı `KqjfA5.png` görselini bir görsel analiz aracına verdirdi ve
 | 7 renk paleti | ✅ Tutarlı |
 | Yapı: anagram (karışık harf) bulmacası | ✅ İpucu 9'daki anagram mantığıyla UYUMLU |
 
-### 🚨 SONUÇ: `(66) = FOURTH UPLOAD` ZİNCİRİ DOĞRULANDI
+### ~~🚨 SONUÇ: `(66) = FOURTH UPLOAD` ZİNCİRİ DOĞRULANDI~~
+> ⚠️ **[TUR 9: İKİ KEZ ÇÜRÜDÜ — önce §0-N'de (kart $1M avına ait), sonra §0-R/1'de ("4" kaynaksız).]**
 ```
 (66) = "FOURTH UPLOAD" → 4. video → sabit yorum → ImageShack → BU KART
 ```
@@ -1194,7 +1198,7 @@ mantıksız. **"Kanıtlandı" ifadesi geri alındı.**
 - `(364)` → `(66)` adımı **HİÇBİR ZAMAN TÜRETİLEMEDİ.** 364'ten "FOURTH UPLOAD"
   çıkan bir mekanizma bulamadık. Video 4'e giden bağ yalnızca
   "FOURTH UPLOAD" tahmininden geliyor, 364'ten DEĞİL.
-→ **Bu yüzden "FOURTH UPLOAD" şüpheli listesinde kalır; (364) AÇIK.**
+→ ~~Bu yüzden "FOURTH UPLOAD" şüpheli listesinde kalır~~ → **tur 9'da MEZARLIĞA taşındı (§0-R/1). `(66)` BİLİNMİYOR, `(364)` AÇIK.**
 
 ---
 # 0-O) DIŞARIDAKİ $10K TOPLULUĞU — DENETİM (tur 7, 2026-09-14)
@@ -1385,3 +1389,127 @@ anlamlı üçlü                : two + hermit + feed
 2. **FRIDAY yolu** (İpucu 17): `FRIDAY | FRIDAY` = (66), `FRIDAY` = (6) — yapıyı tek
    başına karşılayan okuma, ama 364'ün İ14'te kullanıldığı itirazı duruyor.
 3. **İpucu 1'in 27 harfi** (5 tespit belirsiz) — netleşirse mavi tarafı besleyebilir.
+
+---
+# 0-R) ⚰️ TUR 9 — DÜRÜST ÇÜRÜTME + İPUCU 1 TARAMASI (2026-09-14)
+
+**Kullanıcı kararları (bu turun çerçevesi):**
+1. `FOURTH UPLOAD` için **mezarlık yolu kabul edildi.**
+2. İpucu 1'den **okunacak bir cümle çıkması bekleniyor** → hatırlanan cümle kaydedilecek,
+   veriye göre denenecek, ama **çalışma ona göre şekillenmeyecek**; mantıksızsa dürüstçe söylenecek.
+3. Telefon ipucu **elenmedi, PARK edildi** — yalnızca tıkanınca denenecek.
+4. `FOURTH UPLOAD` ve benzeri tüm kaynaksız iddialar dosyalarda **dürüstçe çürütülecek.**
+
+## 1) ❌ `(66) = "FOURTH UPLOAD"` → MEZARLIĞA GÖMÜLDÜ
+**"4"ün bu bulmacada hiçbir kaynağı yok.** Kanıt zinciri:
+```
+18 girdimizin tamamı tarandı → 4 / dört / fourth / IV / quadri- GEÇMİYOR
+Bizim verideki TEK sayı-kelimesi: İpucu 12 "Five of these" → FIVE (dört değil, BEŞ)
+Tek dayanak: altyazıda "Oct 4th + upload" geçtiği iddiası → HİÇ DOĞRULANAMADI
+Kendi kaydımız zaten itiraf ediyordu (0-H/1): "NEREDEN ÇIKTI? ÇIKMADI. TAHMİN."
+```
+4. videonun gerçekten var olması yalnızca **"4. video var"**ı kanıtlar, **"FOURTH"**
+kelimesini kanıtlamaz. Ayrıca o video $1M avının parçası (§0-N) → $10K'da kullanılmaz.
+→ **`(66)` şu an BİLİNMİYOR.** Elde kalan tek yapısal bilgi: **6+6 harfli İKİ kelime.**
+
+## 2) ❌ `NQX FILM → NTH FILM` → MEZARLIĞA GÖMÜLDÜ
+Repoda `NQX` **tek bir satırda** geçiyor: `cikti.md:455` (İpucu 8 satırı, "Eski okuma"
+etiketiyle). **Hiçbir ipucundan türetilmemiş.** `QX = TH` kuralı sağlam, ama üzerine
+uygulandığı "NQX" diye bir veri yok → **kaynaksız not, ipucu değil.**
+→ İpucu 8 (`Youtube link watch?`) yeniden **tamamen açık** durumda.
+
+## 3) 🆕 ALPHABETIZE İLK KEZ İPUCU 1'E UYGULANDI — 192 DENEME
+Kullanıcı tespiti doğruydu: "Alphabetize?"ı İpucu 2'de kullanmıştık ama İpucu 1'e
+**hiç** uygulamamıştık. Tam tarama:
+```
+6 tespit kombinasyonu (#1: 197/217 × #10: 349/203/204)
+× 8 sıralama (görsel 1→14, 14→1, plaka artan/azalan,
+              İngilizce alfabetik + tersi, Latince alfabetik + tersi)
+× 4 okuma (kırmızı+mavi, mavi+kırmızı, yalnız kırmızı, yalnız mavi)
+= 192 deneme
+```
+| En iyi sonuçlar | Dizi | 4 harfli İngilizce kelime |
+|---|---|---|
+| İng. alfabetik, k+m | `cooteaiaafyachcliajliednanv` | 4 (`coot, edna, iaaf, lied`) |
+| görsel 1→14, k+m | `coedafnvlinacliaiajotyachea` | 4 (`ache, coed, lina, nacl`) |
+| Latince alfabetik ters | `iayaiaeaedeafcoclotnalinvch` | 3 |
+**Hiçbiri okunmuyor → sorun SIRALAMA değil.**
+
+## 4) 🔬 27 HARFİN TEŞHİSİ — neden hiçbir dilde cümle çıkmıyor
+```
+envanter: a×6 c×3 i×3 e×2 l×2 n×2 o×2 · d f h j t v y ×1   (27)
+İngilizcede en sık harf 'e' olmalı → bizde a=%22, e=%7
+EKSİK HARFLER: b, g, m, p, r, s, u, w   ← 8 yaygın harf hiç yok
+```
+**12 dilde tam bölme taraması** (en, es, pt, it, fr, de, tr, ca, ro, nl, id, sv —
+wordfreq, 27 harfin TAMAMINI tüketen çözümler arandı):
+```
+EN: "the and all one via joy cia cia afc"     ES: "del con con hay tal viaje fia caia"
+IT: "che non del vita fai ciao jay cala"      PT: "foi ele vai dia ano tal jay han ccc"
+DE: "die ich von ein oft all jay acc aaa"     TR: "ile ile daha yani can joo cctv faa"
+→ hepsi ÇÖP parçalarla bitiyor (cia / jay / ccc / viii / cctv). TEMİZ CÜMLE YOK.
+```
+**Kritik nokta:** 6 adet `a`'nın **4'ü KİLİTLİ tespitlerden** geliyor
+(#3 `fuscus`, #6 `savanna`, #9 `pelagica`, #14 `nebulosa` — hepsi bağımsız kanıtlı).
+Yani 5 belirsiz tespiti düzeltmek dağılımı tek başına İngilizce'ye çevirmeye yetmez.
+**İki ihtimal kalıyor:** (a) kilitli sandığımız bazı tespitler de yanlış, ya da
+(b) 27 harf okunacak bir cümle değil, başka bir adımın **girdisi/havuzu.**
+
+## 5) 📝 KULLANICININ HATIRLADIĞI CÜMLE — KAYIT + DÜRÜST TEST
+> **Kullanıcı (9. tur):** *"Bence okunacak bir cümle çıkacak. Eskiden denediğimde
+> 'sentence is bali vacay a la' diye bir cümle çıkıyordu, tam hatırlamıyorum,
+> İspanyolca sokak ağzı — 'Bali tarzı tatil tercih ederim' gibi bir şey.
+> Ama kesinlikle buna göre şekillenmemeliyiz."*
+
+**Bu ifade hiçbir dosyada yazılı değildi — ilk kez burada kaydediliyor.**
+Harf envanterine göre test (dürüst sonuç):
+| İfade | 27 harften yazılabiliyor mu? |
+|---|---|
+| `SENTENCE IS BALI VACAY A LA` | ❌ **HAYIR** — eksik: `s`×2, `e`×1, **`b`×1** |
+| `BALI VACAY A LA` | ❌ **HAYIR** — `b` yok (envanterde hiç B harfi yok) |
+| `SENTENCE` | ❌ HAYIR — `s` yok, `e` yalnızca 2 tane |
+| `VACAY A LA` | ✅ **EVET** (v,a,c,a,y + a,l,a hepsi var) |
+| `VACAY` | ✅ EVET |
+
+**Dürüst değerlendirme:** hatırlanan cümlenin **büyük kısmı bu harf kümesinden
+çıkamaz** (`BALI` için B harfi hiç yok). Yani ya o deneme **farklı bir harf
+kümesiyle** yapılmıştı (eski/yanlış bir İpucu 1 okuması), ya da farklı bir ipucuna aitti.
+**Çalışma bu cümleye göre şekillendirilmiyor.** Ama işe yarayan bir yan ürün var:
+eğer hedef İspanyolca/sokak ağzı bir cümleyse, envanterde **`s`, `r`, `u`, `b`**
+bulunmak zorunda — şu an **hiçbiri yok.** Bu, hangi tespitlerin yanlış olduğunu
+elemek için kullanılabilir bir **teşhis kriteri.**
+
+## 6) ✅ DÜZELTME: `(66)` çelişkisi sanıldığı kadar güçlü değil
+Kayıtta "13 harfte tek 6 harfli kelime var, `(66)` iki tane istiyor → çelişki" yazıyordu.
+Bu yalnızca (3,6,4) **gruplaması** için doğru. Serbest seçimle ölçtüm:
+```
+13 harf DEEEFHIMORTTW → İKİ 6 harfli kelime + 1 ARTAN harf: 20 ÇİFT VAR
+formed+hewitt (artan e) · fitted+rehome (artan w) · demote+wither (artan f)
+demote+whiter (artan f) · feeder+howitt (artan m) · hereof+witted (artan m) …
+```
+→ `(364)` = kalan 13 harf → `(66)` = 6+6 (**1 harf artarak**) yapısal olarak **mümkün.**
+Çelişki kaydı yumuşatıldı. (Ama liste özel ad ağırlıklı; ikna edici çift yok.)
+
+Ek: İpucu 1'in 27 harfinden yazılabilen **823** altı harfli kelime var;
+bağlama oturanlar **`FALCON`** (`Falco` = 056 ve 081'in cinsi), `CANINE`, `FELINE`.
+
+## 7) 🅿️ TELEFON İPUÇU — PARK EDİLDİ (elenmedi)
+**Kullanıcı kuralı:** *"Kalsın ama sürekli denenmesin; tıkanınca, aklımıza gelirse denenir."*
+Mekanizma doğrulandı (klasik multi-tap: `333→F`, `444→I`, `222→C`, `66→N` ✓) ama
+bulmacadaki hiçbir sayı anlamlı kelime vermiyor:
+```
+527→JAP · 83544→TDJH · 364→DMG · 4445→IJ · 66→N · 6→M · 424→GAG · 46→GM · 674→MPG
+214674→A·GMPG · 172446→·PAHM · 251634→AJ·MDG · 461427→GM·GAP   (1=ayraç, 0=operatör)
+T9 ters arama (60k kelime): 83544, 4445, 214674, 172446, 461427, 251634 → EŞLEŞEN KELİME YOK
+```
+Tek yapısal örtüşme: **tuş takımında tam 24 harf var (Q/Z yok) = 24 plaka = `(83544)`=24.**
+→ **DURUM: PARK.** Bir daha ancak tıkanırsak denenecek.
+
+## 8) 👉 SIRADAKİ ADIM
+1. **`(66)`'yı kendi verimizden kur** — tek sayı-kelimesi İpucu 12'nin **"Five"**'ı.
+   `Boo!`+`Five of these` = BOOK + 5 ciltlik *Ornithological Biography* (İpucu 10'un
+   "old names" kitabı) → 6+6 harfli iki kelime buradan çıkabilir mi?
+2. **İpucu 1'in 5 belirsiz tespiti** — her biri için tek bir görsel detayı yeterli
+   (#1 çapraz kılıç, #8 mavi/göz, #10 arka planın rengi, #12 çocuk/elf, #13 altın).
+   Teşhis kriteri: doğru tespitler envantere **s / r / u / e** kazandırmalı.
+3. İpucu 8 (`Youtube link watch?`) yeniden tamamen açık — "NTH FILM" notu silindi.

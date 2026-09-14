@@ -296,11 +296,17 @@ anlamlı grup çıkmadı. **Latince imkânsız** (klasik Latincede W yok).
 (364) + (4445)  →  (66)  →  (6)
 ```
 
-## ✅ Çözülen adımlar
+## Adımların durumu (tur 9'da güncellendi)
 | Adım | Sonuç | Kanıt |
 |---|---|---|
-| `(4445)` | **LAST WORD THEN NINTH** | ✅ İpucu 9 rail fence — **kendi çözümümüz** |
-| `(66)` | **FOURTH UPLOAD** | ✅ 6+6 uzunluk kodu + **kullanıcı doğruladı: 4. video = "$1 vs $500,000 Experiences!"** (= $1M avı playlist'inin 4. videosu) |
+| `(4445)` | **LAST WORD THEN NINTH** | ✅ kendi çözümümüz **+ mekanizma kodla doğrulandı** (İpucu 9 transpozisyonu: böl → tersle → dönüşümlü oku) |
+| `(66)` | ~~FOURTH UPLOAD~~ → **BİLİNMİYOR** | ❌ **ÇÜRÜDÜ (tur 9 → §8):** "4"ün 18 girdimizin hiçbirinde karşılığı yok; tek dayanak doğrulanamamış bir "Oct 4th" altyazı iddiasıydı |
+| `(6)` | **BİLİNMİYOR** | ❌ `STUNTS` 4 kez çürüdü |
+
+⚠️ **Mavi zincirin elimizdeki tek parçası TALİMAT: `LAST WORD THEN NINTH`.**
+Girdi `(364)` ve ara çıktı `(66)` açık. `(66)` hakkında kalan tek yapısal bilgi:
+**6+6 harfli iki kelime.** Kaynağını kendi verimizden türetmemiz gerekiyor —
+bizim verideki tek sayı-kelimesi İpucu 12'deki **"Five"** (dört değil, beş).
 
 ## ⚠️ `(364)` — ŞÜPHELİ / ÇOK ADAYLİ
 Topluluk: `XOR | SUPERB | OWLS` (3+6+4 ✓ uzunluk koduyla uyumlu).
@@ -400,7 +406,7 @@ başlığı/transkripti, plaka 364 lejantı) → **kaynak metin hâlâ bilinmiyo
 | # | `(364)` = | `(66)` üretir mi? | `(6)` | `(4445)` rolü | Durum |
 |---|---|---|---|---|---|
 | **A** | 364 gün → iki tarih → ikisi de CUMA | ✅ FRIDAY \| FRIDAY (6,6) | ✅ FRIDAY | ❓ yok | ✅ yapının tek karşılığı, ama İp 14'e ait |
-| **B** | FOURTH UPLOAD | ✅ FOURTH \| UPLOAD (6,6) | ✅ UPLOAD | ✅ LAST WORD | ⚠️ ifade tahmin |
+| **B** | ~~FOURTH UPLOAD~~ | ✅ FOURTH \| UPLOAD (6,6) yapısal olarak uyuyor | — | — | ❌ **ÇÜRÜDÜ (tur 9):** "4"ün hiçbir girdide kaynağı yok → §8 |
 | **C** | PLAKA 364 | ❌ CROSSBILL→L (1 harf) | ❌ | ✅ ama 1 harf | ❌ çürüdü |
 | **D** | uzunluk kodu 3,6,4 = **13 harf** | kaynak = **kalan 13 harf** `DEEEFHIMORTTW` (§0-P) | ⚠️ **28.621** olası bölme → ayırt edici değil | ⚠️ 121 farklı 6 harfli aday (`TOWHEE` dâhil) | 🟡 **EN GÜÇLÜ AMA KANITSIZ** |
 
@@ -475,7 +481,8 @@ TAM BOYUT: 2550 × 3300 px
    → telefon fotoğrafı DEĞİL, taranmış/dijital bir BELGE
 ```
 ⚠️ **"4. yükleme" okuması (b) DÜŞTÜ** (hesapta tek görsel var).
-Kalan zincir: `FOURTH UPLOAD` = **4. video** → sabit yorum → hesap → TEK görsel
+~~Kalan zincir: `FOURTH UPLOAD` = **4. video** → sabit yorum → hesap → TEK görsel~~
+⚠️ **[TUR 9: bu zincirin tamamı öldü — `FOURTH UPLOAD` çürüdü (§8), kart zaten $1M avına ait.]**
 → `LAST WORD` → `(6)` = belgedeki metnin son kelimesi.
 
 **📎 Kullanıcının açacağı bağlantılar** (benz göremiyor: ağ erişimi + vision yok):
@@ -506,7 +513,7 @@ Topluluğun en popüler iddiası `STUNTS`. Bağımsız denetim:
 | Aday | Gerekçe | Güven |
 |---|---|---|
 | `STUNTS` | sadece "6 harf" şartını sağlıyor | ❌ **ÖLDÜ** |
-| `UPLOAD` | `(66)=FOURTH UPLOAD` → "LAST WORD" → 6 harf ✓ **en mekanik okuma** | ⚠️ orta |
+| ~~`UPLOAD`~~ | dayanağı `(66)=FOURTH UPLOAD` idi → o çürüdü (tur 9) | ❌ **dayanağı öldü** |
 | `ISLAND` | 6 harf + $10.000 çizimindeki kontur/ada + anahtar cümle KONUM diyor | ⚠️ orta |
 | `PUZZLE` | video başlığının son kelimesi | ⚠️ spekülatif |
 
@@ -545,14 +552,16 @@ HOLSTER + renkli harfler → 7 harfli cevap = **TOWARDS**).
 | **ImageShack `BeastForce67` + video 4 sabit yorumu + 2550×3300 kart** | ❌ **$1M AVININ MALZEMESİ — $10K'DA KULLANILMAZ.** 4 kanıt: **WATER=67** ↔ BeastForce67 · $1M takipçisinde "Hint #3 confirms" · hesap **9/11 Şub 2026**'da arşivlenmiş (= $1M İpucu 1 ve 3) · video 4 zaten $1M playlist'inin 4. videosu. Kullanıcı kuralı: *"orada kullanıldıysa tekrara düşmez"* |
 | "İpucu 9 mekanizması = rail fence cipher" | 2–8 ray decode + **720 kolon permütasyonu** denendi → hiçbiri `LASTWORDTHENNINTH` üretmiyor, hiçbiri İngilizce. Çözüm **anagram**; "bird fence?" = ESPri (kuş temalı şaka) |
 | "FOURTH UPLOAD → video 4 → kart" zinciri | ⚠️ **Kanıt sanıldı, değilmiş.** Kart video 4'ün souvenir'ı (doğru) ama bu, $10K'nın `(66)`'sının oraya işaret ettiğini **kanıtlamaz**; üstelik kart $1M avına ait |
+| **`(66) = "FOURTH UPLOAD"`** (tur 9'da gömüldü) | **"4"ün kaynağı YOK.** 18 girdimizin hiçbirinde 4/dört/fourth geçmiyor (tek sayı-kelimesi İpucu 12'nin **"Five"**'ı). Tek dayanak olan "Oct 4th + upload" altyazı iddiası **hiç doğrulanamadı**. Kaydımız bunu zaten itiraf ediyordu (`cikti.md` 0-H/1: *"NEREDEN ÇIKTI? ÇIKMADI. TAHMİN."*). 4. videonun varlığı yalnızca "4. video var"ı kanıtlar, "FOURTH" kelimesini değil |
+| **`NQX FILM → NTH FILM`** (tur 9'da gömüldü) | **Kaynaksız not.** `NQX` ifadesi repoda **tek bir satırda** geçiyor (`cikti.md:455`, "Eski okuma" etiketiyle) ve hiçbir ipucundan türetilmemiş. `QX=TH` kuralı doğru, ama üzerine uygulandığı "NQX" diye bir veri yok |
 
 ---
 
 # 9) ŞÜPHELİLER LİSTESİ (doğrulanmadan kullanma)
 
 1. `(364) = XOR SUPERB OWLS` — `XOR` kaynağı yok
-2. `(66) = FOURTH UPLOAD` — uzunluk kodu uyumlu ama "Oct 4th + upload" altyazı
-   iddiası doğrulanamadı (kullanıcı teyidi hariç)
+2. ~~`(66) = FOURTH UPLOAD`~~ → ❌ **tur 9'da MEZARLIĞA taşındı** (§8): "4"ün
+   hiçbir girdimizde karşılığı yok. Artık şüpheli değil, **ölü**
 3. Resmî cevap PDF'i (`mrb.gg/p/puzzle/file.pdf`) — **2 kez HTTP 500**, JS viewer
    arkasında. İçeriği doğrulanamadı.
 4. "Will Campbell 66" ve "Hawks up on the Pats 6-0" alıntıları — doğrulanamadı
@@ -643,7 +652,8 @@ Henüz kullanılmadı.
 |---|---|
 | ✅ **BİLİNEN** | Yöntem (plaka → Latince ad → harf) · `46TH PLATE` zinciri · 24 plaka/24 harf · Notasyon kuralı `(N)` · **Kırmızı havuz = `BEASTSAND`** · `(4445) = LAST WORD THEN NINTH` (**mekanizması da doğrulandı**) |
 | ❌ **BİLİNMEYEN** | **`(6)` = mavi havuz** · `(364)`'ün anlamı · İpucu 1'in 27 harfi · kalan 13 harf · 142674/461427 · tarihlerin yeri |
-| ⚠️ **ŞÜPHELİ** | `(66) = FOURTH UPLOAD` (üçüncü taraf tahmini, 17 ipucunda geçmiyor) · `XOR` kaynağı · PDF alıntıları · `#10 = 203` · `(364)` = kalan 13 harf (28.621 bölme) |
+| ⚠️ **ŞÜPHELİ** | `XOR` kaynağı · PDF alıntıları · `#10 = 203` · `(364)` = kalan 13 harf (28.621 bölme) · kullanıcının hatırladığı "…vacay a la…" cümlesi (§0-R/5) |
+| ❌ **ÖLÜ** | `(66) = FOURTH UPLOAD` · `NQX FILM/NTH FILM` · `STUNTS` · `CHRISTMAS` · plaka 364 · ImageShack kartı · klasik rail fence |
 
 ## SON SÖZ
 Kırmızı taraf kapanmıştır (`BEASTSAND`). Mavi taraf için **kilit `(364)`'ün kaynağı**:

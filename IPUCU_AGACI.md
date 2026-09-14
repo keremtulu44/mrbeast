@@ -30,7 +30,8 @@
 │   │        └→ TRANSPOZİSYON = **LAST WORD THEN NINTH** = (4445)  ✅ MEKANİZMA DOĞRULANDI
 │   ├── İ15  (364) + (4445) → (66) → (6)   [beyaz ped]
 │   ├── İ14  (364) → (66) → (6)            [mavi ped, video sonu]
-│   ├── (66) = "FOURTH UPLOAD"  ⚠️ ÜÇÜNCÜ TARAF TAHMİNİ — 17 ipucunda GEÇMİYOR
+│   ├── (66) = ??? ❌ "FOURTH UPLOAD" ÇÜRÜDÜ (tur 9) — "4"ün hiçbir girdide karşılığı yok
+│   │        elde kalan tek bilgi: 6+6 harfli İKİ kelime (bizim verideki tek sayı: "Five")
 │   └── (364) = 🟡 EN GÜÇLÜ ADAY: kalan 13 harf DEEEFHIMORTTW (3+6+4=13)
 │            ama 28.621 geçerli bölme var → KANITSIZ (5 aday denendi, 4'ü çürüdü)
 │
@@ -189,6 +190,9 @@ Kullanıcı tarifi: sol **üçgen** (2 tepede, 1 ve 4 tabanda) + sağ **dikey ko
 
 | Elenen | Kanıt |
 |---|---|
+| **`(66) = FOURTH UPLOAD`** | **"4" kaynaksız** — 18 girdinin hiçbirinde 4/dört/fourth yok; tek dayanak doğrulanamamış "Oct 4th" altyazı iddiası. Kaydımız zaten "ÇIKMADI. TAHMİN." diyordu |
+| **`NQX FILM → NTH FILM`** | `NQX` repoda tek satırda geçiyor ve hiçbir ipucundan türetilmemiş → kaynaksız not |
+| **İpucu 1'in 27 harfinin 192 farklı okuması** | 6 tespit kombinasyonu × 8 sıralama × 4 okuma → hiçbiri okunmuyor; sorun sıralama değil **harf envanteri** (b,g,m,p,r,s,u,w YOK) |
 | **ImageShack `BeastForce67` + video 4 sabit yorumu + kart** | **WATER=67** ↔ BeastForce67 · $1M takipçisi "Hint #3 confirms" · hesap 9/11 Şub 2026'da arşivli (= $1M İpucu 1 ve 3) · $1M 6 Mar 2026'da çözüldü, $10K Eyl 2026 → **$1M malzemesi, $10K'da kullanılmaz** |
 | Plaka 364 = White-winged Crossbill | Lejant (BPL/Havell): LAST=`alder`(5), 9.=`Young`(5) → `(66)` üretilemiyor |
 | Rail fence (İ9 mekanizması) | 2-8 ray + 720 kolon permütasyonu → İngilizce çıkmıyor |
@@ -201,6 +205,8 @@ Kullanıcı tarifi: sol **üçgen** (2 tepede, 1 ve 4 tabanda) + sağ **dikey ko
 
 # 5) AÇIK SORULAR
 
+0. **`(66)` nedir?** — `FOURTH UPLOAD` çürüdü. Elde kalan: 6+6 harfli iki kelime.
+   İpucu 12'nin **"Five"**'ı tek sayı-kelimesi → buradan kurulmalı.
 1. **`(364)` nedir?** — 5 aday denendi, 4'ü çürüdü. 🟡 En güçlü aday: **kalan 13 harf**
    `DEEEFHIMORTTW` (3+6+4 = 13 birebir). Ama 200k kelimelik listeyle **28.621** geçerli
    (3,6,4) bölme çıkıyor → ayırt edici değil. Bağlamlı 6 harfli aday: **`TOWHEE`**
