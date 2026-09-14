@@ -712,3 +712,92 @@ renkli harfler → 7 harfli cevap.
 1. Video 4'ün **sabit yorumundaki (pinned comment)** bulmaca metni
 2. Video 4'ün **ekrandaki grafikleri** (karıştırılmış konum adları + renkli harfler)
 3. Video 4'ün **açıklaması**
+
+---
+
+# 0-H) 🔍 `364` ÜN ALTERNATİF ANLAMLARI — BAĞIMSIZ DENETİM (2026-09-13)
+
+## 1) ❓ "FOURTH UPLOAD" NEREDEN ÇIKTI? — **ÇIKMADI. TAHMİN.**
+Dürüst cevap: **hiçbir türetim yok.** Zincir şu:
+1. `(66)` bir uzunluk kodu → **2 kelime, 6+6 harf** (kuralımız, 5 örnekle sabit)
+2. Topluluk bu kalıba "FOURTH UPLOAD" uydurdu (6+6 ✓)
+3. Sonra "4. yükleme"yi $1M playlist'inin 4. videosuyla eşleştirdi
+4. Sen 4. videonun gerçekten **"$1 vs $500,000 Experiences!"** olduğunu doğruladın
+
+⚠️ **Ama bu, "FOURTH UPLOAD" İFADESİNİN doğru olduğunu KANITLAMIYOR.**
+Sadece "4. video diye bir şey var"ı kanıtlıyor. Kalıba uyan başka 6+6
+ifadeler de var (`SECOND UPLOAD`, `FOURTH UPLOAD`, …). Kaynak: altyazıda
+"Oct 4th + upload" iddiası — **doğrulanamadı.**
+
+## 2) 👏 KULLANICININ YAPISAL GÖZLEMİ — haneler küçülüyor
+```
+(364) + (4445)  →  (66)  →  (6)
+ 3 hane  4 hane    2 hane    1 hane
+```
+Uzunluk-kodu kuralıyla bu şu demek:
+```
+3 kelime + 4 kelime  →  2 kelime  →  1 kelime
+```
+- **`LAST WORD`** → `(66)→(6)` adımını birebir açıklıyor: 2 kelimenin sonuncusu ✓
+- **`THEN NINTH`** → o zaman `(364)+(4445)→(66)` adımını açıklamalı.
+
+### 🆕 HİPOTEZ: talimatın İKİ PARÇASI BİRER KELİME SEÇİYOR → 2 kelime = `(66)`
+```
+"LAST WORD"    → bir metnin SON KELİMESİ        (1 kelime)
+"THEN NINTH"   → o metnin 9. KELİMESİ           (1 kelime)
+                                    toplam = 2 kelime = (66) ✓✓ YAPISAL OLARAK KUSURSUZ
+```
+**Test edilen aday metinler — hiçbiri iki 6-harfli kelime vermiyor:**
+| Metin | LAST WORD | 9. kelime | Sonuç |
+|---|---|---|---|
+| 9 kelimelik anahtar cümle | WORLD (5) | WORLD (5) | ❌ 5+5 |
+| 9 video başlığı | Africa/Strangers/… | yok/uyuşmuyor | ❌ |
+| Video 4 başlığı | EXPERIENCES (11) | — (4 kelime) | ❌ |
+| Video 4 transkripti | guys (4) | — | ❌ |
+→ **Kaynak metin hâlâ bilinmiyor.** Yapı doğru, hedef yanlış.
+
+## 3) ❌ `NIGHT` DEĞİL `NINTH` — KESİN ÇÜRÜTME
+Yapıştırılan metin "last word then **night**" diyor. **Yanlış:**
+```
+scramble (İpucu 9) : LSWRTENNHTINHDOTA = 17 harf, G harfi YOK
+LASTWORDTHENNINTH  : 17 harf → HARF KUMESİ BİREBİR UYUMLU ✓
+LASTWORDTHENNIGHT  : 17 harf → UYUMSUZ (fazla G, eksik N) ❌
+```
+Uzunluk kodu `(4445)` her ikisine de uyar (NINTH=5, NIGHT=5) ama
+**harf envanteri kararı verir: NINTH.**
+
+## 4) 📊 364 ALTERNATİFLERİ — YAPILAN LİSTENİN BAĞIMSIZ DENETİMİ
+| Aday | Gerçek mi? | Bu bulmacada karşılığı | Güven |
+|---|---|---|---|
+| **Uzunluk kodu 3,6,4 = 13 harf** | ✅ **kuralımız (5 örnek)** | tek haneli olmayan her kod gibi | 🥇 **EN YÜKSEK** |
+| **İpucu 17'nin 364 günü** (52×7) | ✅ 364 | kendi ham verimiz | 🥈 |
+| **PLAKA 364 = White-winged Crossbill** | ✅ **2 bağımsız kaynak** | plaka mekaniği + İpucu 1 #1 crossbill | 🥉 **YENİ, GÜÇLÜ** |
+| İskambil destesi 4×91 = 364 | ✅ 364 | destede kart motifi kanıtı YOK | ⚠️ zayıf |
+| Alan kodu 364 (Kentucky, Bowling Green) | ✅ gerçek | telefon dalı var (+674 Nauru, 214 Dallas) | ⚠️ tutarlı ama kanıtsız |
+| Kitap şifresi sayfa 364 | ⚠️ kuralımızla çelişir | **ama PLAKA 364 var** → yukarıya bak | ⚠️ kısmen |
+| Alice / un-birthday | — | destek yok | ❌ dolgu |
+| Dante / Milton 364. kıta | — | destek yok | ❌ dolgu |
+| Birthday attack (364/365) | ✅ matematik | fiziksel masa bulmacasıyla alakasız | ❌ |
+| Melek sayısı 364 | — | destek yok | ❌ dolgu |
+| XOR | ❌ **döngüsel** | aynı Reddit kaynağına referans | ❌ |
+
+## 5) 🆕 YENİ HİPOTEZ: `(364)` = **PLAKA 364**
+```
+PLAKA 364 (CCCLXIV) = White-winged Crossbill
+Latince             = LOXIA LEUCOPTERA        ← iki kaynakla doğrulandı
+```
+**Neden çarpıcı:**
+- Bu bulmacanın MERKEZÎ mekaniği plaka numarası (İpucu 7 `PLATES`)
+- İpucu 1 / görsel #1 zaten bir **crossbill** (`Loxia` = çapraz gaga) —
+  plaka 197 (American Crossbill) veya 217. **Aynı cins!**
+- İngilizce ad: **WHITE(5) WINGED(6) CROSSBILL(9)**
+  - `LAST WORD` = **CROSSBILL = tam 9 harf** ← talimattaki "NINTH" ile örtüşüyor!
+  - `CROSSBILL`'in 9. harfi = **L**
+  - Latince `LEUCOPTERA`'nın 9. harfi = **R**
+
+⚠️ Bu bir **kanıt değil, yön.** Ama "kitap şifresi" sezgisi doğru yere
+bakıyordu: kitap *Birds of America* ve koordinat sayfa değil **PLAKA.**
+
+## 6) ❓ Sıradaki
+`(6)` için yeni aday: **`WINGED`** (6 harf, plaka 364'ün adında).
+Doğrulanması gereken: plaka 364'ün lejantında/altyazısında 6 harfli bir şey var mı?
