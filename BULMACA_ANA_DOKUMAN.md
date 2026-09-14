@@ -295,6 +295,35 @@ başlığı/transkripti, plaka 364 lejantı) → **kaynak metin hâlâ bilinmiyo
 | **C** | PLAKA 364 | ❌ CROSSBILL→L (1 harf) | ❌ | ✅ ama 1 harf | ❌ çürüdü |
 | **D** | uzunluk kodu 3,6,4 (13 harf) | ? | ? | ? | ❓ kaynak metin yok |
 
+## 🚨 VİDEO 4 SABİT YORUMU — `(66) = FOURTH UPLOAD` TAM BURAYA ÇIKIYOR
+Video 4 (`Xj0Jtjg3lHQ` = `$1 vs $500,000 Experiences!`) sabit yorumu, +107.408 beğeni:
+```
+@MrBeast · 1 yıl önce (düzenlendi)
+"Oh man, that was a trip. Several, actually. Here's a little souvenir for you."
+https://imageshack.com/user/BeastForce67
+```
+**(66) = "FOURTH UPLOAD" — İKİ OKUMA, İKİSİ DE AYNI YERE ÇIKIYOR:**
+```
+(a) upload = YouTube videosu  → 4. video → SABİT YORUM → ImageShack hesabı
+(b) upload = ImageShack yüklemesi → o hesabın 4. yüklemesi
+→ "LAST WORD" → (6) = o yüklemenin son kelimesi (6 harf)
+```
+`"upload"` kelimesinin bir **resim barındırma hesabına** çıkması dikkat çekici.
+Hesap adı `BeastForce67` — İpucu 16'daki `674` ile "67" örtüşmesi not edildi (kanıt değil).
+
+### ❌ Erişilemedi — KULLANICIYA GEREKLİ
+`imageshack.com/user/BeastForce67` **giriş duvarına** yönlendiriyor.
+Denenen 3 URL (`/user/BeastForce67`, `/user/BeastForce67/images`, `imageshack.us/...`)
+→ hepsi ana sayfa. **Hesabın içeriği bilinmiyor.**
+👉 Kullanıcı tarayıcıda açıp şunları söylemeli: **kaç yükleme var · 4. yüklemenin
+başlığı/üzerindeki yazı · sıralama ve tarihler.**
+
+### ⚠️ `BeastForce67` aynı zamanda bir TOPLULUK ADI — DİKKAT
+- **r/BeastForce67** (Şub 2026) + `discord.gg/BeastForce67` + `discord.gg/tq5TQN59` ("OFFICIAL" iddiası)
+- imgpile'da `beastforce67` "Puzzle" görseli (84.405 görüntüleme) → **sayfa kaldırılmış**
+- ⚠️ **Hiçbiri resmî değil.** Topluluk adını MrBeast'in sabit yorumundan almış.
+  "Resmî Discord" iddiası **kanıtsız → oltalama riski. Bu sunuculara girilmez.**
+
 ## ❌ `(6)` — HENÜZ YOK. `STUNTS` 4 KEZ ÇÜRÜDÜ
 Topluluğun en popüler iddiası `STUNTS`. Bağımsız denetim:
 
@@ -360,6 +389,21 @@ HOLSTER + renkli harfler → 7 harfli cevap = **TOWARDS**).
 5. `97, 121, 171` sayıları · "27=3³→3×9 matris" · "beastsandstunts" birleşimi
 6. #10 = 203 (E) — gerekçesi "kuşun rengi"; kilitli 9 örneğin hepsi **İSİM punu**
    → **349 (J) birincil kalıyor**
+7. **"İpucu 9 = rail fence cipher"** (topluluk + bizim ham kaydımızdaki not)
+   → ❌ **ÇÜRÜDÜ:** 2–8 ray decode + 720 kolon permütasyonu denendi, hiçbiri
+   `LASTWORDTHENNINTH` üretmiyor. Çözüm **anagram** (harf envanteri birebir uyumlu).
+   "bird fence?" notu **ESPri** (kuş temalı), mekanizma adı değil.
+8. **"+674 → Nauru → telefon numarası"** (topluluk) — İpucu 16'daki `674` ile uyumlu
+   ama sonuç **gösterilmemiş** → şüpheli
+9. **"OFFICIAL DISCORD"** (`discord.gg/tq5TQN59`, `discord.gg/beastforce67`) —
+   **kanıtsız, resmî değil → oltalama riski. Girilmez.**
+10. **84 sayfalık resmî cevap PDF'i** (`mrb.gg/p/puzzle`) — topluluk da doğruluyor
+    ama **HTTP 500**, erişilemiyor
+
+### ✅ Üçüncü taraf kaynaklardan BAĞIMSIZ TEYİT ALANLARIMIZ
+- **`QX = TH`** → bizim **İpucu 5** ile birebir aynı ✓
+- **`021 XIV` / `SeaHawks?`** → bizim **İpucu 3** ile aynı ✓
+- **`(364) → (66) → (6)`** beyaz pad → bizim **İpucu 15** ile aynı ✓
 
 ### ⚠️ Kısmi düzeltme (kendi şüphe kaydım)
 "Rosé 73" alıntısını halüsinasyon diye işaretlemiştim. **Gerçekten var — ama hâliyle:**
@@ -373,9 +417,13 @@ Doğrusu **"73" değil "L73"**.
 # 10) AÇIK SORULAR — ÖNCELİK SIRASIYLA
 
 ### 🥇 1. `(6)` — mavi havuz (bulmacanın kalan tek büyük parçası)
-**Gereken:** Video 4'ün **sabit yorumundaki bulmaca metni** ve **ekrandaki grafikleri**
-(karıştırılmış konum adları + renkli harfler). Video 4'ün açıklaması da kontrol edilebilir.
+**EN SICAK İP: `imageshack.com/user/BeastForce67`** — video 4'ün sabit yorumundaki
+"souvenir" bağlantısı. `(66) = FOURTH UPLOAD` buraya çıkıyor (iki okuma birden).
+**Engel:** ImageShack giriş duvarı — içerik bizim için erişilemez.
+👉 **Kullanıcı açıp 3 şeyi söylemeli: kaç yükleme var · 4. yüklemenin başlığı/yazısı · sıra+tarih.**
+Ardından: video 4'teki **ekrandaki grafikler** (karıştırılmış konum adları + renkli harfler).
 *Transkriptte değil — 7 farklı okuma denendi, hiçbiri 6 harf vermedi.*
+*Sabit yorumun kendi metni de 6+6 vermiyor (LAST=you(3), 9.=Here(4)) — cevap HESAPTA.*
 
 ### 🥈 2. `$10.000` çiziminin altındaki dalgalı kontur
 Ada haritası mı (Christmas Island kolu), dağ konturu mu?
