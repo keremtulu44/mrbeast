@@ -1067,3 +1067,67 @@ Anagramları çözmek için sözlük gerekli. Sandbox'ta:
    `https://web.archive.org/web/20260209005254/https://imagizer.imageshack.com/v2/2550x3300q70/922/KqjfA5.png`
 2. 21 kutunun **çözülmüş destinasyon adlarını** listele (21 yer adı)
 3. Sonra `(66)` testini tekrarla: **21. (son) ve 9. ad** 6'şar harf mi?
+
+---
+# 0-M) GÖRSEL ERİŞİM DURUMU — KESİN SONUÇ + KARTIN HARF ENVANTERİ (tur 6)
+
+## ❌ TAM BOYUT (2550×3300) HİÇBİR YERDE YOK — KANIT
+| Kaynak | Sonuç |
+|---|---|
+| `imageshack.com/i/pmKqjfA5p` | **"This photo has been deleted."** |
+| `imagizer.imageshack.com/v2/2550x3300q70/...` (canlı) | ana sayfaya yönlendiriyor |
+| Wayback tam boyut | **"The Wayback Machine has not archived that URL."** |
+| `archive.ph` (archive.today) | **"No results"** |
+| Eski format `imagizer.imageshack.us/a/img922/922/KqjfA5.png` | ana sayfaya yönlendiriyor |
+| Benzersiz dosya adıyla arama (`9ErN78U5uxbnR2WTkd6S`) | sonuç yok |
+
+## ✅ DÜNYADA KALAN TEK KOPYA: 240×310 (aynı dosya, 2 kopya)
+CDX doğrulaması: `image/png 200` · 56.625 ve 57.259 bayt · aynı sağlama toplamı
+```
+https://web.archive.org/web/20260209031711/https://imagizer.imageshack.com/v2/240x310q70/922/KqjfA5.png
+https://web.archive.org/web/20260211213114/https://imagizer.imageshack.com/v2/240x310q70/922/KqjfA5.png
+```
+→ **Kullanıcının analiz ettiği dosya zaten mevcut en iyi sürüm. Daha iyisi yok.**
+
+## 🆕 ÖNEMLİ: TOPLULUĞUN TAM ÇÖZÜM DOKÜMANI BULUNDU
+```
+"mr beast $1m write-up" — retrocraft / Team Omega (CC0)
+https://docs.google.com/document/d/1svEYBKoLsSNOBL6WHf9M7jB5_Awtq7QT-ZJot7YyhQY/mobilebasic
+PDF: https://writeup.retrocraft.ca/pdf
+```
+İçindekiler: **Hint 1–23** (Hint 1 "Playlist" 9 Şub — hesabın arşivlendiği GÜN!),
+"Phases: 100 birincil puzzle", "Threads", kolon: "The vault is a combination lock.
+Letters and numbers will tell you how to open it."
+⚠️ 32 bölüm → okuması uzun. Kullanıcıya sorulacak: açıp tarayayım mı?
+
+## KARTIN HARF ENVANTERİ (OCR'dan temizlenmiş — ? = belirsiz)
+| # | Satır/Renk | Okuma | Harf |
+|---|---|---|---|
+| 1 | 1 kırmızı | GLENECARY | 9 |
+| 2 | 2 mavi | NASCAN | 6 |
+| 3 | 2 turuncu | CIFTEL | 6 |
+| 4 | 3 kırmızı | NESTACGA | 8 |
+| 5 | 3 mavi | CAMOIN | 6 |
+| 6 | 4 koyu mor | LSIPAIZER | 9 |
+| 7 | 5 kırmızı | MCGLL? | 5-6 |
+| 8 | 5 sarı | FLIRCKA | 7 |
+| 9 | 6 orkide | **TUAIOVEA** | **8** ← 9. KUTU |
+| 10 | 7 yeşil | GLENAVON | 8 |
+| 11 | 7 koyu mor | COLFAX | 6 |
+| 12 | 8 orkide | JAASEFOYAS | 10 |
+| 13 | 9 turuncu | TOVERCOUIT | 10 |
+| 14 | 10 sarı | GOCKYFORIST | 11 |
+| 15 | 11 orkide | DALIAAGLEN | 10 |
+| 16 | 12 yeşil | MCGECBIAN | 9 |
+| 17 | 13 yeşil | AALYISC | 7 |
+| 18 | 13 koyu mor | LOSTHEN | 7 |
+| 19 | 14 mavi | ATGIPSCY | 8 |
+| 20 | 14 turuncu | BIUTOS | 6 |
+| 21 | 15 sarı | **LLDMCGREGOY** | **11** ← SON KUTU |
+Toplam 168 harf (21 kutu × ortalama 8)
+
+## ❌ `(66)` TESTİ — ŞU AN TUTMUYOR
+Hipotez: `LAST WORD` = 21. kutu, `THEN NINTH` = 9. kutu → ikisi de **6 harf** olmalı.
+Gerçekleşen: 21. = 11 harf, 9. = 8 harf → ❌
+**Ya OCR harf sayılarında yanlış, ya da uygulama farklı.**
+→ KULLANICIYA DOĞRULAMA SORULARI (bkz. ana belge / sohbet)
