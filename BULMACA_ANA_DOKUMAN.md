@@ -228,23 +228,49 @@ Topluluk: `XOR | SUPERB | OWLS` (3+6+4 ✓ uzunluk koduyla uyumlu).
 |---|---|---|---|
 | **Uzunluk kodu 3,6,4 = 13 harf** | ✅ **kuralımız (5 örnek)** | her çok haneli kod gibi | 🥇 **EN YÜKSEK** |
 | **İpucu 17'nin 364 günü** (52×7) | ✅ | kendi ham verimiz | 🥈 |
-| **PLAKA 364 = White-winged Crossbill** | ✅ **2 bağımsız kaynak** | plaka mekaniği + İpucu 1 #1 crossbill | 🥉 **YENİ, GÜÇLÜ** |
+| **PLAKA 364 = White-winged Crossbill** | ✅ **3 bağımsız kaynak** | plaka mekaniği + İpucu 1 #1 crossbill | ❌ **ÇÜRÜDÜ — `(66)` üretemiyor** (lejant testi, aşağıda) |
 | İskambil destesi 4×91 = 364 | ✅ | kart motifi kanıtı yok | ⚠️ zayıf |
 | Alan kodu 364 (Kentucky) | ✅ gerçek | telefon dalı var (+674 Nauru) | ⚠️ kanıtsız |
 | Kitap şifresi *sayfa* 364 | ⚠️ kuralımızla çelişir | **ama PLAKA 364 var** ↑ | ⚠️ kısmen |
 | Alice/un-birthday · Dante · birthday attack · melek sayısı | — | destek yok | ❌ dolgu |
 | XOR | ❌ **döngüsel** (aynı Reddit kaynağı) | — | ❌ |
 
-### 🆕 `(364)` = PLAKA 364 hipotezi
+### ❌ `(364)` = PLAKA 364 — ÇÜRÜDÜ (kullanıcı itirazı + lejant testiyle)
+Hipotez çarpıcıydı: plaka numarası bu bulmacanın merkezî mekaniği (İpucu 7 `PLATES`)
+ve İpucu 1 / görsel #1 **zaten bir crossbill** (`Loxia`) — aynı cins:
 ```
 PLAKA 364 (CCCLXIV) = White-winged Crossbill · Latince LOXIA LEUCOPTERA
 İngilizce: WHITE(5) WINGED(6) CROSSBILL(9)
-  → LAST WORD = CROSSBILL = tam 9 harf  ← "THEN NINTH" ile örtüşüyor!
-  → CROSSBILL'in 9. harfi = L · LEUCOPTERA'nın 9. harfi = R
-  → 6 harfli aday: WINGED
+  → LAST WORD = CROSSBILL = 9 harf → 9. harf = L  ← tek harf!
 ```
-Neden çarpıcı: plaka numarası bu bulmacanın merkezî mekaniği (İpucu 7 `PLATES`) ve
-İpucu 1 / görsel #1 **zaten bir crossbill** (`Loxia`) — aynı cins.
+**Kullanıcı itirazı:** `CROSSBILL → L` **tek harf** verir; `(66)` iki 6-harfli
+kelime (12 harf) ister. → **İtiraz doğru, lejantla kanıtlandı.**
+
+**Plaka 364'ün TAM lejantı (doğrulandı, Boston Public Library / Havell 1837):**
+```
+"White-winged crossbill : Loxia leucoptera, Gm. Male adult, 1, 2.
+ Female adult, 3. Young F., 4. New Foundland alder"
+Gravür: "...Engraved, printed & coloured by R. Havell, 1837."
+Numara: set 73, plaka CCCLXIV (364) ✓
+```
+| Varyant | Kelime | LAST WORD | 9. kelime | `(66)`? |
+|---|---|---|---|---|
+| tüm kelimeler | 18 | alder (5) | 2 (1) | ❌ |
+| sayılar atılmış | 14 | alder (5) | adult (5) | ❌ |
+| sayı + otorite atılmış | 13 | alder (5) | Young (5) | ❌ |
+
+→ **Plaka 364 ne `CROSSBILL→L` ile ne de lejantıyla `(66)` üretiyor.**
+§8 mezarlığına gömüldü (bir daha bu yönden denenmeyecek).
+
+### ✅ FRIDAY YOLU — KAYITTA (İpucu 14 + 17)
+```
+(364) = 364 GÜN (İpucu 17) → 1 Tem 1988 (CUMA) + 30 Haz 1989 (CUMA)
+(66)  = FRIDAY | FRIDAY   → 6 + 6  ✅ uzunluk-kodu kuralımızla BİREBİR
+(6)   = FRIDAY            → 6      ✅
+```
+⚠️ **Doğrulanmış veriyle `(66)`→`(6)` yapısını karşılayan TEK okuma.**
+Ama kullanıcı notu: bu 364 İpucu 17'den geliyor ve İpucu 14'te kullanıldı →
+İpucu 15'in `(364)`'ü aynı girdi olamaz. **Açık soru olarak duruyor.**
 
 ### ❌ `NIGHT` değil `NINTH` — kesin
 ```
@@ -259,7 +285,15 @@ LASTWORDTHENNIGHT : 17 harf → UYUMSUZ (fazla G, eksik N) ❌
 **hipotez: talimatın iki parçası birer kelime seçer** (son kelime + 9. kelime =
 2 kelime = `(66)` ✓ yapısal olarak kusursuz). Test edilen metinlerin hiçbiri
 iki 6-harfli kelime vermedi (9 kelimelik cümle, 9 video başlığı, video 4
-başlığı/transkripti) → **kaynak metin hâlâ bilinmiyor.**
+başlığı/transkripti, plaka 364 lejantı) → **kaynak metin hâlâ bilinmiyor.**
+
+### `(364)` okumaları — yapısal karşılaştırma
+| # | `(364)` = | `(66)` üretir mi? | `(6)` | `(4445)` rolü | Durum |
+|---|---|---|---|---|---|
+| **A** | 364 gün → iki tarih → ikisi de CUMA | ✅ FRIDAY \| FRIDAY (6,6) | ✅ FRIDAY | ❓ yok | ✅ yapının tek karşılığı, ama İp 14'e ait |
+| **B** | FOURTH UPLOAD | ✅ FOURTH \| UPLOAD (6,6) | ✅ UPLOAD | ✅ LAST WORD | ⚠️ ifade tahmin |
+| **C** | PLAKA 364 | ❌ CROSSBILL→L (1 harf) | ❌ | ✅ ama 1 harf | ❌ çürüdü |
+| **D** | uzunluk kodu 3,6,4 (13 harf) | ? | ? | ? | ❓ kaynak metin yok |
 
 ## ❌ `(6)` — HENÜZ YOK. `STUNTS` 4 KEZ ÇÜRÜDÜ
 Topluluğun en popüler iddiası `STUNTS`. Bağımsız denetim:
@@ -310,6 +344,7 @@ HOLSTER + renkli harfler → 7 harfli cevap = **TOWARDS**).
 | İpucu 2 için sondan-sayma | Anlamsız çıktı |
 | "HAND havuzdan yazılabiliyor" kanıtı | Havuzdan 899 dört-harfli kelime çıkıyor → kanıt değil |
 | Kalan 13 harften İspanyolca/Latince grup | 9 dil tarandı, hiçbiri anlamlı değil; Latincede W yok |
+| `(364)` = PLAKA 364 (White-winged Crossbill) | Kuş doğru (3 kaynak) ama `CROSSBILL→L` **tek harf**; lejantın LAST WORD=<br>`alder`(5), 9. kelime=`Young`(5) → **`(66)` üretilemiyor** (§7) |
 
 ---
 
