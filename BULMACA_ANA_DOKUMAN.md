@@ -59,6 +59,7 @@ odası. Masanın üzerinde:
 | Dosya | İçerik |
 |---|---|
 | **`BULMACA_ANA_DOKUMAN.md`** | ← **BU BELGE.** Baştan sona yönlendirme |
+| **`IPUCU_AGACI.md`** | **17 ipucunun AĞAÇ görünümü** — hepsi tek ekranda, dal dal |
 | `cikti.md` | Ana çalışma defteri (tarihçe, tüm turlar) |
 | `ucuncu_taraf_degerlendirme.md` | 26 harici iddianın bağımsız denetimi + şüphe listesi |
 | `ipuclari_ham.md` | 17 ipucunun ham kaydı (değişmemiş birincil veri) |
@@ -126,6 +127,85 @@ mavi rakamı **XIV = 14** → 14 > 12 → İngilizcede sayılamaz.
 | 15 | `(364)(4445)→(66)→(6)` | 🟡 **(6) AÇIK** |
 | 16 | `214` + `674` (iki ayrı üçlü) | ✅ Ana zincirin girdisi |
 | 17 | İki olay arası **364 gün** | 🟡 Yan veri (konum kanıtı değil, VERİ olarak geçerli) |
+
+### 4.1 Her ipucu: HAM → NASIL TANIMLANDI → NASIL KULLANILDI → EKSİK
+
+**🔴 İPUCU 1 — 14 görsel → 27 harf** 🟡
+- **Ham:** 14 görsel, her birinde kırmızı + mavi Roma rakamı (#10'da sadece kırmızı).
+- **Tanımlama:** Kullanıcı kuralı: *kırmızı = Latince adın BAŞTAN o harfi, mavi = SONDAN.*
+  Görsel → kuş eşleştirmesi **isim punu** ile (örn. 😂 → Laughing Gull, parmaklıklar → Barred Owl).
+- **Kullanım:** 27 harf: `co|ed|af|nv|li|na|cL|ia|ia|?-|ot|ya|ch|ea` — ters okununca `EACH…`
+- **KANIT:** #7 😂 İngilizce ad 12 harf, mavi **XIV=14** → 14>12 → sayım **Latince zorunlu.**
+- **EKSİK:** 5 tespit belirsiz (#1 bayrak, #8 gözlük, #10 su+dişi, #12 çocuk, #13 lahit).
+  #10'da 3 aday: 349=`J`, 203=`E`, 204=`C` (kahverengi vurgusu 203'ü işaret ediyor).
+
+**✅ İPUCU 2 — 24 plaka → 24 harf** ✅ %100
+- **Ham:** `029 III · 039 VI · 042 V · 061 II · 074 IX · 076 IV · 081 XIV · 083 XI · 101 II ·
+  102 III · 112 IX · 162 V · 184 V · 216 I · 225 VI · 235 VII · 245 VIII · 246 VIII ·
+  253 XIV · 275 III · 329 X · 337 VI · 358 IX · 424-6 XVI`
+- **Tanımlama:** İ7 `PLATES` → sayı = plaka no · İ11 → Roma = Latince harf ·
+  `424-6` = plaka 424'ün **6. figürü** (Brown Longspur).
+- **Kullanım:** 24 harf `IBRTADSSOREMHTDFNATEEMEW` → İ10 ile alfabetik:
+  `MRWBEASTSATDHEREOFNIDTEM` → `MRBEASTSATDHERE…`
+- **EKSİK YOK** — havuz 24/24 birebir örtüşüyor.
+
+**✅ İPUCU 3 — `081 XIV` / `SeaHawks?`** ✅ doğrulama
+İpucu 2'nin 7. satırıyla **birebir aynı** → doğrulama ipucu (`?` kuralı).
+Bağımsız teyit: Reddit topluluğu da aynı satırı okumuş → kaydımız doğrulandı.
+
+**✅ İPUCU 4 — `##` / `How Many?`** ✅
+`##` = iki basamak → 46TH PLATE zincirinde `172446` → `17 | 24 | 46`.
+
+**✅ İPUCU 5 — `QX = TH`** ✅
+Sübstitüsyon + ordinal ek. A1Z26 `17=Q, 24=X` → `QX → TH` → `46 + TH = 46TH`.
+Bağımsız teyit: Reddit "yeşil not: QX = TH".
+
+**✅ İPUCU 6 — `142674 / 251634 / 461427`** ✅
+Hepsi 1-6 permütasyonu. Kullanıcı teyidi: 2. satır **`251634`** → sıralama anahtarı
+`[2.,5.,1.,6.,3.,4.]` → `214674 → 172446`. ⚠️ 2. turda aritmetikle çelişti, teyit bekliyor.
+**EKSİK:** `142674` ve `461427`'nin işlevi bilinmiyor.
+
+**✅ İPUCU 7 — `PLATES`** ✅ · `?` yok → doğrudan VERİ. Tüm mekaniğin çapası.
+
+**🟡 İPUCU 8 — `Youtube link watch?`** · Meta. Video `82CX6WULNA0`.
+**EKSİK:** hangi dalı beslediği bulunamadı.
+
+**✅ İPUCU 9 — `LSWRTE / NNHTIN / HDOTA` + `Should I call it bird fence?`** ✅
+17 harfin **ANAGRAMI** → `LAST WORD THEN NINTH` (harf envanteri birebir uyumlu).
+`(4445)` = 4,4,4,5 = LAST(4) WORD(4) THEN(4) NINTH(5) = 17 ✓
+❌ **"rail fence" ÇÜRÜDÜ:** 2–8 ray + **720 kolon permütasyonu** → hiçbiri İngilizce.
+"bird fence?" = **ESPri** (kuş temalı), mekanizma adı değil.
+
+**🟡 İPUCU 10 — `Book w/ old names… Alphabetize?`** · İki kural birden:
+(a) MODERN ad kullanılmaz → Audubon'un orijinal lejantı; (b) 24 harf **alfabetik** sıralanır.
+
+**✅ İPUCU 11 — `Roman numbers for Roman words?`** ✅
+Roma rakamı = **Latince** kelimenin harfi. İ1 #7 ile kesin kanıtlı.
+
+**🟡 İPUCU 12 — `Boo!` + `Five of these`** · Tahmin: `BOO + K = BOOK`.
+**EKSİK:** doğrulanmadı, hiçbir dalda kullanılmadı.
+
+**✅ İPUCU 13 — `(527) > (83544) > M̶R̶(9)`** ✅ **ÇÖZÜLDÜ: `BEASTSAND`**
+`(527)` = BIRDS(5) OF(2) AMERICA(7) · `(83544)` = 8,3,5,4,4 · `M̶R̶` üstü çizili → **AT**
+→ kalan 9 harf = **BEASTSAND** ✓ (4 bağımsız kanıt, §6)
+
+**🟡 İPUCU 14 — `(364) → (66) → (6)`** · Mavi ped, **video bitiminde**. İ15'le aynı zincir,
+`(4445)` yok. **EKSİK:** `(364)` ne, `(66)` nereden geliyor?
+
+**🟡 İPUCU 15 — `(364)(4445) → (66) → (6)`** · Beyaz ped.
+**Kullanıcının yapısal gözlemi (doğru):** haneler küçülüyor → 3+4=7 kelime → 2 kelime → 1 kelime.
+`LAST WORD` 2→1'i açıklıyor; `THEN NINTH` 7→2'yi açıklamalı.
+**EKSİK:** 7 kelimeden 2 kelime seçtirecek **kaynak metin bulunamadı.**
+
+**✅ İPUCU 16 — `214` + `674`** ✅
+Kullanıcı tarifi: sol **üçgen** (2 tepede, 1 ve 4 tabanda) + sağ **dikey kolon** (6/7/4)
+→ **İKİ AYRI ÜÇLÜ** = `214674`. (`142` okuması da denendi.)
+
+**🟡 İPUCU 17 — İki olay arası 364 gün** · İki tarih de **CUMA** → `FRIDAY` (6 harf!) → `(6)` adayı.
+52 × 7 = 364. Kullanıcı: *"konum kanıtı değil, VERİ."* ⚠️ Kullanıcı itirazı: bu 364
+İ14'te kullanıldı → İ15'te tekrar kullanılmaz.
+
+> 📄 **Ağaç görünümü (tüm yapı tek ekranda): `IPUCU_AGACI.md`**
 
 ---
 
@@ -479,13 +559,19 @@ Doğrusu **"73" değil "L73"**.
 # 10) AÇIK SORULAR — ÖNCELİK SIRASIYLA
 
 ### 🥇 1. `(6)` — mavi havuz (bulmacanın kalan tek büyük parçası)
-**EN SICAK İP: `imageshack.com/user/BeastForce67`** — video 4'ün sabit yorumundaki
-"souvenir" bağlantısı. `(66) = FOURTH UPLOAD` buraya çıkıyor (iki okuma birden).
-**Engel:** ImageShack giriş duvarı — içerik bizim için erişilemez.
-👉 **Kullanıcı açıp 3 şeyi söylemeli: kaç yükleme var · 4. yüklemenin başlığı/yazısı · sıra+tarih.**
-Ardından: video 4'teki **ekrandaki grafikler** (karıştırılmış konum adları + renkli harfler).
-*Transkriptte değil — 7 farklı okuma denendi, hiçbiri 6 harf vermedi.*
-*Sabit yorumun kendi metni de 6+6 vermiyor (LAST=you(3), 9.=Here(4)) — cevap HESAPTA.*
+```
+(364)  +  LAST WORD THEN NINTH  →  (66)  →  (6)
+  ↑              ✅ kanıtlı          ↑       ↑
+  ?                               tahmin   BİLİNMİYOR
+```
+**ENGEL:** (364)'ün kaynağı bulunamadı; (66)→(6)'yı karşılayan hiçbir metin yok.
+❌ **ImageShack / BeastForce67 yolu KAPANDI** — $1M avına ait, §8'e gömüldü.
+**Sıradaki denemeler:**
+1. `(364)` = uzunluk kodu **3,6,4 = 13 harf** → bu uzunlukta bir kaynak metin ara
+   (LAST WORD ve 9. kelimesi **6'şar harf** olmalı)
+2. `FRIDAY` (İpucu 17) — **yapıyı tek başına karşılayan tek okuma** (6 harf ✓)
+3. İpucu 1'in 27 harfi — 5 tespit belirsiz, netleşirse mavi tarafı besleyebilir
+4. Video 4'teki **ekrandaki grafikler** (karıştırılmış konum adları + renkli harfler)
 
 ### 🥈 2. `$10.000` çiziminin altındaki dalgalı kontur
 Ada haritası mı (Christmas Island kolu), dağ konturu mu?
