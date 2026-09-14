@@ -1245,3 +1245,55 @@ GEÇERLİLİĞİNİ KORUYOR.
 - Kırmızı taraf: **biz + topluluk aynı sonuç** → artık tartışmasız.
 - Mavi taraf: topluluk da **bilmiyor.** STUNTS iddiası onlarda da kanıtsız.
 - `(364)` hâlâ **AÇIK** ve her iki tarafta da çözülmemiş.
+
+---
+# 0-P) 🔥 YENİ GÜÇLÜ ADAy: `(364)` = KALAN 13 HARF (tur 7)
+
+## Buluş
+24 harfli havuzdan `MRBEASTSAND` çıkarıldığında **13 harf** kalıyor:
+```
+D  E  E  E  F  H  I  M  O  R  T  T  W      = 13 harf
+```
+`(364)` uzunluk kodu olarak okunursa: **3 + 6 + 4 = 13 harf** ← **BİREBİR UYUMLU** ✅
+
+## Çifte tutarlılık
+Aynı 13 harf, İpucu 13'ün `(83544)` = 8,3,5,4,4 kodunun **kalan grubu**
+(5+4+4 = 13) ile de örtüşüyor. Yani:
+```
+(83544)  = MRBEASTS(8) + AND(3) + [5] + [4] + [4]
+                                    └── 13 harf ──┘
+(364)    = [3] + [6] + [4]  = aynı 13 harfin FARKLI gruplanışı (?)
+```
+→ Bu, kalan 13 harfin **amaçsız artık değil, mavi tarafın GİRDİSİ** olduğunu
+  düşündürüyor. Daha önce "büyük ihtimalle gerekli değil" demiştik — **ŞİMDİ
+  ŞÜPHELİ.**
+
+## Deneme (sözlük YOK — sandbox'ta /usr/share/dict boş, internet yok)
+Elle yazılmış küçük kelime listesiyle 90 gruplama çıktı. Temiz İngilizce
+olanlardan örnekler (hepsi 13 harfi BİREBİR kullanıyor):
+```
+FEW  + MOTHER + TIDE     (3+6+4) ✅ harf envanteri tam
+WIT  + MOTHER + FEED     (3+6+4) ✅
+FIT  + MOTHER + WEED     (3+6+4) ✅
+```
+Kontrol (FEW+MOTHER+TIDE): F,E,W,M,O,T,H,E,R,T,I,D,E =
+D×1 E×3 F×1 H×1 I×1 M×1 O×1 R×1 T×2 W×1 ✅ = havuzun aynısı.
+
+## ⚠️ DURUM: doğrulanmadı
+Kelime listem küçük ve gürültülü (uydurma girdiler içeriyor). Kesin sonuç için
+**harici bir anagram çözücü** gerekiyor.
+
+## 👉 KULLANICIYA / BAŞKA BİR YZ'YA VERİLECEK PROMPT
+```
+Harf havuzu: D E E E F H I M O R T T W  (13 harf, hepsi tam kullanılacak)
+Görev: bu 13 harfi 3 + 6 + 4 harfli ÜÇ İngilizce kelimeye böl.
+Her harf tam bir kez kullanılmalı. Anlamlı/bulmaca bağlamına uygun
+(kuş · kitap · plaka · konum · MrBeast) sonuçları sırala.
+Bulmaca bağlamı: Audubon "Birds of America" plakaları, kırmızı havuz BEASTSAND,
+mavi havuz 6 harfli bir kelime olmalı.
+```
+
+## ❓ AÇIK SORU
+13 harf 3+6+4'e bölünürse → **6 harfli kelime hangisi?** (66) iki 6-harfli
+kelime istiyor; 13 harfte tek 6-harfli kelime var. Bu çelişki ya gruplamanın
+(3,6,4) olmadığını ya da (66)'nın buradan gelmediğini gösterir.
