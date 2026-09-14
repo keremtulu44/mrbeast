@@ -937,3 +937,58 @@ Kullanıcı tarayıcıda açıp şunları söylerse `(66)/(6)` kırılabilir:
 1. Hesapta **kaç yükleme** var?
 2. **4. yüklemenin** başlığı / üzerindeki yazı ne?
 3. Yüklemelerin **sırası** ve tarihleri?
+
+---
+# 0-K) ImageShack `BeastForce67` — ARŞİVDE BULUNDU (tur 6)
+
+## Kullanıcı: "link temizlenmiş, boş"
+Hesap şu an boş görünüyor. **Wayback Machine ile geri aldım.**
+
+## ✅ ARŞİVDE GÖRSEL VAR
+Wayback'te 2 anlık görüntü: **09 Şub 2026** ve **11 Şub 2026** (ikisi de aynı içerik)
+```
+Hesap sayfası : imageshack.com/user/BeastForce67
+Görsel sayfası: imageshack.com/i/pmKqjfA5p          (3 anlık görüntü)
+Görsel ID     : KqjfA5
+Dosya adı     : 9ErN78U5uxbnR2WTkd6S.png  (rastgele → bilgi yok)
+Albüm         : "No Albums"  (albüm yok)
+GÖRSEL SAYISI : 1  ← iki anlık görüntüde de TEK görsel (lazy-load değil)
+```
+
+## 🔥 TAM BOYUT: `2550 × 3300`
+```
+https://imagizer.imageshack.com/v2/2550x3300q70/922/KqjfA5.png
+2550 / 3300 = 0,772727...
+8,5  / 11   = 0,772727...   ← ABD LETTER @ 300 DPI — BİREBİR ✅
+```
+Boyut seçenekleri menüsünde (1600x1200'a kadar) **bu boyut YOK** → 2550×3300
+büyük ihtimalle **orijinal**. Yani bu bir telefon fotoğrafı değil,
+**taranmış/dijital bir BELGE (letter boyutu, dikey, 300 dpi).**
+Küçük sürüm 240×310 → oran 0,7746 (aynı) ✓
+
+## ⚠️ "FOURTH UPLOAD" OKUMASI GÜNCELLENDİ
+Hesapta **tek görsel** var → "4. yükleme" okuması **(b) DÜŞTÜ.**
+Kalan okuma:
+```
+(66) = "FOURTH UPLOAD" = 4. YouTube videosu
+     → video 4 (`$1 vs $500,000 Experiences!`)
+     → SABİT YORUM → imageshack.com/user/BeastForce67
+     → hesaptaki TEK görsel (KqjfA5, 2550×3300 belge)
+     → "LAST WORD" → (6) = belgedeki metnin son kelimesi (6 harf)
+```
+
+## ⚠️ BEN GÖREMİYORUM
+- Sandbox'ta doğrudan ağ erişimi yok (python TLS hatası, `curl` yok)
+- `fetch_page` ikili dosyayı metin olarak vermiyor
+→ **Görseli kullanıcı açıp TARİF ETMELİ.**
+
+## 📎 KULLANICININ AÇACAĞI BAĞLANTILAR
+1. **Tam boyut görsel (arşiv):**
+   `https://web.archive.org/web/20260209005254/https://imagizer.imageshack.com/v2/2550x3300q70/922/KqjfA5.png`
+2. **Görsel sayfası (arşiv):**
+   `https://web.archive.org/web/20260209031715/https://imageshack.com/i/pmKqjfA5p`
+3. **Canlı CDN (hesap boş olsa da çalışabilir):**
+   `https://imagizer.imageshack.com/v2/2550x3300q70/922/KqjfA5.png`
+
+**İstenen:** görselde ne var? Metin varsa **aynen yaz** — özellikle
+son kelimesi ve 9. kelimesi (6'şar harf olabilirler → `(66)`).
