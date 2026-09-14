@@ -2,7 +2,7 @@
 
 **Video:** `82CX6WULNA0` — "How 1 Person Solved A $1,000,000 Puzzle!"
 **Bulmacayı yapan:** Colin ($1M'lik Salesforce avını çözen kişi)
-**Son güncelleme:** 2026-09-13 · **Durum:** 🟡 Kısmen çözüldü — kırmızı taraf TAMAM, mavi taraf AÇIK
+**Son güncelleme:** 2026-09-14 · **Durum:** 🟡 Kısmen çözüldü — kırmızı taraf TAMAM, mavi taraf AÇIK
 
 ---
 
@@ -65,8 +65,7 @@ odası. Masanın üzerinde:
 | `ipuclari_ham.md` | 17 ipucunun ham kaydı (değişmemiş birincil veri) |
 | `ipucu2_24_duzmetin.txt` | İpucu 2: 24 plaka → 24 harf (satır satır gerekçe) |
 | `ipucu1_14_duzmetin.txt` | İpucu 1: 14 görsel → 27 harf (görsel tanımı + lejant) |
-| `video4_transkript.md` | Video 4'ün tam transkripti (3032 kelime) |
-| `ikinci_gorus_promptu.md` | Başka bir yapay zekâya verilmek üzere hazır prompt |
+| `video4_transkript.md` | Video 4'ün tam transkripti (3.106 kelime — ölçüldü) |
 
 ---
 
@@ -118,7 +117,7 @@ mavi rakamı **XIV = 14** → 14 > 12 → İngilizcede sayılamaz.
 | 6 | `142674 / 251634 / 461427` | ✅ 251634 = ANAHTAR |
 | 7 | `PLATES` | ✅ Sayılar = plaka numarası |
 | 8 | `Youtube link watch?` | 🟡 Meta |
-| 9 | Rail fence → `LAST WORD THEN NINTH` | ✅ **ÇÖZÜLDÜ** |
+| 9 | Transpozisyon → `LAST WORD THEN NINTH` | ✅ **ÇÖZÜLDÜ + MEKANİZMA DOĞRULANDI** |
 | 10 | `Book w/ old names… Alphabetize?` | 🟡 Meta (işlem değil, yönlendirme) |
 | 11 | `Roman numbers for Roman words?` | ✅ Latince kuralını doğruluyor |
 | 12 | `Boo!` + `Five of these` | 🟡 BOO+K = BOOK |
@@ -171,10 +170,13 @@ Hepsi 1-6 permütasyonu. Kullanıcı teyidi: 2. satır **`251634`** → sıralam
 **EKSİK:** hangi dalı beslediği bulunamadı.
 
 **✅ İPUCU 9 — `LSWRTE / NNHTIN / HDOTA` + `Should I call it bird fence?`** ✅
-17 harfin **ANAGRAMI** → `LAST WORD THEN NINTH` (harf envanteri birebir uyumlu).
-`(4445)` = 4,4,4,5 = LAST(4) WORD(4) THEN(4) NINTH(5) = 17 ✓
-❌ **"rail fence" ÇÜRÜDÜ:** 2–8 ray + **720 kolon permütasyonu** → hiçbiri İngilizce.
-"bird fence?" = **ESPri** (kuş temalı), mekanizma adı değil.
+17 harf → `LAST WORD THEN NINTH`. `(4445)` = 4,4,4,5 = LAST(4) WORD(4) THEN(4) NINTH(5) = 17 ✓
+✅ **MEKANİZMA BULUNDU ve KODLA DOĞRULANDI (tur 8):** şifre metnini **ikiye böl (8+9)**,
+**2. yarıyı ters çevir**, **dönüşümlü oku** → `LASTWORDTHENNINTH` birebir çıkıyor
+(9+8 bölünüşünde de aynı sonuç). Yani çözüm tesadüfî bir anagram değil, gerçek bir transpozisyon.
+❌ **"rail fence" (klasik) ÇÜRÜDÜ:** 2–8 ray encode/decode + **720 kolon permütasyonu** →
+hiçbiri `LASTWORDTHENNINTH` üretmiyor. "bird fence?" = **ESPri** (kuş temalı) + mekanizmanın
+"çit gibi dizme" olduğuna dair ipucu; standart rail fence adı değil.
 
 **🟡 İPUCU 10 — `Book w/ old names… Alphabetize?`** · İki kural birden:
 (a) MODERN ad kullanılmaz → Audubon'un orijinal lejantı; (b) 24 harf **alfabetik** sıralanır.
@@ -236,8 +238,11 @@ Bu zincir, yöntemin (plaka → Latince ad → harf) doğru olduğunu **geriye d
 
 **Bağımsız doğrulama (tur 3):** 48 olası kombinasyonun **hiçbiri** üç geçerli A1Z26
 çifti vermiyor → 3. yuvanın SAYI olması tesadüf değil, **yapısal zorunluluk.**
-Ayrıca: 12 panel okumasından **yalnızca `214674`** geçerli sonuç verir; 360
-permütasyonun tamamı taranmıştır.
+Ayrıca: 12 panel okuması taranmıştır. ⚠️ **Düzeltme (tur 8):** `[harf][harf][sayı]`
+BİÇİMİNİ **iki** okuma veriyor: `214674 → 172446 → Q X 46` **ve** `214476 → 172644 → Q Z 44`.
+Doğru olan iddia şu: **İpucu 5'in `QX` çiftini yalnızca `214674` üretir** → zincir yine tek
+okumaya dayanıyor, ama gerekçesi "biçim" değil **`QX`'in kendisi.** (360 permütasyonun
+hiçbiri üç geçerli A1Z26 çifti vermiyor: kendi taramamda da 0.)
 
 ---
 
@@ -397,7 +402,7 @@ başlığı/transkripti, plaka 364 lejantı) → **kaynak metin hâlâ bilinmiyo
 | **A** | 364 gün → iki tarih → ikisi de CUMA | ✅ FRIDAY \| FRIDAY (6,6) | ✅ FRIDAY | ❓ yok | ✅ yapının tek karşılığı, ama İp 14'e ait |
 | **B** | FOURTH UPLOAD | ✅ FOURTH \| UPLOAD (6,6) | ✅ UPLOAD | ✅ LAST WORD | ⚠️ ifade tahmin |
 | **C** | PLAKA 364 | ❌ CROSSBILL→L (1 harf) | ❌ | ✅ ama 1 harf | ❌ çürüdü |
-| **D** | uzunluk kodu 3,6,4 (13 harf) | ? | ? | ? | ❓ kaynak metin yok |
+| **D** | uzunluk kodu 3,6,4 = **13 harf** | kaynak = **kalan 13 harf** `DEEEFHIMORTTW` (§0-P) | ⚠️ **28.621** olası bölme → ayırt edici değil | ⚠️ 121 farklı 6 harfli aday (`TOWHEE` dâhil) | 🟡 **EN GÜÇLÜ AMA KANITSIZ** |
 
 ## ❌ VİDEO 4 SABİT YORUMU / ImageShack `BeastForce67` — **$1M AVINA AİT, $10K İÇİN ELENDİ (KANITLI)**
 Video 4 (`Xj0Jtjg3lHQ` = `$1 vs $500,000 Experiences!`) sabit yorumu, +107.408 beğeni:
@@ -495,7 +500,7 @@ Topluluğun en popüler iddiası `STUNTS`. Bağımsız denetim:
 | 1 | 24 harfli pembe havuzda **U yok** |
 | 2 | "fourth upload → last word → ninth → STUNTS" adımı **kimse tarafından gösterilmedi** |
 | 3 | 4. video başlığında **T ve U yok** |
-| 4 | Video 4 transkriptinde (3032 kelime) **`stunt` kelimesi hiç geçmiyor** |
+| 4 | Video 4 transkriptinde (3.106 kelime — tur 8'de yeniden sayıldı) **`stunt` kelimesi hiç geçmiyor** |
 
 ## `(6)` aday tablosu
 | Aday | Gerekçe | Güven |
@@ -591,8 +596,10 @@ Doğrusu **"73" değil "L73"**.
 **ENGEL:** (364)'ün kaynağı bulunamadı; (66)→(6)'yı karşılayan hiçbir metin yok.
 ❌ **ImageShack / BeastForce67 yolu KAPANDI** — $1M avına ait, §8'e gömüldü.
 **Sıradaki denemeler:**
-1. `(364)` = uzunluk kodu **3,6,4 = 13 harf** → bu uzunlukta bir kaynak metin ara
-   (LAST WORD ve 9. kelimesi **6'şar harf** olmalı)
+1. `(364)` = uzunluk kodu **3,6,4 = 13 harf** → kaynak artık SOMUT: havuzdan
+   `MRBEASTSAND` çıkınca kalan `D E E E F H I M O R T T W`. **AMA** 200.000 kelimelik
+   frekans listesiyle **28.621** geçerli (3,6,4) bölme var (§0-Q) → tek başına kanıt değil.
+   Ayırt etmek için `(66)`'nın kaynağı şart.
 2. `FRIDAY` (İpucu 17) — **yapıyı tek başına karşılayan tek okuma** (6 harf ✓)
 3. İpucu 1'in 27 harfi — 5 tespit belirsiz, netleşirse mavi tarafı besleyebilir
 4. Video 4'teki **ekrandaki grafikler** (karıştırılmış konum adları + renkli harfler)
@@ -634,11 +641,15 @@ Henüz kullanılmadı.
 
 | | |
 |---|---|
-| ✅ **BİLİNEN** | Yöntem (plaka → Latince ad → harf) · `46TH PLATE` zinciri · 24 plaka/24 harf · Notasyon kuralı `(N)` · **Kırmızı havuz = `BEASTSAND`** · `(4445) = LAST WORD THEN NINTH` · `(66) = FOURTH UPLOAD` → Video 4 |
+| ✅ **BİLİNEN** | Yöntem (plaka → Latince ad → harf) · `46TH PLATE` zinciri · 24 plaka/24 harf · Notasyon kuralı `(N)` · **Kırmızı havuz = `BEASTSAND`** · `(4445) = LAST WORD THEN NINTH` (**mekanizması da doğrulandı**) |
 | ❌ **BİLİNMEYEN** | **`(6)` = mavi havuz** · `(364)`'ün anlamı · İpucu 1'in 27 harfi · kalan 13 harf · 142674/461427 · tarihlerin yeri |
-| ⚠️ **ŞÜPHELİ** | `XOR` kaynağı · PDF alıntıları · `#10 = 203` |
+| ⚠️ **ŞÜPHELİ** | `(66) = FOURTH UPLOAD` (üçüncü taraf tahmini, 17 ipucunda geçmiyor) · `XOR` kaynağı · PDF alıntıları · `#10 = 203` · `(364)` = kalan 13 harf (28.621 bölme) |
 
 ## SON SÖZ
-Kırmızı taraf kapanmıştır. **Bulmacanın tamamlanması tek bir şeye bağlı: Video 4'ün
-sabit yorumundaki / ekranındaki bulmacadan `(6)` havuzunu (6 harf) çıkarmak.**
-O bulunduğunda birleşim `BEASTSAND` + `(6)` olacaktır.
+Kırmızı taraf kapanmıştır (`BEASTSAND`). Mavi taraf için **kilit `(364)`'ün kaynağı**:
+o bulunursa `(66)` ve `(6)` kendiliğinden gelir.
+⚠️ **Video 4 / ImageShack `BeastForce67` yolu artık ADAY DEĞİL** — kartın $1M avının
+malzemesi olduğu 4 kanıtla gösterildi (§7, §8). Yani `(6)` oradan çıkmayacak.
+En güçlü güncel aday: `(364)` = kalan 13 harf `DEEEFHIMORTTW` (3+6+4 = 13) — ama
+28.621 bölme olduğu için ayırt edici değil. Cevap bulunduğunda birleşim
+`BEASTSAND` + `(6)` olacak.

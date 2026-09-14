@@ -27,11 +27,12 @@
 ├── 🔵 MAVİ TARAF  →  (6) = ???                                 ❌ AÇIK
 │   │
 │   ├── İ9   LSWRTE / NNHTIN / HDOTA + "bird fence?"
-│   │        └→ ANAGRAM = **LAST WORD THEN NINTH** = (4445)      ✅ KANITLI
+│   │        └→ TRANSPOZİSYON = **LAST WORD THEN NINTH** = (4445)  ✅ MEKANİZMA DOĞRULANDI
 │   ├── İ15  (364) + (4445) → (66) → (6)   [beyaz ped]
 │   ├── İ14  (364) → (66) → (6)            [mavi ped, video sonu]
 │   ├── (66) = "FOURTH UPLOAD"  ⚠️ ÜÇÜNCÜ TARAF TAHMİNİ — 17 ipucunda GEÇMİYOR
-│   └── (364) = ???  ❌ BİLİNMİYOR (5 aday denendi, 4'ü çürüdü)
+│   └── (364) = 🟡 EN GÜÇLÜ ADAY: kalan 13 harf DEEEFHIMORTTW (3+6+4=13)
+│            ama 28.621 geçerli bölme var → KANITSIZ (5 aday denendi, 4'ü çürüdü)
 │
 ├── 🧩 YÖNTEMİN DOĞRULUK KANITI: "46TH PLATE"                    ✅ TAMAMLANDI
 │   │
@@ -118,10 +119,13 @@ Video linki (`82CX6WULNA0`) kullanıcı tarafından eklendi. `?` → meta.
 **EKSİK:** Bu ipucunun hangi dalı beslediği bulunamadı.
 
 ## ✅ İPUCU 9 — `LSWRTE / NNHTIN / HDOTA` + `Should I call it bird fence?`   ✅
-**Nasıl tanımlandı:** 17 harfin ANAGRAMI → `LAST WORD THEN NINTH` (harf envanteri
-birebir uyumlu). Uzunluk kodu (4445) = 4,4,4,5 = LAST(4) WORD(4) THEN(4) NINTH(5) = 17 ✓
-**❌ "rail fence" ÇÜRÜDÜ:** 2–8 ray decode + **720 kolon permütasyonu** denendi;
-hiçbiri İngilizce değil. "bird fence?" = **ESPri** (kuş temalı şaka), mekanizma adı değil.
+**Nasıl tanımlandı:** 17 harf → `LAST WORD THEN NINTH`. Uzunluk kodu (4445) = 4,4,4,5 =
+LAST(4) WORD(4) THEN(4) NINTH(5) = 17 ✓
+**✅ MEKANİZMA BULUNDU (tur 8, kodla doğrulandı):** şifreyi **ikiye böl (8+9)** →
+**2. yarıyı ters çevir** → **dönüşümlü oku** → `LASTWORDTHENNINTH` birebir (9+8 de aynı).
+Yani tesadüfî anagram değil, gerçek transpozisyon.
+**❌ Klasik "rail fence" ÇÜRÜDÜ:** 2–8 ray encode/decode + 2–17 kolonlu kolonar
+transpozisyon + **720 kolon permütasyonu** → hiçbiri üretmiyor. "bird fence?" = **ESPri**.
 **Nasıl kullanıldı:** Mavi tarafın talimatı = `(4445)`.
 
 ## 🟡 İPUCU 10 — `Book w/ old names... Alphabetize?`   🟡 meta
@@ -197,8 +201,12 @@ Kullanıcı tarifi: sol **üçgen** (2 tepede, 1 ve 4 tabanda) + sağ **dikey ko
 
 # 5) AÇIK SORULAR
 
-1. **`(364)` nedir?** — 5 aday denendi, 4'ü çürüdü. Kaynak metin bulunamadı.
-2. **`(6)` = ?** — mavi tarafın cevabı. Adaylar: `UPLOAD`(tahmin), `FRIDAY`(İ17),
-   `ISLAND`(kontur), `PUZZLE`(başlık son kelimesi).
+1. **`(364)` nedir?** — 5 aday denendi, 4'ü çürüdü. 🟡 En güçlü aday: **kalan 13 harf**
+   `DEEEFHIMORTTW` (3+6+4 = 13 birebir). Ama 200k kelimelik listeyle **28.621** geçerli
+   (3,6,4) bölme çıkıyor → ayırt edici değil. Bağlamlı 6 harfli aday: **`TOWHEE`**
+   (İpucu 2'nin ilk kuşu Towhe Bunting), ayrıca `hermit`, `feeder`.
+   ⚠️ Çelişki: 13 harfte **tek** 6 harfli kelime var, `(66)` **iki** tane istiyor.
+2. **`(6)` = ?** — mavi tarafın cevabı. Adaylar: `TOWHEE`(13 harften), `UPLOAD`(tahmin),
+   `FRIDAY`(İ17), `ISLAND`(kontur), `PUZZLE`(başlık son kelimesi). ❌ `STUNTS` öldü.
 3. **İ1'in 27 harfi ne zaman kullanılacak?** — 5/14 tespit belirsiz.
 4. **İ8 ve İ12 hangi dalı besliyor?** — bulunamadı.

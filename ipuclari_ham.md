@@ -109,6 +109,9 @@ Should I call
 it bird fence?
 ```
 Çözümü: **LAST WORD THEN NINTH** (rail fence cipher).
+> ⚠️ **Tur 8 düzeltmesi:** mekanizma klasik rail fence DEĞİL. Doğru mekanizma: şifreyi
+> ikiye böl (8+9) → 2. yarıyı ters çevir → dönüşümlü oku. Kodla doğrulandı, bkz. `cikti.md` §0-Q/1.
+> (Ham kayıt olduğu için kullanıcının orijinal satırı değiştirilmedi.)
 
 ## İPUCU 10
 ```

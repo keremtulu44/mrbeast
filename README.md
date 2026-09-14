@@ -21,14 +21,16 @@ Sıfırdan gelen biri için **tek giriş noktası.** Baştan sona okunduğunda n
 | `ipuclari_ham.md` | 17 ipucunun ham kaydı (değişmemiş birincil veri) |
 | `ipucu2_24_duzmetin.txt` | 24 plaka → 24 harf (satır satır gerekçe) |
 | `ipucu1_14_duzmetin.txt` | 14 görsel → 27 harf (görsel + lejant gerekçesi) |
-| `video4_transkript.md` | Video 4'ün tam transkripti (3032 kelime) |
+| `video4_transkript.md` | Video 4'ün tam transkripti (3.106 kelime — ölçüldü) |
 
-## Durum (2026-09-14)
-- 🔴 Kırmızı havuz `(9)` = **`BEASTSAND`** ✅ çözüldü (4 bağımsız kanıt)
+## Durum (2026-09-14, tur 8)
+- 🔴 Kırmızı havuz `(9)` = **`BEASTSAND`** ✅ çözüldü (4 bağımsız kanıt + topluluk teyidi)
 - 🔵 Mavi havuz `(6)` = **?** ❌ açık
-  - `(4445)` = `LAST WORD THEN NINTH` ✅ kanıtlı
-  - `(364)` = ? ❌ kaynağı bulunamadı (5 aday denendi, 4'ü çürüdü)
+  - `(4445)` = `LAST WORD THEN NINTH` ✅ **mekanizması da doğrulandı** (böl → tersle → dönüşümlü oku)
+  - `(364)` = 🟡 en güçlü aday **kalan 13 harf** `DEEEFHIMORTTW` (3+6+4 = 13) — ama **28.621** bölme var, kanıtsız
+  - `(66)` = `FOURTH UPLOAD` ⚠️ üçüncü taraf tahmini, 17 ipucunda geçmiyor
   - ImageShack `BeastForce67` yolu **kapandı** → $1M avına ait (WATER=67 kanıtı)
+- 🧹 Tur 8: 58 sayısal iddia yeniden hesaplandı (58/58), 8 veri hatası düzeltildi → `cikti.md` §0-Q
 
 ## Altın kurallar
 - Her şeyi kendin doğrula · mantıksızsa şüpheli kaydet · workspace'e yaz ve pushla

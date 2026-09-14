@@ -1,7 +1,7 @@
 # MrBeast Gizli $10.000 Bulmacası — Çözüm Defteri
 
 **Video:** `82CX6WULNA0` — "How 1 Person Solved A $1,000,000 Puzzle!" (Colin)
-**Son güncelleme:** 2026-09-13
+**Son güncelleme:** 2026-09-14 · **Tur 8** (veri düzenleme + bağımsız yeniden hesaplama: bkz. §0-Q)
 
 ---
 
@@ -390,7 +390,7 @@ D  E  E  E  F  I  M  O  R  S  T  T  W
 | 6 | Afrika + ot | **Savannah Finch** | **109** | **fringillasavanna** | 16 | **n** | **a** | 🔒 |
 | 7 | 😂 | **Laughing Gull** | 314 | larusatricilla | 14 | **c** | **L** | 🔒 |
 | 8 | Mavi gözlük | Blue-eyed Y. Warbler | 95 | sylviaaestiva | 13 | i | a | 🟡 |
-| 9 | 4 bar + ok en küçük | **Least Stormy Petrel** | **340** | **thalassidromapelagica** | 20 | **i** | **m** | 🔒 |
+| 9 | 4 bar + ok en küçük | **Least Stormy Petrel** | **340** | **thalassidromapelagica** | **21** | **i** | **a** | 🔒 *(düzeltildi: L=21, sondan 9. = a)* |
 | 10 | Kahverengi kadın mayosu | Water-hen | 349? | rallus? | ? | ? | — | ⚠️ |
 | 11 | ABD bayrağı + ahır | Barn Swallow | 173 | hirundorustica | 14 | o | t | 🟡 |
 | 12 | Elf | Children's Warbler | 35 | sylvicolachildrenii | 19 | y | a | 🟡 |
@@ -430,7 +430,7 @@ D  E  E  E  F  I  M  O  R  S  T  T  W
 ## İpucu 1'in 27 harfi (mevcut en iyi tahmin)
 
 ```
-c o | e d | a f | n v | l i | n a | c L | i a | i m | ? | o t | y a | c h | e a
+c o | e d | a f | n v | l i | n a | c L | i a | i a | ? | o t | y a | c h | e a
 ```
 
 ⚠️ **Henüz okunmuyor.** Harf dağılımı İngilizce değil (a=5, c/i=3'er, e=2; İngilizcede **e** en sık olmalı).
@@ -453,11 +453,11 @@ c o | e d | a f | n v | l i | n a | c L | i a | i m | ? | o t | y a | c h | e a
 | 6 | `142674 / 251634 / 461427` | ✅ 251634 = ANAHTAR; 214674'e uygulandı |
 | 7 | `PLATES` | ✅ Sayılar = plaka numarası; `46TH PLATE` |
 | 8 | `Youtube link watch?` | 🟡 Meta. Eski okuma: `NQX FILM` → `NTH FILM` |
-| 9 | Rail fence → `LAST WORD THEN NINTH` | ✅ Çözüldü (kullanıcı yöntemi: ikiye böl, 2. yarıyı ters çevir, dönüşümlü oku) |
+| 9 | Transpozisyon → `LAST WORD THEN NINTH` | ✅ **Çözüldü + mekanizma kodla doğrulandı** (ikiye böl 8+9, 2. yarıyı ters çevir, dönüşümlü oku) — klasik rail fence değil, bkz. §0-Q/1 |
 | 10 | `Book w/ old names… Alphabetize?` | 🟡 Meta/doğrulama (işlem değil) |
 | 11 | `Roman numbers for Roman words?` | ✅ Latince ad kuralını doğruluyor |
 | 12 | `Boo!` (kitap üstünde) + `Five of these` | 🟡 **BOO + K = BOOK** → Birds of America. "Five of these" = FIVE+TH = **FIFTH** |
-| 13 | `(527)→(83544)→M̶R̶(9)` | ✅ **`MRBEASTHAND`** (MR + 9) |
+| 13 | `(527)→(83544)→M̶R̶(9)` | ✅ **`BEASTSAND`** (MR̶ atılınca kalan 9 harf) — bkz. §4 |
 | 14 | `(364)→(66)→(6)` (video sonu, mavi/mavi) | 🟡 364 = iki tarih arası; (6) = **FRIDAY** (6 harf) hipotezi |
 | 15 | `(364)(4445)→(66)→(6)` (beyaz/mavi) | 🟡 4445 = `LAST WORD THEN NINTH` uzunluk kodu |
 | 16 | `214` + `674` (iki ayrı üçlü, elektrik panoları) | ✅ Ana zincirin girdisi |
@@ -472,7 +472,7 @@ c o | e d | a f | n v | l i | n a | c L | i a | i m | ? | o t | y a | c h | e a
 
 # 7) AÇIK SORULAR / SONRAKİ ADIMLAR
 
-1. **Kalan 13 harfin dizilişi** (`D E E E F I M O R S T T W`) — İspanyolca/Latince kelime grubu denenecek.
+1. **Kalan 13 harfin dizilişi** (`D E E E F H I M O R T T W`) — 9 dil tarandı, sonuç yok (bkz. `ucuncu_taraf_degerlendirme.md` EK A); güncel aday `(364)`=bu 13 harf → bkz. §0-P ve §0-Q.
 2. **İpucu 1'in 27 harfi okunmuyor** → 6 tespit daha doğrulanmalı: 197, 95, 349, 233, 203, 204.
 3. **#1 (Umman bayrağı):** bayrak = "simgelediği şey" (ülke/millet) → 197 Crossbill mi 217 Louisiana Heron mu?
 4. **#10:** `su + dişi(hen) + kahverengi` → Water-hen. Hangi plaka? (349 / 233 / 203 / 204)
@@ -492,9 +492,7 @@ c o | e d | a f | n v | l i | n a | c L | i a | i m | ? | o t | y a | c h | e a
   Multi-tap: `444`=I, `44`=H, `4445`=IJ, `44455`=IK, `66`=N, `6`=M, `527`=JAP, `364`=DMG
 - **5. video** = "POKEMON GO STEREOTYPES" (2016-07-14). Outro: "...WATCH MY LAST VIDEO IT WAS EPIC / CHOOSE ONE" + taş-kağıt-makas. Açıklamadaki Rock/Paper/Scissors linkleri **2016 şablonu** (aynı 3 ID farklı etiketlerle dönüyor) → "Paper" özel video değil.
 - **Kasa sahnesi CC:** "R-62… L-39… Your **fingers** are shaking! / Wait, **hold your hand out like this**. / It's a **MILLION DOLLAR** combination! / R… 0-5… L-73…" — transkriptte "Hands" YOK; H/I büyük harfleri ekran üstü yazıdan geliyor.
-- **İpucu 9 rail fence:** `LSWRTE / NNHTIN / HDOTA` → ikiye böl, 2. yarıyı ters çevir, dönüşümlü oku → `LAST WORD THEN NINTH` ✓
-</content>
-</invoke>
+- **İpucu 9 rail fence:** `LSWRTE / NNHTIN / HDOTA` → ikiye böl, 2. yarıyı ters çevir, dönüşümlü oku → `LAST WORD THEN NINTH` ✓  ⚠️ mekanizma adı "rail fence" DEĞİL — bkz. §0-Q/1
 
 ---
 
@@ -660,7 +658,7 @@ Hiçbiri `(6)` havuzu için ikna edici değil (başlıktan 6 harfli kelime
 
 # 0-G) 📼 VİDEO 4 TRANSKRİPTİ ÇEKİLDİ — ANALİZ (2026-09-13)
 
-**Dosya:** `video4_transkript.md` (384 satır, 3032 kelime, tam transkript)
+**Dosya:** `video4_transkript.md` (419 satır, **3.106 kelime** — tur 8'de yeniden sayıldı, tam transkript)
 **Kaynak:** `$1 vs $500,000 Experiences!` · `Xj0Jtjg3lHQ` · 2 Kas 2024 · 17:39
 
 ## "LAST WORD THEN NINTH" — tüm okumalar denendi
@@ -678,7 +676,7 @@ Hiçbiri `(6)` havuzu için ikna edici değil (başlıktan 6 harfli kelime
 ekrandaki görsellerde + sabit yorumda.)
 
 ## ❌ `STUNTS` 4. KEZ ÇÜRÜDÜ
-Transkriptte **`stunt` kelimesi hiç geçmiyor** (3032 kelime tarandı).
+Transkriptte **`stunt` kelimesi hiç geçmiyor** (3.106 kelime tarandı).
 Önceki çürütmeler: (1) 24 harfli pembe havuzda U yok, (2) çıkarım adımı hiç
 gösterilmedi, (3) başlıkta T ve U yok. → **`(6) = STUNTS` kesin öldü.**
 
@@ -1297,3 +1295,93 @@ mavi havuz 6 harfli bir kelime olmalı.
 13 harf 3+6+4'e bölünürse → **6 harfli kelime hangisi?** (66) iki 6-harfli
 kelime istiyor; 13 harfte tek 6-harfli kelime var. Bu çelişki ya gruplamanın
 (3,6,4) olmadığını ya da (66)'nın buradan gelmediğini gösterir.
+
+---
+# 0-Q) 🧹 TUR 8 — VERİ DÜZENLEME + BAĞIMSIZ YENİDEN HESAPLAMA (2026-09-14)
+
+Bu turda **yeni ipucu yok**; mevcut veri baştan doğrulandı, çelişkiler temizlendi.
+
+## 1) ✅ İPUCU 9'UN MEKANİZMASI BULUNDU — KODLA DOĞRULANDI
+Şimdiye kadar "çözüm anagram, mekanizma bilinmiyor" diyorduk. **Yanlıştı — mekanizma var:**
+```
+şifre : LSWRTE / NNHTIN / HDOTA   →  LSWRTENNHTINHDOTA  (17 harf)
+① ikiye böl        : LSWRTENN | HTINHDOTA          (8 + 9)
+② 2. yarıyı tersle : LSWRTENN | ATODHNITH
+③ dönüşümlü oku    : L A S T W O R D T H E N N I N T H   ✅ BİREBİR
+```
+9+8 bölünüşünde de aynı sonuç çıkıyor. Yani `LAST WORD THEN NINTH` **tesadüfî bir
+anagram değil, gerçek bir transpozisyon.** (Kullanıcının tarif ettiği yöntem buydu;
+tur 8'de kodla teyit edildi.)
+
+**Klasik "rail fence" ÇÜRÜK kalıyor:** 2–8 ray encode/decode + 2–17 kolonlu kolonar
+transpozisyon tarandı → hiçbiri bu şifre metnini üretmiyor. "bird fence?" = espri +
+"çit gibi dizme" iması, standart rail fence adı değil.
+
+→ **Sonuç: `(4445) = LAST WORD THEN NINTH` artık hem içerik hem mekanizma olarak kanıtlı.**
+
+## 2) ✅ BELGELERDEKİ SAYISAL İDDİALAR YENİDEN HESAPLANDI — 58/58
+Bağımsız bir scriptle (Python) tüm temel iddialar yeniden üretildi. **58 kontrol, 0 uyumsuz:**
+
+| Alan | Doğrulanan |
+|---|---|
+| İpucu 2 | 24 plaka + Roma → `IBRTADSSOREMHTDFNATEEMEW` · İngilizce ada göre alfabetik → `MRWBEASTSATDHEREOFNIDTEM` · havuz `A2 B1 D2 E4 F1 H1 I1 M2 N1 O1 R2 S2 T3 W1` |
+| Kırmızı havuz | `BEASTSAND` yazılabiliyor · `BEASTHAND` de yazılabiliyor (ayırt edici değil) · **`CHRISTMAS` yazılamıyor (C yok)** · `MRBEASTS` kelime / `MRBEASTH` değil |
+| Kalan 13 harf | `DEEEFHIMORTTW` ✓ (0-P'nin girdisi doğru) |
+| Ana zincir | `214674 --251634--> 172446` · `214764 --241635--> 172446` · `17\|24\|46 → Q X 46` · 360 permütasyonun **0**'ı üç geçerli A1Z26 çifti veriyor |
+| İpucu 9 | anagram ✓ · `NIGHT` varyantı uyuşmuyor ✓ · klasik rail fence üretmiyor ✓ |
+| İpucu 1 | 27 harf `coedafnvlinacliaiajotyachea` ✓ · kırmızılar `ceanlnciijoyce` ✓ · maviler `odfvialaataha` ✓ · çift sırası ters → `eachyaot…` (**EACH**) ✓ · `thalassidromapelagica` = 21 harf, sondan 9. = `a` ✓ |
+| Notasyon | `(527)`=5,2,7 ✓ · `8+3+5+4+4`=24 ✓ · `4+4+4+5`=17 ✓ · `6+6`=12 ✓ · `BEASTSAND`=9 ✓ |
+| Yan kanıtlar | `WATER`=67 + 9 karşılaştırma değeri ✓ · $1M anahtarı `5,9,5,7,8,4,9,6,5`=58 ✓ · 1 Tem 1988 & 30 Haz 1989 **ikisi de Cuma**, araları **364 gün** ✓ · plaka 364 lejantı 18/14 kelime, LAST WORD `alder`(5) ✓ |
+
+## 3) ⚠️ DÜZELTME: "12 okumadan yalnızca 214674 geçerli" — YANLIŞTI
+`[harf][harf][sayı]` **biçimini iki okuma veriyor:**
+```
+214674 --251634--> 172446 --> 17|24|46 --> Q  X  46     ← İpucu 5'in QX'i  ✅
+214476 --251634--> 172644 --> 17|26|44 --> Q  Z  44     ← biçim geçerli, ama QX değil
+```
+→ Zincir yine **tek** okumaya dayanıyor; gerekçesi "biçim geçerliliği" değil,
+**İpucu 5'teki `QX` çiftinin yalnızca `214674`'ten çıkması.** (§2 ve ana belge güncellendi.)
+
+## 4) 🔓 0-P'NİN ENGELİ KALKTI — ANAGRAM TAM TARANDI
+0-P "sandbox'ta sözlük yok, internet yok" diyordu. **Artık geçerli değil:**
+`pip` + internet var → `wordfreq` (200.000 kelimelik frekans listesi) kuruldu.
+13 harf `D E E E F H I M O R T T W`, hedef 3+6+4:
+```
+havuzdan yazılabilen kelime : 3 harf = 694 · 4 harf = 529 · 6 harf = 121
+(3,6,4) TAM BÖLME SAYISI    : 28.621
+en yüksek frekanslı gruplar : few+editor+them · fit+method+were · fed+remote+with
+                              few+mother+diet · few+mother+tide (0-P'nin elle bulduğu)
+anlamlı üçlü                : two + hermit + feed
+```
+### 🐦 Dikkat çeken aday: `TOWHEE`
+121 altı harfli adayın içinde **`TOWHEE`** var — **İpucu 2'nin ilk kuşu** *Towhe Bunting*
+(plaka 029, `Fringilla erythrophthalma` → I). Aynı kitaptan bir kuş adının kalan 13 harften
+çıkması tesadüf olabilir ama bağlama oturuyor. `TOWHEE` **660** farklı (3,6,4) bölmede geçiyor
+(diğer bağlamlı adaylar: `hermit` 164 bölme, `feeder`, `meteor`, `wither`).
+
+### ❌ Neden yine de kanıt değil
+- **28.621** geçerli bölme var → `(83544)`'te yaşadığımız 110.028 sorununun aynısı.
+- **Yapısal çelişki duruyor:** 13 harfte **tek** 6 harfli kelime var; `(66)` ise **iki** tane
+  istiyor. Yani `(364)→(66)` adımı bu okumayla **kapanmıyor.**
+→ `(364)` = kalan 13 harf **en güçlü aday** ama **kanıtsız**. Ayırt etmek için
+`(66)`'nın gerçek kaynağı gerekiyor.
+
+## 5) 🧹 BU TURDA DÜZELTİLEN VERİ HATALARI
+| # | Dosya | Hata → Düzeltme |
+|---|---|---|
+| 1 | `cikti.md` §8 | Dosyaya sızmış `</content>` / `</invoke>` artığı **silindi** |
+| 2 | `cikti.md` §6 | İpucu 13 hâlâ `MRBEASTHAND` diyordu → **`BEASTSAND`** (HAND §4'te çürütülmüştü) |
+| 3 | `cikti.md` §7 | Kalan 13 harf `D E E E F I M O R S T T W` (HAND dönemi) → **`D E E E F H I M O R T T W`** |
+| 4 | `cikti.md` §5 | #9 satırı `L=20 / mavi m` → **`L=21 / mavi a`** (düzeltme yalnızca düzmetin dosyasındaydı); 27 harf satırındaki `i m` → `i a` |
+| 5 | `cikti.md` §6 + §8 | "Rail fence" etiketi → **transpozisyon** (mekanizma §0-Q/1'de kanıtlandı) |
+| 6 | `BULMACA_ANA_DOKUMAN.md` §2 | Silinmiş `ikinci_gorus_promptu.md` envanterden **çıkarıldı** |
+| 7 | `BULMACA_ANA_DOKUMAN.md` §12 | `(66)=FOURTH UPLOAD → Video 4` "BİLİNEN" listesinden **ŞÜPHELİ'ye** taşındı; SON SÖZ Video 4'e işaret etmekten çıkarıldı (o yol §8'de gömülü) |
+| 8 | `README.md` | "3032 kelime" → **3.106** (transkript bölümü sayıldı) |
+
+## 6) 👉 SIRADAKİ ADIM
+`(66)`'nın kaynağını bulmak. Üç somut hat:
+1. **`(364)` = kalan 13 harf** ise `(66)` neden **iki** 6 harfli kelime istiyor?
+   (Belki `(66)` = 6 harfli kelime + onun 6 harfli bir türevi/anagramı.)
+2. **FRIDAY yolu** (İpucu 17): `FRIDAY | FRIDAY` = (66), `FRIDAY` = (6) — yapıyı tek
+   başına karşılayan okuma, ama 364'ün İ14'te kullanıldığı itirazı duruyor.
+3. **İpucu 1'in 27 harfi** (5 tespit belirsiz) — netleşirse mavi tarafı besleyebilir.
