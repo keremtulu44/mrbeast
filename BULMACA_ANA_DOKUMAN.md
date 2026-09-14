@@ -303,10 +303,34 @@ Topluluk: `XOR | SUPERB | OWLS` (3+6+4 ✓ uzunluk koduyla uyumlu).
   reklamındaydı — bağımsız kaynaklarla doğrulandı).
 - **AMA `XOR` 17 ipucumuzun hiçbirinde yok** → kaynağı belirsiz, şüpheli.
 
+### 🔥 YENİ BULUŞ: `(364)` = **KALAN 13 HARF** (3+6+4 = 13 — BİREBİR)
+24 harfli havuzdan `MRBEASTSAND` çıkarıldığında **13 harf** kalıyor:
+```
+D  E  E  E  F  H  I  M  O  R  T  T  W     = 13 harf
+(364) uzunluk kodu → 3 + 6 + 4 = 13          ✅ TAM ÖRTÜŞME
+```
+**Çifte tutarlılık:** aynı 13 harf, İpucu 13'ün `(83544)` = 8,3,5,4,4 kodunun
+kalan grubuyla (5+4+4 = 13) da örtüşüyor → kalan harfler **amaçsız artık değil,
+mavi tarafın GİRDİSİ** olabilir. *(Daha önce "gerekli değil" demiştik — ŞÜPHELİ olarak güncellendi.)*
+
+**Deneme:** sandbox'ta sözlük yok (`/usr/share/dict` boş, internet yok) → elle
+yazılmış küçük listeyle 90 gruplama çıktı. Temiz örnekler (13 harfi birebir kullanan):
+`FEW + MOTHER + TIDE` · `WIT + MOTHER + FEED` · `FIT + MOTHER + WEED`
+
+**👉 Harici anagram çözücüye verilecek prompt:**
+```
+Harf havuzu: D E E E F H I M O R T T W  (13 harf, hepsi tam bir kez)
+Görev: 3 + 6 + 4 harfli ÜÇ İngilizce kelimeye böl.
+Bağlam: Audubon "Birds of America" plakaları, kırmızı havuz BEASTSAND,
+mavi havuz 6 harfli bir kelime olmalı.
+```
+⚠️ **Çelişki not edildi:** 13 harf tek bir 6-harfli kelime barındırıyor, `(66)`
+ise İKİ tane istiyor → ya gruplama (3,6,4) değil, ya `(66)` buradan gelmiyor.
+
 ### 📊 364'ün alternatif anlamları — bağımsız denetim (2026-09-13)
 | Aday | Gerçek mi? | Bu bulmacada karşılığı | Güven |
 |---|---|---|---|
-| **Uzunluk kodu 3,6,4 = 13 harf** | ✅ **kuralımız (5 örnek)** | her çok haneli kod gibi | 🥇 **EN YÜKSEK** |
+| **Uzunluk kodu 3,6,4 = 13 harf = KALAN 13 HARF** | ✅ **kuralımız (5 örnek)** | **havuzdan `BEASTSAND` çıktıktan sonra kalan 13 harf: `DEEEFHIMORTTW`** — 3+6+4 = 13 **BİREBİR** | 🥇 **EN YÜKSEK + SOMUT KAYNAK** |
 | **İpucu 17'nin 364 günü** (52×7) | ✅ | kendi ham verimiz | 🥈 |
 | **PLAKA 364 = White-winged Crossbill** | ✅ **3 bağımsız kaynak** | plaka mekaniği + İpucu 1 #1 crossbill | ❌ **ÇÜRÜDÜ — `(66)` üretemiyor** (lejant testi, aşağıda) |
 | İskambil destesi 4×91 = 364 | ✅ | kart motifi kanıtı yok | ⚠️ zayıf |
