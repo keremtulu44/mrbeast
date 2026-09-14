@@ -384,8 +384,22 @@ Numara: set 73, plaka CCCLXIV (364) ✓
 (6)   = FRIDAY            → 6      ✅
 ```
 ⚠️ **Doğrulanmış veriyle `(66)`→`(6)` yapısını karşılayan TEK okuma.**
-Ama kullanıcı notu: bu 364 İpucu 17'den geliyor ve İpucu 14'te kullanıldı →
-İpucu 15'in `(364)`'ü aynı girdi olamaz. **Açık soru olarak duruyor.**
+~~Ama kullanıcı notu: bu 364 İpucu 17'den geliyor ve İpucu 14'te kullanıldı →
+İpucu 15'in `(364)`'ü aynı girdi olamaz.~~
+🔄 **TUR 10'da bu itiraz GEÇERSİZ bulundu:** İ15 = İ14 + TALİMAT. Yani ikisi ayrı
+zincir değil, **aynı zincirin iki yazımı** — `(364)`'ün ikisinde de geçmesi tekrar
+değil zorunluluk. ("Orada kullanıldıysa tekrara düşmez" kuralı $1M malzemesi içindi.)
+→ **`FRIDAY` yeniden EN GÜÇLÜ aday.** Tek eksiği: talimatın bunu nasıl ürettiği.
+
+### 🔑 `(66)` NEDEN İKİ AYNI RAKAM? (tur 10 bulgusu)
+```
+9 kelimelik bir metinde  9. KELİME = SON KELİME
+→ "LAST WORD THEN NINTH" → İKİ SEÇİM DE AYNI KELİME → (66) = X | X
+```
+Bu; (a) `66`'nın neden `67`/`57` değil **iki aynı rakam** olduğunu, (b) `(66)→(6)`
+adımının neden "LAST WORD" olduğunu açıklıyor. **Tahmin: kaynak metin TAM 9 KELİME
+ve son kelimesi 6 HARF.** Elimizdeki tek 9 kelimelik metin ($1M anahtarı) `WORLD`(5)
+ile bitiyor → `(55)` verirdi, `(66)` değil → ❌ **o kaynak değil** (tur 10 kanıtı).
 
 ### ❌ `NIGHT` değil `NINTH` — kesin
 ```
@@ -512,6 +526,8 @@ Topluluğun en popüler iddiası `STUNTS`. Bağımsız denetim:
 ## `(6)` aday tablosu
 | Aday | Gerekçe | Güven |
 |---|---|---|
+| **`FRIDAY`** | İpucu 17 doğrulanmış veri (iki tarih de Cuma, 364 gün = 52 hafta) · `(66)=FRIDAY\|FRIDAY` **"iki aynı rakam"ı açıklayan tek okuma** · 6 harf ✓ | 🥇 **EN GÜÇLÜ** |
+| `TOWHEE` | `(364)`=kalan 13 harf ise; İpucu 2'nin ilk kuşu (plaka 029) | ⚠️ 117.182 bölme → ayırt edici değil |
 | `STUNTS` | sadece "6 harf" şartını sağlıyor | ❌ **ÖLDÜ** |
 | ~~`UPLOAD`~~ | dayanağı `(66)=FOURTH UPLOAD` idi → o çürüdü (tur 9) | ❌ **dayanağı öldü** |
 | `ISLAND` | 6 harf + $10.000 çizimindeki kontur/ada + anahtar cümle KONUM diyor | ⚠️ orta |
@@ -609,7 +625,8 @@ Doğrusu **"73" değil "L73"**.
    `MRBEASTSAND` çıkınca kalan `D E E E F H I M O R T T W`. **AMA** 200.000 kelimelik
    frekans listesiyle **28.621** geçerli (3,6,4) bölme var (§0-Q) → tek başına kanıt değil.
    Ayırt etmek için `(66)`'nın kaynağı şart.
-2. `FRIDAY` (İpucu 17) — **yapıyı tek başına karşılayan tek okuma** (6 harf ✓)
+2. 🥇 `FRIDAY` (İpucu 17) — **tur 10'da yeniden en güçlü aday**: itiraz geçersiz
+   bulundu (İ15 = İ14 + talimat) ve `(66)=X|X` yapısını açıklayan tek okuma
 3. İpucu 1'in 27 harfi — 5 tespit belirsiz, netleşirse mavi tarafı besleyebilir
 4. Video 4'teki **ekrandaki grafikler** (karıştırılmış konum adları + renkli harfler)
 
@@ -651,7 +668,7 @@ Henüz kullanılmadı.
 | | |
 |---|---|
 | ✅ **BİLİNEN** | Yöntem (plaka → Latince ad → harf) · `46TH PLATE` zinciri · 24 plaka/24 harf · Notasyon kuralı `(N)` · **Kırmızı havuz = `BEASTSAND`** · `(4445) = LAST WORD THEN NINTH` (**mekanizması da doğrulandı**) |
-| ❌ **BİLİNMEYEN** | **`(6)` = mavi havuz** · `(364)`'ün anlamı · İpucu 1'in 27 harfi · kalan 13 harf · 142674/461427 · tarihlerin yeri |
+| ❌ **BİLİNMEYEN** | **`(6)` = mavi havuz** (🥇 aday `FRIDAY`) · `(364)`'ün anlamı · `(66)`'nın kaynağı (**6 harfle biten 9 kelimelik metin**) · İpucu 1'in 27 harfi · kalan 13 harf · 142674/461427 |
 | ⚠️ **ŞÜPHELİ** | `XOR` kaynağı · PDF alıntıları · `#10 = 203` · `(364)` = kalan 13 harf (28.621 bölme) · kullanıcının hatırladığı "…vacay a la…" cümlesi (§0-R/5) |
 | ❌ **ÖLÜ** | `(66) = FOURTH UPLOAD` · `NQX FILM/NTH FILM` · `STUNTS` · `CHRISTMAS` · plaka 364 · ImageShack kartı · klasik rail fence |
 

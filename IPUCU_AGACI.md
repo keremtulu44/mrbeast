@@ -205,14 +205,18 @@ Kullanıcı tarifi: sol **üçgen** (2 tepede, 1 ve 4 tabanda) + sağ **dikey ko
 
 # 5) AÇIK SORULAR
 
-0. **`(66)` nedir?** — `FOURTH UPLOAD` çürüdü. Elde kalan: 6+6 harfli iki kelime.
-   İpucu 12'nin **"Five"**'ı tek sayı-kelimesi → buradan kurulmalı.
+0. **`(66)` nedir?** — `FOURTH UPLOAD` çürüdü. 🔑 **Tur 10 bulgusu:** 9 kelimelik
+   metinde 9. kelime = son kelime → "LAST WORD THEN NINTH" aynı kelimeyi iki kez
+   döndürür → `(66)` = **X | X**. Yani kaynak metin **TAM 9 KELİME** ve son kelimesi
+   **6 HARF**. Elimizdeki tek 9 kelimelik metin ($1M anahtarı) `WORLD`(5) ile bitiyor
+   → `(55)` verirdi → ❌ o değil. 🥇 Bu yapıya uyan tek aday: **`FRIDAY | FRIDAY`**.
 1. **`(364)` nedir?** — 5 aday denendi, 4'ü çürüdü. 🟡 En güçlü aday: **kalan 13 harf**
    `DEEEFHIMORTTW` (3+6+4 = 13 birebir). Ama 200k kelimelik listeyle **28.621** geçerli
    (3,6,4) bölme çıkıyor → ayırt edici değil. Bağlamlı 6 harfli aday: **`TOWHEE`**
    (İpucu 2'nin ilk kuşu Towhe Bunting), ayrıca `hermit`, `feeder`.
    ⚠️ Çelişki: 13 harfte **tek** 6 harfli kelime var, `(66)` **iki** tane istiyor.
-2. **`(6)` = ?** — mavi tarafın cevabı. Adaylar: `TOWHEE`(13 harften), `UPLOAD`(tahmin),
-   `FRIDAY`(İ17), `ISLAND`(kontur), `PUZZLE`(başlık son kelimesi). ❌ `STUNTS` öldü.
+2. **`(6)` = ?** — 🥇 **`FRIDAY`** (tur 10: İ15=İ14+talimat olduğu için "tekrar"
+   itirazı geçersiz; `(66)=X|X` yapısını açıklayan tek okuma) · sonra `TOWHEE`,
+   `ISLAND`, `PUZZLE`. ❌ ölenler: `STUNTS`, `UPLOAD` (dayanağı çürüdü).
 3. **İ1'in 27 harfi ne zaman kullanılacak?** — 5/14 tespit belirsiz.
 4. **İ8 ve İ12 hangi dalı besliyor?** — bulunamadı.

@@ -1513,3 +1513,109 @@ Tek yapısal örtüşme: **tuş takımında tam 24 harf var (Q/Z yok) = 24 plaka
    (#1 çapraz kılıç, #8 mavi/göz, #10 arka planın rengi, #12 çocuk/elf, #13 altın).
    Teşhis kriteri: doğru tespitler envantere **s / r / u / e** kazandırmalı.
 3. İpucu 8 (`Youtube link watch?`) yeniden tamamen açık — "NTH FILM" notu silindi.
+
+---
+# 0-S) 🔬 TUR 10 — "`(66)`'NIN KAYNAĞI" ADIM ADIM ÇALIŞMA (2026-09-14)
+
+Mavi zincirin tek eksik halkası `(66)`. Dört adımda, her adımı hesaplayarak gidildi.
+
+## ADIM 1 — Zincirin aritmetiği: ne doğru olmak ZORUNDA?
+```
+(364)   GİRDİ      3 kelime · 3+6+4  = 13 harf
+(4445)  TALİMAT    4 kelime · 4+4+4+5 = 17 harf   ✅ LAST WORD THEN NINTH
+(66)    ARA ÇIKTI  2 kelime · 6+6    = 12 harf   ❓
+(6)     CEVAP      1 kelime · 6      =  6 harf   ❓
+```
+TALİMAT iki seçim emri veriyor: **"LAST WORD"** (son kelime) + **"THEN NINTH"** (9. kelime).
+→ Zorunlu koşullar: kaynak metin **en az 9 birim** içermeli; **son birim 6 harfli**;
+**9. birim 6 harfli**; `(66)→(6)` = "LAST WORD" = ikinci kelime ✓ (kendi içinde tutarlı).
+
+## ADIM 2 — Elimizdeki TÜM metinler testten geçirildi
+| Metin | Kelime | Son | 9. kelime | `(66)`? |
+|---|---|---|---|---|
+| $1M 9 kelimelik anahtar | 9 | `WORLD`(5) | `WORLD`(5) | ❌ |
+| `82CX6WULNA0` gerçek başlığı | 5 | `Puzzle`(6) | — | ❌ |
+| `Xj0Jtjg3lHQ` gerçek başlığı | 2 | `Experiences`(11) | — | ❌ |
+| İpucu 9 notu ("Should I call it bird fence") | 6 | `fence`(5) | — | ❌ |
+| İpucu 10 ("Book with old names Alphabetize") | 5 | `Alphabetize`(11) | — | ❌ |
+| İpucu 12 ("Boo Five of these") | 4 | `these`(5) | — | ❌ |
+| *Ornithological Biography* tam başlığı | 17 | `America`(7) | `of`(2) | ❌ |
+| 24 kuşun alfabetik adı (kelime dizisi) | 48 | `Dove`(4) | `Downy`(5) | ❌ |
+| Video 4 transkripti (3.234 kelime) | 3234 | `guys`(4) | `half`(4) | ❌ |
+
+⚠️ **Kendi hatam ve düzeltmesi:** ilk çalıştırmada "Bulmaca videosu başlığı ✅" çıktı.
+Yanlıştı — başlığı kendim kelimelere çevirmiştim ("1"→"One", "$1,000,000"→"One Million
+Dollar"). **Gerçek başlıkta 5 harf-kelime var**, şart sağlanmıyor. Düzeltildi.
+
+### 🔑 ADIM 2'NİN ASIL BULGUSU — `66` neden İKİ AYNI RAKAM?
+```
+9 kelimelik bir metinde  9. KELİME = SON KELİME  (aynı şey!)
+→ "LAST WORD THEN NINTH" 9 kelimelik metne uygulanırsa
+  İKİ SEÇİM DE AYNI KELİMEYİ döndürür  →  (66) = X | X
+```
+**Bu, üç şeyi birden açıklıyor:**
+1. `(66)`'nın neden `67` / `57` değil de **iki aynı rakam** olduğunu
+2. `(66) → (6)` adımının neden "LAST WORD" olduğunu (iki kelime aynı olunca sonuncusu = kendisi)
+3. Neden `(364)+(4445)` = 7 kelime → 2 kelime → 1 kelime diye küçüldüğünü
+
+→ **TAHMİN: kaynak metin TAM 9 KELİME ve son kelimesi 6 HARF.**
+Not: bu yapı `(66) = FRIDAY | FRIDAY` okumasıyla birebir aynı şey.
+
+## ADIM 3 — Serbest anagram taraması: temiz bir cümle var mı?
+Kelime-uzunluğu kısıtı OLMADAN, 80.000 kelimelik listeyle tam bölme arandı
+(≥3 harf, zipf ≥ 2.5, en çok 7 kelime, ortalama frekansa göre sıralı):
+```
+24 HARF: 6.079 aday kelime → 189.191 tam bölme
+  en iyiler: "aadmi bdo eft mrs new rest the" · "aadmi bdo eft new rss term the"  → ÇÖP
+13 HARF:   560 aday kelime → 117.182 tam bölme
+  en iyiler: "for met the wide" · "for the time wed" · "die from the wet"        → ÇÖP
+```
+**Sonuç: ne 24 harften ne 13 harften anlamlı bir cümle çıkıyor.**
+→ `(364)` = kalan 13 harf hipotezinin **anlamsal desteği YOK**; 117.182 bölme
+arasından seçim keyfî olur. (Tur 8'deki 28.621'in serbest hâli.)
+→ 24 harf için elde kalan tek anlamlı okuma hâlâ `(83544)` kodunun verdiği
+**`MRBEASTS AND …`** — o da 5 kelimelik devamı bulunamadığı için yarım.
+
+## ADIM 4 — İki kritik yeniden değerlendirme
+
+### 4a) ❌ $1M anahtar cümlesi `(66)`'nın kaynağı DEĞİL — kanıtlı
+```
+9 kelime, son kelime = 9. kelime = "WORLD" (5 harf)
+"LAST WORD THEN NINTH" → WORLD | WORLD = (5,5) = (55)
+Ama notta (66) yazıyor → ❌ KAYNAK DEĞİL
+```
+Bu, $10K ile $1M'i ayıran **bağımsız bir kanıt daha** (WATER=67 ve Şubat zamanlamasına ek).
+
+### 4b) 🔄 FRIDAY okumasına gelen itiraz GEÇERSİZ — yeniden değerlendirildi
+İtiraz şuydu: *"bu 364 İpucu 14'te kullanıldı → İpucu 15'te tekrar kullanılmaz."*
+```
+İpucu 14:  (364) → (66) → (6)             [mavi ped, video sonu]
+İpucu 15:  (364) (4445) → (66) → (6)       [beyaz ped]
+```
+**İ15 = İ14 + TALİMAT.** Bunlar iki ayrı zincir değil, **aynı zincirin iki yazımı.**
+`(364)`'ün ikisinde de geçmesi "tekrar" değil **zorunluluk.** Kullanıcının
+*"orada kullanıldıysa tekrara düşmez"* kuralı farklı bir durum içindi: **$1M avının
+malzemesi** olan kart (başka bulmacaya aitti). Burada aynı bulmacanın iki notu var.
+→ **İtiraz bu biçimiyle geçersiz; FRIDAY yeniden en güçlü aday.**
+
+## 🎯 TUR 10 SONUCU — `(6)` için güncel sıralama
+| Sıra | Aday | Gerekçe | Durum |
+|---|---|---|---|
+| 🥇 | **`FRIDAY`** | İpucu 17 **doğrulanmış veri** (1 Tem 1988 = Cuma, 30 Haz 1989 = Cuma, 364 gün = 52 hafta) · `(66)=FRIDAY\|FRIDAY` **"iki aynı rakam"ı açıklayan tek okuma** · `(6)=FRIDAY` 6 harf ✓ | 🟡 **EN GÜÇLÜ** — ama talimatın bunu nasıl ürettiği gösterilemedi |
+| 🥈 | `TOWHEE` | `(364)`=kalan 13 harf ise; İpucu 2'nin ilk kuşu (plaka 029) | ⚠️ 28.621/117.182 bölme → ayırt edici değil |
+| 🥉 | `ISLAND` | $10.000 çizimindeki kontur + "LOCATION NAME" anahtarı | ⚠️ spekülatif |
+| 4 | `PUZZLE` | video başlığının son kelimesi (6 harf) | ⚠️ spekülatif |
+| ❌ | ~~`UPLOAD`~~ | dayanağı `FOURTH UPLOAD` çürüdü | **ÖLDÜ** |
+| ❌ | ~~`STUNTS`~~ | 4 bağımsız çürütme + 27 harfte U yok | **ÖLDÜ** |
+
+### `(66)` için elde kalan tek yapısal bilgi
+**Aynı 6 harfli kelimenin iki kez yazılması.** Kaynak metin **tam 9 kelime** olmalı
+(9. kelime = son kelime). Elimizdeki 9 kelimelik tek metin ($1M anahtarı) `WORLD`(5)
+ile bitiyor → o değil. **6 harfli kelimeyle biten 9 kelimelik metin hâlâ bulunamadı.**
+
+## 👉 SIRADAKİ ADIM
+1. **9 kelimelik, 6 harfli kelimeyle biten metin ara.** Aday yerler: videodaki
+   görünür yazılar, $10.000 çiziminin etrafındaki notlar, Colin'in sözleri.
+2. FRIDAY'i doğrulayacak/çürütecek test: `(364)` → iki tarih → CUMA zincirini
+   videodaki tarih notlarıyla birebir eşleştir (İpucu 17'nin kaynağı görsel mi?).
+3. İpucu 1'in 5 tespiti (envantere `s/r/u/e` kazandıracak adaylar öncelikli).

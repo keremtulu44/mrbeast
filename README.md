@@ -27,11 +27,12 @@ Sıfırdan gelen biri için **tek giriş noktası.** Baştan sona okunduğunda n
 - 🔴 Kırmızı havuz `(9)` = **`BEASTSAND`** ✅ çözüldü (4 bağımsız kanıt + topluluk teyidi)
 - 🔵 Mavi havuz `(6)` = **?** ❌ açık
   - `(4445)` = `LAST WORD THEN NINTH` ✅ **mekanizması da doğrulandı** (böl → tersle → dönüşümlü oku)
-  - `(364)` = 🟡 en güçlü aday **kalan 13 harf** `DEEEFHIMORTTW` (3+6+4 = 13) — ama **28.621** bölme var, kanıtsız
+  - `(364)` = 🟡 aday **kalan 13 harf** `DEEEFHIMORTTW` (3+6+4 = 13) — ama **117.182** serbest bölme var, anlamsal destek yok
   - `(66)` = ❌ `FOURTH UPLOAD` **ÇÜRÜDÜ** ("4"ün hiçbir girdide karşılığı yok) → elde kalan: 6+6 harfli iki kelime
   - ImageShack `BeastForce67` yolu **kapandı** → $1M avına ait (WATER=67 kanıtı)
 - 🧹 Tur 8: 58 sayısal iddia yeniden hesaplandı (58/58), 8 veri hatası düzeltildi → `cikti.md` §0-Q
 - 🧹 Tur 9: `FOURTH UPLOAD` + `NTH FILM` **mezarlığa** gömüldü, İpucu 1'e Alphabetize ilk kez uygulandı (192 deneme), 27 harf teşhisi → `cikti.md` §0-R
+- 🔬 Tur 10: `(66)` = **aynı 6 harfli kelime iki kez** (9 kelimelik metinde 9. = son kelime) · $1M anahtarı kaynak değil (`WORLD`=5 → `(55)`) · 🥇 `(6)` adayı **`FRIDAY`** → `cikti.md` §0-S
 
 ## Altın kurallar
 - Her şeyi kendin doğrula · mantıksızsa şüpheli kaydet · workspace'e yaz ve pushla
