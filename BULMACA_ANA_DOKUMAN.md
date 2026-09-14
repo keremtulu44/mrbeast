@@ -217,11 +217,49 @@ anlamlı grup çıkmadı. **Latince imkânsız** (klasik Latincede W yok).
 | `(4445)` | **LAST WORD THEN NINTH** | ✅ İpucu 9 rail fence — **kendi çözümümüz** |
 | `(66)` | **FOURTH UPLOAD** | ✅ 6+6 uzunluk kodu + **kullanıcı doğruladı: 4. video = "$1 vs $500,000 Experiences!"** (= $1M avı playlist'inin 4. videosu) |
 
-## ⚠️ `(364)` — ŞÜPHELİ
+## ⚠️ `(364)` — ŞÜPHELİ / ÇOK ADAYLİ
 Topluluk: `XOR | SUPERB | OWLS` (3+6+4 ✓ uzunluk koduyla uyumlu).
 - **"SUPERB OWLS" = Super Bowl punu gerçek ve mantıklı** ($1M bulmaca Super Bowl LX
   reklamındaydı — bağımsız kaynaklarla doğrulandı).
 - **AMA `XOR` 17 ipucumuzun hiçbirinde yok** → kaynağı belirsiz, şüpheli.
+
+### 📊 364'ün alternatif anlamları — bağımsız denetim (2026-09-13)
+| Aday | Gerçek mi? | Bu bulmacada karşılığı | Güven |
+|---|---|---|---|
+| **Uzunluk kodu 3,6,4 = 13 harf** | ✅ **kuralımız (5 örnek)** | her çok haneli kod gibi | 🥇 **EN YÜKSEK** |
+| **İpucu 17'nin 364 günü** (52×7) | ✅ | kendi ham verimiz | 🥈 |
+| **PLAKA 364 = White-winged Crossbill** | ✅ **2 bağımsız kaynak** | plaka mekaniği + İpucu 1 #1 crossbill | 🥉 **YENİ, GÜÇLÜ** |
+| İskambil destesi 4×91 = 364 | ✅ | kart motifi kanıtı yok | ⚠️ zayıf |
+| Alan kodu 364 (Kentucky) | ✅ gerçek | telefon dalı var (+674 Nauru) | ⚠️ kanıtsız |
+| Kitap şifresi *sayfa* 364 | ⚠️ kuralımızla çelişir | **ama PLAKA 364 var** ↑ | ⚠️ kısmen |
+| Alice/un-birthday · Dante · birthday attack · melek sayısı | — | destek yok | ❌ dolgu |
+| XOR | ❌ **döngüsel** (aynı Reddit kaynağı) | — | ❌ |
+
+### 🆕 `(364)` = PLAKA 364 hipotezi
+```
+PLAKA 364 (CCCLXIV) = White-winged Crossbill · Latince LOXIA LEUCOPTERA
+İngilizce: WHITE(5) WINGED(6) CROSSBILL(9)
+  → LAST WORD = CROSSBILL = tam 9 harf  ← "THEN NINTH" ile örtüşüyor!
+  → CROSSBILL'in 9. harfi = L · LEUCOPTERA'nın 9. harfi = R
+  → 6 harfli aday: WINGED
+```
+Neden çarpıcı: plaka numarası bu bulmacanın merkezî mekaniği (İpucu 7 `PLATES`) ve
+İpucu 1 / görsel #1 **zaten bir crossbill** (`Loxia`) — aynı cins.
+
+### ❌ `NIGHT` değil `NINTH` — kesin
+```
+scramble (İpucu 9): LSWRTENNHTINHDOTA = 17 harf, G YOK
+LASTWORDTHENNINTH : 17 harf → harf kümesi birebir uyumlu ✓
+LASTWORDTHENNIGHT : 17 harf → UYUMSUZ (fazla G, eksik N) ❌
+```
+
+### 👏 Yapısal gözlem: haneler küçülüyor
+`(364)+(4445) → (66) → (6)` = **3+4 kelime → 2 kelime → 1 kelime.**
+`LAST WORD` son adımı (2→1) açıklıyor. `THEN NINTH` ilk adımı açıklamalı →
+**hipotez: talimatın iki parçası birer kelime seçer** (son kelime + 9. kelime =
+2 kelime = `(66)` ✓ yapısal olarak kusursuz). Test edilen metinlerin hiçbiri
+iki 6-harfli kelime vermedi (9 kelimelik cümle, 9 video başlığı, video 4
+başlığı/transkripti) → **kaynak metin hâlâ bilinmiyor.**
 
 ## ❌ `(6)` — HENÜZ YOK. `STUNTS` 4 KEZ ÇÜRÜDÜ
 Topluluğun en popüler iddiası `STUNTS`. Bağımsız denetim:
