@@ -1131,3 +1131,69 @@ Hipotez: `LAST WORD` = 21. kutu, `THEN NINTH` = 9. kutu → ikisi de **6 harf** 
 Gerçekleşen: 21. = 11 harf, 9. = 8 harf → ❌
 **Ya OCR harf sayılarında yanlış, ya da uygulama farklı.**
 → KULLANICIYA DOĞRULAMA SORULARI (bkz. ana belge / sohbet)
+
+---
+# 0-N) KANIT: ImageShack `BeastForce67` = **$1M AVINA AİT**, $10K'A DEĞİL (tur 7)
+
+## Soru (kullanıcı): "Bu 4. videodaki yorum $1M ile alakalı mı? Zamanında
+## kullanılmış mı? Biz $10K'yı çözüyoruz. Orada kullanıldıysa tekrara düşmez.
+## Bana tam bir kanıtla gel — yalancık değil, tahmin değil."
+
+## ✅ KANIT 1 — MATEMATİK (kendim hesapladım, doğrulanabilir)
+```
+W A T E R  (A=1..Z=26)
+W=23  A=1  T=20  E=5  R=18   →  23+1+20+5+18 = 67
+Hesap adı: BeastForce67                       = 67   ✅ BİREBİR
+```
+Karşılaştırma (hiçbiri 67 değil): BEAST=47, FORCE=47, MRBEAST=78,
+WATERHEN=94, BEASTSAND=85, FRIDAY=63, FOURTH=88, UPLOAD=69, CROSSBILL=109.
+
+## ✅ KANIT 2 — $1M AV TAKİPÇİSİNDE AÇIKÇA GEÇİYOR
+Kaynak: **lightspeedup.com/mrbeast/** — "$1M Puzzle Hunt" izleme sitesi
+(başlık: "PUZZLE SOLVED • $1,000,000 CLAIMED • CONGRATULATIONS COLIN • MARCH 6, 2026")
+> *"Remaining: Validation: **WATER checksum = 67 = BeastForce67** Hint #3 confirms.
+>   Letter counts match exactly."*
+
+## ✅ KANIT 3 — ZAMANLAMA (üç bağımsız nokta üst üste biniyor)
+| Olay | Tarih |
+|---|---|
+| Hesabın Wayback'e alınışı | **9 Şub 2026** ve **11 Şub 2026** |
+| $1M avı İpucu 1 ("Playlist") | **9 Şub 2026** |
+| $1M avı İpucu 3 ("Progress") | **11 Şub 2026** ← "Hint #3 confirms" |
+| r/BeastForce67 subreddit'inin açılışı | **8 Şub 2026** |
+| $1M avının çözülüşü (Colin) | **6 Mart 2026** |
+| Bizim $10K bulmacamızın tartışması | **~5 Eyl 2026** (6 ay SONRA) |
+→ Hesap, $1M avının **tam ortasında** arşivlenmiş. $10K'dan 6 ay önce.
+
+## ✅ KANIT 4 — VİDEO 4 ZATEN $1M AVININ PARÇASI
+Kullanıcı daha önce doğrulamıştı: 4. video = `$1 vs $500,000 Experiences!`
+= **$1M avı playlist'inin 4. videosu**. (Video ~Kasım 2024, yorum ~2025'te
+düzenlenmiş → ikisi de $1M avından ÖNCE var, ama av TARAFINDAN KULLANILMIŞ.)
+
+## 🚨 SONUÇ — $10K İÇİN ELENDİ
+`BeastForce67` hesabı, video 4'ün sabit yorumu ve kart **`$1M avının` bir
+parçasıdır.** Kullanıcının kuralı: *"orada kullanıldıysa tekrara düşmez."*
+→ **$10K çözümünde KULLANILMAZ. §8 mezarlığına gömüldü.**
+
+## ⚠️ ÖZ ELEŞTİRİ — geçen tur "ZİNCİR KANITLANDI" demiştim, YANLIŞTI
+Kartın başlığının (`$1 TO $500,000 EXPERIENCES!`) video 4'ün başlığıyla aynı
+olması **sadece kartın o videonun "souvenir"ı olduğunu kanıtlar.** Bizim
+$10K bulmacamızın `(66)` adımının oraya işaret ettiğini **kanıtlamaz.**
+Kart $1M avının malzemesi olduğuna göre, $10K'nın onu tekrar kullanması
+mantıksız. **"Kanıtlandı" ifadesi geri alındı.**
+
+## ❓ KULLANICININ 2. SORUSU: "364'ün 4. videoyla bağlantısını anlamadım"
+**CEVAP: BAĞLANTI YOK — biz de kuramadık.** Dürüst durum:
+```
+İpucu 15: (364) + (4445)  →  (66)  →  (6)
+           ↑         ↑         ↑
+           ?     LAST WORD  FOURTH UPLOAD (TAHMİN)
+                 THEN NINTH
+```
+- `(4445)` → `LAST WORD THEN NINTH` ✅ **kendi çözümümüz (kanıtlı)**
+- `(66)` = `FOURTH UPLOAD` ⚠️ **üçüncü taraf iddiası — 17 ipucumuzun hiçbirinde
+  bu ifade GEÇMİYOR.** Tek "gerekçe": 6+6 uzunluk kodu + 4. videonun varlığı.
+- `(364)` → `(66)` adımı **HİÇBİR ZAMAN TÜRETİLEMEDİ.** 364'ten "FOURTH UPLOAD"
+  çıkan bir mekanizma bulamadık. Video 4'e giden bağ yalnızca
+  "FOURTH UPLOAD" tahmininden geliyor, 364'ten DEĞİL.
+→ **Bu yüzden "FOURTH UPLOAD" şüpheli listesinde kalır; (364) AÇIK.**
