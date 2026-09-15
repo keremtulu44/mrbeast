@@ -1,7 +1,13 @@
 # MrBeast Gizli $10.000 Bulmacası — Çözüm Defteri
 
 **Video:** `82CX6WULNA0` — "How 1 Person Solved A $1,000,000 Puzzle!" (Colin)
-**Son güncelleme:** 2026-09-14 · **Tur 8** (veri düzenleme + bağımsız yeniden hesaplama: bkz. §0-Q)
+**Son güncelleme:** 2026-09-15
+
+> ⛔ **BU DEFTER BİR YÖNLENDİRME DEĞİLDİR.** İçindeki `SIRADAKİ ADIM` bölümleri
+> yazıldıkları turun planıdır ve **artık geçerli değildir** — hiçbiri sonraki turu
+> bağlamaz. `✅ DOĞRULANDI` / `KESİN` / `🔒` etiketleri de birer **beyandır**;
+> kanıt değildir. Bu dosyadaki hiçbir sayı devralınmaz, koddan yeniden hesaplanır.
+> Zorunlu gereklilikler: **`BULMACA_ANA_DOKUMAN.md` §0**.
 
 ---
 
@@ -194,7 +200,7 @@ Tam rapor: **`ucuncu_taraf_degerlendirme.md`**
 
 ---
 
-# 1) KESİNLEŞEN KURALLAR
+# 1) KURALLAR — ⚠️ VARSAYIM (kesin değil, çürütülebilir)
 
 1. **Sayı = *Birds of America* (Havell, 1–435) PLAKA numarası.** (İpucu 7 `PLATES`)
 2. **Roma rakamı = plakaya kazınmış ORİJİNAL Latince adın harfi.** (İpucu 11 `Roman numbers for Roman words?`)
@@ -932,7 +938,7 @@ Kuralımız: doğrulanmadan KABUL YOK, mantıksızsa ŞÜPHELİ KAYDET.
 | **"+674 → Nauru, telefon numarası çözüyoruz"** | İpucu 16'daki `674` ile uyumlu ama "telefon numarası" sonucu **gösterilmemiş** | ⚠️ **ŞÜPHELİ** |
 | İpucu 2 transkripsiyonu farklı (`329 XXVI`, `253 XIV 337 VI`) | Bizim kullanıcı kaydımız farklı (`329 X`, `337 VI`) | ⚠️ **BİZİM KAYIT ESAS** (kullanıcı teyidi) |
 
-## 6) SIRADAKİ ADIM — kullanıcıya soru
+## 6) TARİHSEL PLAN — ⛔ GEÇERSİZ (yönlendirme kaldırıldı, bu turu bağlamaz)
 ImageShack hesabının içeriği **bizim için erişilemez** (giriş duvarı).
 Kullanıcı tarayıcıda açıp şunları söylerse `(66)/(6)` kırılabilir:
 1. Hesapta **kaç yükleme** var?
@@ -1064,7 +1070,7 @@ Anagramları çözmek için sözlük gerekli. Sandbox'ta:
 - `/usr/share/dict/` BOŞ · `wordfreq` YOK · `nltk` YOK
 - doğrudan internet erişimi YOK (python TLS hatası) → sözlük indirilemiyor
 
-## 👉 SIRADAKİ ADIM (öncelik sırası)
+## 👉 TARİHSEL PLAN — ⛔ GEÇERSİZ (yönlendirme kaldırıldı, bu turu bağlamaz)
 1. **Aynı analizi 2550×3300 ORİJİNAL üzerinde tekrarla** → harfler netleşir
    `https://web.archive.org/web/20260209005254/https://imagizer.imageshack.com/v2/2550x3300q70/922/KqjfA5.png`
 2. 21 kutunun **çözülmüş destinasyon adlarını** listele (21 yer adı)
@@ -1382,7 +1388,7 @@ anlamlı üçlü                : two + hermit + feed
 | 7 | `BULMACA_ANA_DOKUMAN.md` §12 | `(66)=FOURTH UPLOAD → Video 4` "BİLİNEN" listesinden **ŞÜPHELİ'ye** taşındı; SON SÖZ Video 4'e işaret etmekten çıkarıldı (o yol §8'de gömülü) |
 | 8 | `README.md` | "3032 kelime" → **3.106** (transkript bölümü sayıldı) |
 
-## 6) 👉 SIRADAKİ ADIM
+## 6) TARİHSEL PLAN — ⛔ GEÇERSİZ (yönlendirme kaldırıldı, bu turu bağlamaz)
 `(66)`'nın kaynağını bulmak. Üç somut hat:
 1. **`(364)` = kalan 13 harf** ise `(66)` neden **iki** 6 harfli kelime istiyor?
    (Belki `(66)` = 6 harfli kelime + onun 6 harfli bir türevi/anagramı.)
@@ -1505,7 +1511,7 @@ T9 ters arama (60k kelime): 83544, 4445, 214674, 172446, 461427, 251634 → EŞL
 Tek yapısal örtüşme: **tuş takımında tam 24 harf var (Q/Z yok) = 24 plaka = `(83544)`=24.**
 → **DURUM: PARK.** Bir daha ancak tıkanırsak denenecek.
 
-## 8) 👉 SIRADAKİ ADIM
+## 8) TARİHSEL PLAN — ⛔ GEÇERSİZ (yönlendirme kaldırıldı, bu turu bağlamaz)
 1. **`(66)`'yı kendi verimizden kur** — tek sayı-kelimesi İpucu 12'nin **"Five"**'ı.
    `Boo!`+`Five of these` = BOOK + 5 ciltlik *Ornithological Biography* (İpucu 10'un
    "old names" kitabı) → 6+6 harfli iki kelime buradan çıkabilir mi?
@@ -1613,7 +1619,7 @@ malzemesi** olan kart (başka bulmacaya aitti). Burada aynı bulmacanın iki not
 (9. kelime = son kelime). Elimizdeki 9 kelimelik tek metin ($1M anahtarı) `WORLD`(5)
 ile bitiyor → o değil. **6 harfli kelimeyle biten 9 kelimelik metin hâlâ bulunamadı.**
 
-## 👉 SIRADAKİ ADIM
+## 👉 TARİHSEL PLAN — ⛔ GEÇERSİZ (yönlendirme kaldırıldı, bu turu bağlamaz)
 1. **9 kelimelik, 6 harfli kelimeyle biten metin ara.** Aday yerler: videodaki
    görünür yazılar, $10.000 çiziminin etrafındaki notlar, Colin'in sözleri.
 2. FRIDAY'i doğrulayacak/çürütecek test: `(364)` → iki tarih → CUMA zincirini
@@ -2090,7 +2096,7 @@ eksik    : b g k m p q r s u w x z
 | Okuma mekanizması | ❌ 6 okuma denendi, hiçbiri metin vermiyor |
 | 27 harf = cümle? | ❌ **kesin olarak hayır** (envanter İngilizce'ye ters) |
 
-**Kullanıcıdan gereken 3 görsel detay (öncelik sırasıyla):**
+**O turun istediği 3 görsel detay — ⛔ TARİHSEL, artık talep edilmiyor:**
 1. **#13** — Mısır lahiti görselindeki kartalın **plaka lejantı**: `Aquila` mı `Falco` mu?
 2. **#10** — mayo kadının arka planındaki **kahverengi ton**: kızıl-kahve (King Rail, 203) mi,
    siyahımsı (Black Rail, 349) mi, gri-kahve (Clapper Rail, 204) mü?

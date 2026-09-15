@@ -3,11 +3,15 @@
  DÜZ METİN / TAM ANALİZ   (2026-09-13)
 ======================================================================================================================================================
 
-[1] KURALLAR
+[1] KURALLAR  —  ⚠️ BUNLAR AKSİYOM DEĞİL, VARSAYIM
+------------------------------------------------------------------------------------------------------------------------------------------------------
+⚠️ Aşağıdaki maddeler geçmiş turlarda gözlemden türetilmiş VARSAYIMLARDIR ve çürütülebilir.
+   Hiçbirine güvenme; her satırda yeniden test et. Tam gereklilikler: BULMACA_ANA_DOKUMAN.md §0.
+   🔴 3. madde ("otorite sayılmaz") hiçbir satırda bağımsız doğrulanmadı ve #13 ile çelişiyor.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 • KIRMIZI Roma rakamı = Latince adın BAŞTAN o harfi.   MAVİ = SONDAN o harfi.
 • Sayım, plakaya KAZINMIŞ ORİJİNAL Latince ad üzerinden (modern ad DEĞİL).
-• Boşluk, nokta ve otorite kısaltması (Aud., Gmel., Gm., L.) SAYILMAZ.
+• Boşluk, nokta ve otorite kısaltması (Aud., Gmel., Gm., L.) SAYILMAZ.  ← ⚠️ DOĞRULANMADI
 • Her görsel 2 harf verir; 10. görselde sadece kırmızı var → TOPLAM 27 HARF.
 • Filtre (kilitli 7 örnekte doğrulandı): kırmızı harf ≠ mavi harf; ve L ≥ max(kırmızı, mavi).
 • Latince zorunluluğun kanıtı: #7 Laughing Gull (İng. 12 harf) ama mavi XIV=14 → 14>12.

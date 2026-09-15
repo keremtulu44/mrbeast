@@ -177,12 +177,17 @@ Kullanıcı tarifi: sol **üçgen** (2 tepede, 1 ve 4 tabanda) + sağ **dikey ko
 
 ---
 
-# 3) KESİNLEŞEN KURALLAR (değiştirilemez)
+# 3) KURALLAR — VARSAYIM, AKSİYOM DEĞİL
 
-| # | Kural | Kanıt |
+> ⚠️ Bu tablodaki hiçbir madde **değiştirilemez değildir.** Hepsi geçmiş bir
+> gözlemden türetilmiş varsayımdır ve çürütülebilir. "Kanıt" sütunu dayanağı
+> gösterir, kesinliği değil. Bir satırda kural tutmuyorsa kuralın kendisi
+> yanlış olabilir. Bkz. `BULMACA_ANA_DOKUMAN.md` §0 (G4, G5).
+
+| # | Kural | Dayanak (kanıt değil) |
 |---|---|---|
 | 1 | Sayı = Havell PLKA numarası (1-435) | İ7 PLATES |
-| 2 | Roma rakamı = ORİJİNAL Latince adın harfi | İ11 + İ1 #7 kesin kanıt |
+| 2 | Roma rakamı = ORİJİNAL Latince adın harfi | İ11 + İ1 #7 |
 | 3 | Modern bilimsel ad KULLANILMAZ | İ10 "old names" |
 | 4 | Boşluk/nokta/otorite sayılmaz | 24/24 havuz örtüşmesi |
 | 5 | `424-6` = plaka 424'ün 6. figürü | Doğrulandı |
@@ -190,6 +195,11 @@ Kullanıcı tarifi: sol **üçgen** (2 tepede, 1 ve 4 tabanda) + sağ **dikey ko
 | 7 | `?` ile biten = doğrulama/meta | İ3,4,8,10,11 |
 | 8 | `(N)` = kelime-uzunluk kodu; tek hane = CEVAP UZUNLUĞU | 5 örnek |
 | 9 | Filtre: `L ≥ max(🔴,🔵)` ve `🔴 ≠ 🔵` | Kilitli 7 örnek |
+
+> 🔴 **4. maddenin durumu ayrıca şüpheli:** "otorite kısaltması sayılmaz" kuralı
+> hiçbir satırda bağımsız doğrulanmadı. #13'te mavi harfin `r` olması için
+> otoritenin **sayılması** gerekiyor (`Falco chrysaetos L.` = 16 harf). Yani bu
+> kural ile #13'ün mavi harfi çelişiyor — ikisinden biri yanlış.
 
 ---
 
@@ -212,20 +222,23 @@ Kullanıcı tarifi: sol **üçgen** (2 tepede, 1 ve 4 tabanda) + sağ **dikey ko
 
 # 5) AÇIK SORULAR
 
-0. **`(66)` nedir?** — `FOURTH UPLOAD` çürüdü. 🔑 **Tur 10 bulgusu:** 9 kelimelik
+> Aday sıralaması (`🥇 en güçlü aday`) ve "şunu dene" tarzı yönlendirmeler
+> **kaldırıldı** — çalışmayı sabit bir yola kilitliyordu. Aşağıdakiler yalnızca
+> **denenmiş adayların kaydıdır**; hiçbiri doğrulanmamıştır.
+
+0. **`(66)` nedir?** — `FOURTH UPLOAD` çürüdü. **Tur 10 bulgusu:** 9 kelimelik
    metinde 9. kelime = son kelime → "LAST WORD THEN NINTH" aynı kelimeyi iki kez
    döndürür → `(66)` = **X | X**. Yani kaynak metin **TAM 9 KELİME** ve son kelimesi
    **6 HARF**. Elimizdeki tek 9 kelimelik metin ($1M anahtarı) `WORLD`(5) ile bitiyor
-   → `(55)` verirdi → ❌ o değil. 🥇 Bu yapıya uyan tek aday: **`FRIDAY | FRIDAY`**.
-1. **`(364)` nedir?** — 5 aday denendi, 4'ü çürüdü. 🟡 En güçlü aday: **kalan 13 harf**
+   → `(55)` verirdi → ❌ o değil. Denenmiş aday: `FRIDAY | FRIDAY` (doğrulanmadı).
+1. **`(364)` nedir?** — 5 aday denendi, 4'ü çürüdü. Tek somut kalan okuma: **13 harf**
    `DEEEFHIMORTTW` (3+6+4 = 13 birebir). Ama 200k kelimelik listeyle **28.621** geçerli
-   (3,6,4) bölme çıkıyor → ayırt edici değil. Bağlamlı 6 harfli aday: **`TOWHEE`**
-   (İpucu 2'nin ilk kuşu Towhe Bunting), ayrıca `hermit`, `feeder`.
+   (3,6,4) bölme çıkıyor → ayırt edici değil. Denenmiş 6 harfli adaylar: `TOWHEE`,
+   `hermit`, `feeder` (hiçbiri doğrulanmadı).
    ⚠️ Çelişki: 13 harfte **tek** 6 harfli kelime var, `(66)` **iki** tane istiyor.
-2. **`(6)` = ?** — 🥇 **`FRIDAY`** (tur 10: İ15=İ14+talimat olduğu için "tekrar"
-   itirazı geçersiz; `(66)=X|X` yapısını açıklayan tek okuma) · sonra `TOWHEE`,
-   `ISLAND`, `PUZZLE`. ❌ ölenler: `STUNTS`, `UPLOAD` (dayanağı çürüdü).
-3. **İ1'in 27 harfi ne zaman kullanılacak?** — 5/14 tespit belirsiz.
+2. **`(6)` = ?** — denenmiş adaylar: `FRIDAY`, `TOWHEE`, `ISLAND`, `PUZZLE`
+   (hiçbiri doğrulanmadı). ❌ ölenler: `STUNTS`, `UPLOAD` (dayanağı çürüdü).
+3. **İ1'in 27 harfi ne zaman kullanılacak?** — tespitlerin bir kısmı belirsiz.
 4. **İ8 ve İ12 hangi dalı besliyor?** — bulunamadı.
 
 ---

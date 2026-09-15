@@ -1,11 +1,27 @@
 # MrBeast Gizli $10.000 Bulmacası — Çözüm Çalışması
 
-**Video:** `82CX6WULNA0` (2 Eyl 2026, `@MrBeast2`) · **Bulmacayı yapan:** Colin = **`@doctorxor`** · **Son güncelleme:** 2026-09-15
+**Video:** `82CX6WULNA0` (2 Eyl 2026, `@MrBeast2`) · **Bulmacayı yapan:** Colin = **`@doctorxor`** · **Son güncelleme:** 2026-09-15 (yönlendirmeler kaldırıldı, doğrulama gereklilikleri eklendi)
 
 ## 👉 BAŞLA: [`BULMACA_ANA_DOKUMAN.md`](BULMACA_ANA_DOKUMAN.md)
 
 Sıfırdan gelen biri için **tek giriş noktası.** Baştan sona okunduğunda ne
-çözüldüğünü, neyin çürüdüğünü ve sıradaki adımı eksiksiz anlatır.
+çözüldüğünü ve neyin çürüdüğünü anlatır. **Sıradaki adımı söylemez** — o, o turu
+yürüten kişinin işidir.
+
+## ⛔ ÖNCE BUNU OKU: hiçbir şeye güvenme
+
+Bu repodaki **her şey bir iddiadır** — bu satırlar dahil. `ÇÖZÜLDÜ`, `KESİN`,
+`DOĞRULANDI`, `🔒` etiketleri birer beyandır, kanıt değildir. Tam liste ve 9
+zorunlu gereklilik: **[`BULMACA_ANA_DOKUMAN.md` §0](BULMACA_ANA_DOKUMAN.md)**.
+
+Kısa hâli:
+- Tek geçerli kanıt **ölçümdür** — birincil kaynak veya çalışan kod.
+- Hiçbir sayı, harf, pozisyon **devralınmaz**; koddan yeniden hesaplanır.
+- Hiçbir kural **aksiyom değildir**; çürütülebilir.
+- Filtreyle isim seçip aynı filtreyi kanıt diye göstermek **yasak**.
+- Bir çıktının kaç harfinin **tahmin** olduğu her zaman yazılır.
+- Çürütme de **sayı** ister; çürüyen iddia silinmez, §8'e gömülür.
+
 
 ## İki giriş noktası
 | Dosya | Ne zaman açılır |
@@ -17,7 +33,7 @@ Sıfırdan gelen biri için **tek giriş noktası.** Baştan sona okunduğunda n
 | Dosya | İçerik |
 |---|---|
 | `cikti.md` | Çalışma defteri (tüm turların tarihçesi) |
-| `dogrulama.py` | 🔢 **Otomatik doğrulama** — `python3 dogrulama.py` (78 kontrol) |
+| `dogrulama.py` | 🔢 **Otomatik doğrulama** — `python3 dogrulama.py` |
 | `puzzle.pdf` | 📕 Resmî 84 sayfalık $1M çözüm PDF'i (kullanıcı ekledi, 66 MB) |
 | `RESMI_PDF_METIN.md` | 🔎 O PDF'in tam metin dökümü — **$10K bulmacasını İÇERMİYOR** (kanıtlı) |
 | `ucuncu_taraf_degerlendirme.md` | Harici iddiaların bağımsız denetimi |
@@ -43,11 +59,12 @@ Sıfırdan gelen biri için **tek giriş noktası.** Baştan sona okunduğunda n
   - ✅ **Notasyon kesinleşti:** `(4445)` = `LAST`(4) `WORD`(4) `THEN`(4) `NINTH`(5) → parantezli sayılar **kelime uzunlukları**
   - ⚠️ Tur 10'daki "metin tam 9 kelime olmalı" iddiası **aşırı genellemeydi** → doğru şart: 9. kelime 6 harf **ve** son kelime 6 harf
   - ❌ **9-kelime avı:** 10 metin + bulmaca videosunun 268 cümlesi tarandı → şartı sağlayan **0** metin. `(66)`'nin kaynağı elimizde değil.
-  - ⛔ **84 sayfalık resmî çözüm PDF'i** `https://mrb.gg/p/puzzle` sandbox'tan indirilemedi (TLS engeli) → **kullanıcının tarayıcısından indirip repoya koyması gerekiyor**
+  - ⛔ **84 sayfalık resmî çözüm PDF'i** `https://mrb.gg/p/puzzle` sandbox'tan indirilemedi (TLS engeli) — *tarihsel kayıt; PDF artık repoda (`puzzle.pdf`)*
 
 - 📕 **Tur 11b:** resmî PDF repoya geldi → metni çıkarıldı. **Kesin sonuç: PDF yalnızca $1M'i anlatıyor, $10.000 bulmacası belgelenmemiş** (`Colin`/`Audubon`/`LAST WORD`/`QX`/`PLATES` → 0 geçiş). Kazanç: 9 kelimelik anahtar **resmî teyit** aldı + ekibin bulmaca-türü sözlüğü ele geçti (`beheadments`, `transdeletions` → İ9 ile aynı aile).
 - 🔢 **Tur 11 altyapı:** `/tmp/verify.py` sandbox sıfırlanınca kayboldu → artık repoda: **`dogrulama.py`** (67/67). 24 harf havuzu artık `ipucu2_24_duzmetin.txt` tablosundan **bağımsız türetiliyor**. 9. veri hatası düzeltildi: `142674`/`461427` 1-6 permütasyonu **değil** ({1,2,4,4,6,7}).
 
-## Altın kurallar
-- Her şeyi kendin doğrula · mantıksızsa şüpheli kaydet · workspace'e yaz ve pushla
-- Çürüeni silme — §8 mezarlığına göm
+## Gereklilikler
+Eski "Altın kurallar" (şunu şöyle yap tarzı direktifler) **kaldırıldı.**
+Yerine, çalışmayı tek bir yola kilitlemeyen 9 doğrulama gerekliliği geldi:
+👉 **[`BULMACA_ANA_DOKUMAN.md` §0 — DOĞRULAMA GEREKLİLİKLERİ](BULMACA_ANA_DOKUMAN.md)**

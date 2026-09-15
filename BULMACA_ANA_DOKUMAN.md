@@ -1,32 +1,63 @@
-# 🧩 MrBeast GİZLİ $10.000 BULMACASI — TAM ANALİZ ve YÖNLENDİRME DOKÜMANI
+# 🧩 MrBeast GİZLİ $10.000 BULMACASI — TAM ANALİZ KAYDI
 
 **Video:** `82CX6WULNA0` — "How 1 Person Solved A $1,000,000 Puzzle!"
 **Bulmacayı yapan:** Colin ($1M'lik Salesforce avını çözen kişi)
-**Son güncelleme:** 2026-09-14 · **Durum:** 🟡 Kısmen çözüldü — kırmızı taraf TAMAM, mavi taraf AÇIK
+**Son güncelleme:** 2026-09-15
 
 ---
 
-# 0) BU BELGE NASIL KULLANILIR
+# 0) DOĞRULAMA GEREKLİLİKLERİ — ZORUNLU, İSTİSNASIZ
 
-Bu, bulmacanın **tek ve eksiksiz kaydıdır.** Sıfırdan gelen biri (insan veya yapay zekâ)
-bu belgeyi baştan sona okuduğunda şunları bilir: ne çözüldü, nasıl çözüldü, ne
-çürüdü, ne kaldı, sıradaki adım ne.
+> **Bu repodaki HİÇBİR şeye güvenilmez.** Bu dosyalar, önceki turların
+> sonuçları, `ÇÖZÜLDÜ` / `KESİN` / `DOĞRULANDI` etiketleri, topluluk iddiaları,
+> üçüncü taraf denetimler ve bu gereklilikleri yazan kişinin kendi yorumları —
+> hepsi **iddia** statüsündedir. Bir iddia, ancak aşağıdaki şartlar sağlanınca
+> kullanılır.
 
-## Okuma sırası
-1. **§1** Bulmacanın tanımı ve hedefi
-2. **§3** Kesinleşen kurallar *(bunlar değiştirilemez; geri kalan her şey bunlara dayanır)*
-3. **§4** 17 ipucunun tek tek durumu
-4. **§5** Ana zincir (`46TH PLATE`) — yöntemin doğruluğunun kanıtı
-5. **§6** KIRMIZI TARAF — **ÇÖZÜLDÜ: `BEASTSAND`**
-6. **§7** MAVİ TARAF — **AÇIK: `(6)` = ?**
-7. **§8** Çürüyenler mezarlığı *(aynı hataya ikinci kez düşmemek için)*
-8. **§10** Açık sorular — **öncelik sırasıyla sıradaki adımlar**
+### G1. Tek geçerli kanıt ölçümdür
+Her iddia ya **birincil kaynaktan** (plaka lejantı, resmî PDF, video transkripti)
+ya da **çalıştırılmış koddan** gelir. "Mantıklı görünüyor", "öyle olması gerekir",
+"önceki turda böyle çıkmıştı" kanıt değildir.
 
-## Altın kurallar (çalışma disiplini)
-- ✅ **Her şeyi kendin doğrula.** Harici/topluluk çıktılarına körü körüne güvenilmez.
-- ⚠️ **Matematiksel olarak doğru olsa bile mantıksızsa ŞÜPHELİ olarak kaydet.**
-- 📝 **Sonuçlar mutlaka workspace'e yazılır ve pushlanır.** Sohbette kalmaz.
-- ❌ **Çürüyen iddia silinmez** — §8'e gömülür, ki bir daha denenmesin.
+### G2. "Kesin / çözüldü / doğrulandı" etiketi yasak
+Bu kelimeler yalnızca **bağımsız ikinci bir türetme** varsa kullanılabilir.
+Aksi hâlde iddianın yanına **doğrulama durumu** yazılır:
+`🟢 iki kaynak` · `🟡 tek kaynak` · `🔴 doğrulanmadı (tahmin)`.
+
+### G3. Her sayı yeniden hesaplanır
+Harf sayıları, pozisyonlar, Roma rakamı karşılıkları, gün farkları, bölme
+sayıları — hiçbiri devralınmaz. Her turda ilgili hesap **koddan yeniden
+çalıştırılır** (`python3 dogrulama.py` + ilgili tur script'i). Elle simülasyon
+ve birincil verinin akıldan nakli **yasaktır** — ikisi de geçmişte yanlış alarma
+yol açtı.
+
+### G4. Hiçbir kural ön kabul değildir
+§3'teki kurallar dahil her kural bir **varsayımdır** ve çürütülebilir. Bir kural
+bir satırda tutmuyorsa kural yanlış olabilir; veri değil. Kuralı veriye uydurmak
+için veri seçmek **yasaktır**.
+
+### G5. Döngüsel akıl yürütme yasak
+Bir filtreyi kullanarak bir isim seçip, sonra aynı filtreyi o ismin kanıtı diye
+göstermek yasaktır. *(Bu hata repoda bir kez yapıldı: #13 için `Aquila` tercih
+edildi çünkü `Falco` filtreyi geçmiyordu, sonra filtre kanıt diye yazıldı.)*
+
+### G6. Tahminler sayılır ve etiketlenir
+Bir çıktının kaç harfinin kilitli, kaçının tahmin olduğu **her zaman** yazılır.
+Tahmin harflerle üretilen sonuç, kilitli harflerle üretilenle aynı güven
+statüsünde **değildir**.
+
+### G7. Çürütme de ölçüm ister
+Bir iddiayı çürütmek için de sayı gerekir. "Bence bu değil" çürütme değildir.
+Çürüyen iddia **silinmez** — §8 mezarlığına gerekçesi ve ölçümüyle gömülür.
+
+### G8. Negatif sonuç kaydedilir
+"Denendi, çıkmadı" bilgidir. Denenen yöntem, veri boyutu ve sonuç yazılır ki
+aynı yol bir daha denenmesin. *(Örnek: 13 harfli TAMAMEN rastgele 4000 havuzun
+yalnızca 1'i iki yer adına bölünüyor → p ≈ 0,00025. Böyle bir sayı olmadan
+"şans eseri mi?" sorusu cevaplanamaz.)*
+
+### G9. Sonuç repoya yazılır, sohbette kalmaz
+Her turda değişen dosyalar commit + push edilir. Sohbet kaybolur, repo kalır.
 
 ---
 
@@ -58,7 +89,7 @@ odası. Masanın üzerinde:
 
 | Dosya | İçerik |
 |---|---|
-| **`BULMACA_ANA_DOKUMAN.md`** | ← **BU BELGE.** Baştan sona yönlendirme |
+| **`BULMACA_ANA_DOKUMAN.md`** | ← **BU BELGE.** Tam analiz kaydı (§0 = doğrulama gereklilikleri) |
 | **`IPUCU_AGACI.md`** | **17 ipucunun AĞAÇ görünümü** — hepsi tek ekranda, dal dal |
 | `cikti.md` | Ana çalışma defteri (tarihçe, tüm turlar) |
 | `ucuncu_taraf_degerlendirme.md` | 26 harici iddianın bağımsız denetimi + şüphe listesi |
@@ -69,9 +100,13 @@ odası. Masanın üzerinde:
 
 ---
 
-# 3) KESİNLEŞEN KURALLAR
+# 3) KURALLAR — HEPSİ VARSAYIM, HİÇBİRİ ÖN KABUL DEĞİL
 
-Bunlar **kanıtlanmış** kurallardır; tartışmaya kapalıdır.
+> ⚠️ Aşağıdaki maddeler **aksiyom değildir.** Her biri geçmiş turlarda bir
+> gözlemden türetilmiş bir varsayımdır ve **çürütülebilir.** Bir satırda
+> tutmayan kural, o satırın değil **kuralın** yanlış olduğuna işaret edebilir.
+> "Kanalı kanıta uydurmak için veri seçmek" G4/G5 gereği yasaktır.
+> Kanıt sütunu iddianın **dayanağını** gösterir, kesinliğini değil.
 
 ### 3.1 Harf çıkarma
 1. **Sayı = *Birds of America* (Havell, 1–435) PLAKA numarası.** (İpucu 7 `PLATES`)
@@ -613,9 +648,14 @@ Doğrusu **"73" değil "L73"**.
 
 ---
 
-# 10) AÇIK SORULAR — ÖNCELİK SIRASIYLA
+# 10) AÇIK SORULAR
 
-### 🥇 1. `(6)` — mavi havuz (bulmacanın kalan tek büyük parçası)
+> Bu bölüm yalnızca **bilinmeyenleri** listeler. Öncelik sıralaması, "sıradaki
+> deneme" listesi ve hangi adayın peşinden gidileceğine dair yönlendirme
+> **kaldırıldı** — çalışmayı sabit bir yola kilitliyordu. Hangi sorunun önce
+> ele alınacağına o turu yürüten kişi karar verir.
+
+### 1. `(6)` — mavi havuz (bulmacanın kalan tek büyük parçası)
 ```
 (364)  +  LAST WORD THEN NINTH  →  (66)  →  (6)
   ↑              ✅ kanıtlı          ↑       ↑
@@ -623,21 +663,17 @@ Doğrusu **"73" değil "L73"**.
 ```
 **ENGEL:** (364)'ün kaynağı bulunamadı; (66)→(6)'yı karşılayan hiçbir metin yok.
 ❌ **ImageShack / BeastForce67 yolu KAPANDI** — $1M avına ait, §8'e gömüldü.
-**Sıradaki denemeler:**
-1. `(364)` = uzunluk kodu **3,6,4 = 13 harf** → kaynak artık SOMUT: havuzdan
-   `MRBEASTSAND` çıkınca kalan `D E E E F H I M O R T T W`. **AMA** 200.000 kelimelik
-   frekans listesiyle **28.621** geçerli (3,6,4) bölme var (§0-Q) → tek başına kanıt değil.
-   Ayırt etmek için `(66)`'nın kaynağı şart.
-2. 🥇 `FRIDAY` (İpucu 17) — **tur 10'da yeniden en güçlü aday**: itiraz geçersiz
-   bulundu (İ15 = İ14 + talimat) ve `(66)=X|X` yapısını açıklayan tek okuma
-3. İpucu 1'in 27 harfi — 5 tespit belirsiz, netleşirse mavi tarafı besleyebilir
-4. Video 4'teki **ekrandaki grafikler** (karıştırılmış konum adları + renkli harfler)
+Durum kaydı: `(364)` = 3,6,4 = 13 harf okumasının kaynağı SOMUT (havuzdan
+`MRBEASTSAND` çıkınca kalan `D E E E F H I M O R T T W`), ama 200.000 kelimelik
+frekans listesiyle **28.621** geçerli (3,6,4) bölme var (§0-Q) → tek başına
+kanıt değil. Ayırt etmek için `(66)`'nın kaynağı gerekiyor.
+`(6)` için bugüne dek üretilen adaylar §7'deki tabloda; hiçbiri doğrulanmadı.
 
-### 🥈 2. `$10.000` çiziminin altındaki dalgalı kontur
+### 2. `$10.000` çiziminin altındaki dalgalı kontur
 Ada haritası mı (Christmas Island kolu), dağ konturu mu?
 Anahtar cümle **"LOCATION NAME SOMEWHERE AROUND WORLD"** diyor → cevap bir KONUM olabilir.
 
-### 🥉 3. İpucu 1'in kalan 6 tespiti
+### 3. İpucu 1'in kalan 6 tespiti
 #1 (Umman bayrağı), #8, #10 (Water-hen), #11, #12, #13. 27 harf hâlâ okunmuyor.
 ⚠️ Düzeltme: #9'da `thalassidromapelagica` = **21 harf**, mavi IX → sondan 9. = **a**
 (eski "m" yanlıştı).
@@ -676,10 +712,12 @@ Henüz kullanılmadı.
 | ❌ **ÖLÜ** | `(66) = FOURTH UPLOAD` · `NQX FILM/NTH FILM` · `STUNTS` · `CHRISTMAS` · plaka 364 · ImageShack kartı · klasik rail fence |
 
 ## SON SÖZ
-Kırmızı taraf kapanmıştır (`BEASTSAND`). Mavi taraf için **kilit `(364)`'ün kaynağı**:
-o bulunursa `(66)` ve `(6)` kendiliğinden gelir.
-⚠️ **Video 4 / ImageShack `BeastForce67` yolu artık ADAY DEĞİL** — kartın $1M avının
-malzemesi olduğu 4 kanıtla gösterildi (§7, §8). Yani `(6)` oradan çıkmayacak.
-En güçlü güncel aday: `(364)` = kalan 13 harf `DEEEFHIMORTTW` (3+6+4 = 13) — ama
-28.621 bölme olduğu için ayırt edici değil. Cevap bulunduğunda birleşim
-`BEASTSAND` + `(6)` olacak.
+Bu bir **kayıt**, bir yol haritası değildir. Aşağıdaki cümleler geçmiş turların
+gözlemleridir; hiçbiri gelecek turu bağlamaz.
+
+Kırmızı taraf `BEASTSAND` olarak kapatıldı. Mavi taraf açık.
+⚠️ **Video 4 / ImageShack `BeastForce67` yolu ADAY DEĞİL** — kartın $1M avının
+malzemesi olduğu 4 kanıtla gösterildi (§7, §8).
+Elimizdeki tek somut `(364)` okuması = kalan 13 harf `DEEEFHIMORTTW`
+(3+6+4 = 13); ama 28.621 bölme olduğu için ayırt edici değil.
+Cevap bulunduğunda birleşim `BEASTSAND` + `(6)` olacak.
