@@ -1959,3 +1959,139 @@ notasyonu destekleyen **ek bir kanıt** olarak kaydedildi, cevap olarak benimsen
 | 🥈 | `TOWHEE` | kalan 13 harften yazılabilen tek kuş adı (plaka 029) |
 | 🥉 | `ISLAND` | kontur çizgileri + "LOCATION NAME" — spekülatif |
 | ❌ | ~~`STUNTS`~~ · ~~`UPLOAD`~~ · ~~`DOG`/`EMI`/`FOG`~~ | kaynakları çürüdü / notasyonla çelişiyor |
+
+---
+
+# 0-U) 🔬 TUR 12 — İPUCU 1'İN SIKI DOĞRULAMASI (2026-09-15)
+
+> Kullanıcı: *"bunu bırakalım, İpucu 1'i çok iyi doğrulatalım."* `(66)`/`(6)` hattı donduruldu.
+> Bu turda İpucu 1 üç ayrı eksende sınandı: **aritmetik**, **dış kaynak**, **mekanizma**.
+
+## 1 · ✅ HARF ARİTMETİĞİ — 14/14 BAĞIMSIZ YENİDEN HESAPLANDI, HEPSİ DOĞRU
+
+Kural: 🔴 kırmızı = Latince adın **baştan** n. harfi · 🔵 mavi = **sondan** n. harfi ·
+boşluk/nokta/otorite kısaltması sayılmaz.
+
+| # | Latince (bitişik) | uz | 🔴 | 🔵 | çift | filtre |
+|---|---|---|---|---|---|---|
+| 1 | `loxiacurvirostra` | 16 | VI→**c** | V→**o** | `co` | ✅ |
+| 1′ | `ardealudoviciana` | 16 | VI→**l** | V→**c** | `lc` | ✅ |
+| 2 | `reguluscalendula` | 16 | II→**e** | IV→**d** | `ed` | ✅ |
+| 3 | `pelecanusfuscus` | 15 | VI→**a** | VI→**f** | `af` | ✅ |
+| 4 | `emberizanivalis` | 15 | IX→**n** | V→**v** | `nv` | ✅ |
+| 5 | `falcolineatus` | 13 | VI→**l** | VII→**i** | `li` | ✅ |
+| 6 | `fringillasavanna` | 16 | IV→**n** | VIII→**a** | `na` | ✅ |
+| 7 | `larusatricilla` | 14 | X→**c** | XIV→**l** | `cl` | ✅ |
+| 8 | `sylviaaestiva` | 13 | V→**i** | VII→**a** | `ia` | ✅ |
+| 9 | `thalassidromapelagica` | **21** | VIII→**i** | IX→**a** | `ia` | ✅ |
+| 10 | `rallusjamaicensis` | 17 | VII→**j** | — | `j` | — |
+| 10′ | `ralluselegans` | 13 | VII→**e** | — | `e` | — |
+| 10″ | `ralluscrepitans` | 15 | VII→**c** | — | `c` | — |
+| 11 | `hirundorustica` | 14 | VII→**o** | IV→**t** | `ot` | ✅ |
+| 12 | `sylvicolachildrenii` | 19 | II→**y** | XI→**a** | `ya` | ✅ |
+| 13 | `aquilachrysaetos` | 16 | VII→**c** | IX→**h** | `ch` | ✅ |
+| 14 | `strixnebulosa` | 13 | VII→**e** | I→**a** | `ea` | ✅ |
+
+**Filtre (🔴 ≠ 🔵) 13 tam çiftin 13'ünde de geçiyor.** Bu bir tesadüf değil — ayırt edici güç:
+
+```
+Aquila chrysaetos (16) → 🔴c 🔵h  ✅ geçerli
+Falco  chrysaetos (15) → 🔴h 🔵h  ❌ kırmızı=mavi → FİLTRE ELER
+```
+
+## 2 · 🌐 DIŞ KAYNAKLA PLAKA DOĞRULAMASI — 7/14 TEYİT EDİLDİ
+
+Kaynaklar: **Thurgood Marshall State Law Library** *List of Audubon Prints* (2021),
+**Wikimedia Commons** *User:Mturtle/The Birds of America*, **Lilly Library (Indiana Univ.)**,
+Floyd Library (Carnegie koleksiyonu).
+
+| İ1 # | Plaka | Bizim tür | Bağımsız kaynak | Sonuç |
+|---|---|---|---|---|
+| #12 | **35** | Children's Warbler | MD list + Commons + Neal Auction: *"Children's Warbler aka Yellow Warbler, Plate 35"* | ✅ |
+| #14 | **46** | Barred Owl | MD list `XLVI·46·Barred Owl` + Floyd Library | ✅ |
+| #5 | **56** | Red-shouldered Hawk | MD list `LVI·56·Red-Shouldered Hawk` | ✅ |
+| #8 | **95** | Blue-eyed (Yellow) Warbler | MD list `XCV·95·Yellow-Poll Warbler aka Yellow Warbler` | ✅ |
+| #13 | **181** | Golden Eagle | MD list + Commons + Lilly + NY Historical | ✅ |
+| #2 | **195** | Ruby-crowned Wren | MD list `CXCV·195·Ruby Crowned Wren` | ✅ |
+| #1 | **197** | American Crossbill | MD list + Commons + Princeton: *"American Crossbill aka Red Crossbill"* | ✅ |
+
+**Bonus — İpucu 2 de teyit aldı:** `29`=Towhe Bunting · `76`=Virginian Partridge ·
+`81`=Fish Hawk/Osprey · `83`=House Wren · `101`=Raven · `102`=Blue Jay. Hepsi ✅.
+
+**Henüz dışarıdan teyit edilmeyenler:** #3 (251), #4 (189), #6 (109), #7 (314),
+#9 (340), #10 (349/203/204), #11 (173).
+
+## 3 · ⚠️ YENİ SORUN: #13'ÜN LATİNCE ADI ÇEKİŞMELİ — VE BİZİM SEÇİMİMİZ DÖNGÜSELDİ
+
+- **Lilly Library (Indiana Univ.) kataloğu:** *"Golden Eagle (**Falco Chrysaetos**), Volume 2, Plate 181"*
+- **NY Historical Society:** *"Golden Eagle (**Aquila chrysaetos**), Havell plate no. 181"* (modern adlandırma gibi görünüyor)
+
+`ipucu1_14_duzmetin.txt` `Aquila`'yı seçmişti, gerekçesi *"Falco olsaydı h/h çıkardı → elenir"*.
+**Bu döngüsel bir akıl yürütme:** filtreye uyan ad seçilmiş. Eğer kazınmış lejant gerçekten
+`Falco chrysaetos` ise çift `h|h` olur ve **13/13'lük 🔴≠🔵 deseni bozulur.**
+
+**Olasılıklar:** (a) Havell lejantı `Aquila chrysaetos` → sorun yok;
+(b) lejant `Falco chrysaetos` → ya #13 başka bir kartal/şahin plakası, ya da
+otorite kısaltması ("Linn.") sayılıyor demektir (`falcochrysaetosl` = 16 → 🔴h 🔵**r** ✅).
+→ **Plakanın lejantına gözle bakmak gerekiyor.** Bu, #13'ün 🔒 değil 🟡 olması demek.
+
+## 4 · 🔎 "ALPHABETIZE?" İPUCU 1'E İLK KEZ UYGULANDI
+
+İpucu 2'yi çözen mekanizma (kuşların **İngilizce adına göre** alfabetik sırala) İpucu 1'e
+bu turda ilk kez uygulandı:
+
+```
+sıralama : American Crossbill · Barn Swallow · Barred Owl · Blue-eyed Warbler ·
+           Brown Pelican · Children's Warbler · Golden Eagle · Laughing Gull ·
+           Least Stormy Petrel · Least Water-hen · Red-shouldered Hawk ·
+           Ruby-crowned Wren · Savannah Finch · Snow Bunting
+dizi     : cooteaiaafyachcliajliednanv   (27 harf)
+```
+
+| Okuma | Sonuç |
+|---|---|
+| görsel sırası | `coedafnvlinacliaiajotyachea` |
+| **TERS** görsel (14→1) | `eachyaotjiaiaclnalinvafedco` → **"EACH" ile başlıyor** |
+| İngilizce ada göre alfabetik | `cooteaiaafyachcliajliednanv` → **"COOT" ile başlıyor** |
+| alfabetik, sadece 🔴 | `coeiayccijlenn` |
+| alfabetik, sadece 🔵 | `otaafahlaidav` |
+| plaka numarasına göre | `yaealiianaotchnvedcoafcliaj` |
+
+**Hiçbiri okunur bir metin vermiyor.** Ama iki şey dikkat çekici: TERS okuma **EACH** ile,
+alfabetik okuma **COOT** ile başlıyor — ikisi de gerçek İngilizce kelime.
+
+### 🔑 #10 için yeni bir ayırt edici bulundu
+Üç aday **farklı alfabetik konum** veriyor (mekanizma Alphabetize ise bu test edilebilir):
+
+| Plaka | Ad | 14 içindeki sıra | dizi |
+|---|---|---|---|
+| 349 | Least Water-hen | **10.** | `cooteaiaafya chclia**j**liednanv` |
+| 203 | Fresh Water Marsh Hen | **7.** | `cooteaiaafya e**chc**lialiednanv` |
+| 204 | Salt Water Marsh Hen | **12.** | `cooteaiaafya chclia**li**edcnanv` |
+
+## 5 · ❌ 27 HARF BİR CÜMLE OLAMAZ — KESİNLEŞTİ
+
+```
+dizi     : coedafnvlinacliaiajotyachea   (27 harf)
+envanter : a6 c3 i3 d1 e2 f1 h1 j1 l2 n2 o2 t1 v1 y1
+a = %22  ·  e = %7     (İngilizce: e≈%13, a≈%8 → TAM TERS)
+eksik    : b g k m p q r s u w x z
+```
+`the`, `and`, `is`, `to`, `of` yazılamaz (`s r u` yok). **27 harf bir havuz/ara ürün, cümle değil.**
+
+## 6 · SONUÇ — İpucu 1'in doğrulanmış hâli
+
+| Eksen | Durum |
+|---|---|
+| Harf aritmetiği (14 çift) | ✅ **14/14 doğru**, bağımsız yeniden hesaplandı |
+| 🔴≠🔵 filtresi | ✅ 13/13 geçiyor, ayırt edici gücü kanıtlandı |
+| Plaka numaraları | ✅ **7/14 dış kaynakla teyitli** (35, 46, 56, 95, 181, 195, 197) |
+| #13'ün Latince adı | ⚠️ **YENİ SORUN** — `Falco` mu `Aquila` mı? Seçim döngüsel yapılmış |
+| Okuma mekanizması | ❌ 6 okuma denendi, hiçbiri metin vermiyor |
+| 27 harf = cümle? | ❌ **kesin olarak hayır** (envanter İngilizce'ye ters) |
+
+**Kullanıcıdan gereken 3 görsel detay (öncelik sırasıyla):**
+1. **#13** — Mısır lahiti görselindeki kartalın **plaka lejantı**: `Aquila` mı `Falco` mu?
+2. **#10** — mayo kadının arka planındaki **kahverengi ton**: kızıl-kahve (King Rail, 203) mi,
+   siyahımsı (Black Rail, 349) mi, gri-kahve (Clapper Rail, 204) mü?
+3. **#1** — Umman bayrağında dikkat çeken **çapraz kılıçlar** mı, yoksa bayrağın **ülke** oluşu mu?
