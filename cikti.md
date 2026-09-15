@@ -1859,3 +1859,47 @@ fourth upload -> last word -> ninth extraction -> stunts
 | $1M final cevap formatı talimatı: *"IN JIMMYS VAULT FIRST PART STICKS ROAMY RESULTS IN BETWEEN STAGE ONE ANSWER PAIRS LAST PART HE SHOWED AT START"* (40 adet 12 harfli kelimenin yığılmasından) | laurencetennant.com dökümü |
 | Lone Shark Games çapraz bulmaca PDF'i: `lonesharkgames.com/wp-content/uploads/2026/02/Million-Dollar-Crossword.pdf` | Reddit + arama |
 | İpucu envanteri teyidi: Book Cipher / T9 telefon / `QX=TH` / `PLATES`+`251634` aynı karakter sayısı | r/MrBeast `Due-Appearance-4701`, `Kim-trumpun` |
+
+### 15 · 📕 PDF GELDİ — ve kesin cevap: **$10.000 bulmacasını İÇERMİYOR**
+
+Kullanıcı `puzzle.pdf`'i repoya push etti (`17e9735`, **69.764.462 bayt / 84 sayfa**).
+`pypdf` ile tam metni çıkarıldı → **`RESMI_PDF_METIN.md`** (94.751 karakter, 84 sayfa).
+
+**Arama sonucu — $10K bulmacasına dair HİÇBİR şey yok:**
+
+| Aranan | Geçiş | | Aranan | Geçiş |
+|---|---|---|---|---|
+| `Colin` | **0** | | `Birds of America` | **0** |
+| `doctorxor` | **0** | | `LAST WORD` | **0** |
+| `Sanders` | **0** | | `NINTH` | **0** |
+| `hidden puzzle` | **0** | | `rail fence` / `bird fence` | **0** |
+| `sweepstakes` | **0** | | `QX` | **0** |
+| `Alphabetize` | **0** | | `PLATES` | **0** |
+| `T9` | **0** | | `Audubon` | **0** |
+
+3 `10,000` geçişi de alakasız: EP6 videosunun adı ve bir çapraz bulmaca ipucu.
+1 `QR code` geçişi Super Bowl reklamının transkriptinden.
+
+> **KARAR:** resmî döküm yalnızca **$1M** bulmacasını anlatıyor. Colin'in video içine
+> gizlediği $10.000 bulmacası **resmen belgelenmemiş.** Yani bu PDF zinciri kapatmıyor —
+> ama $1M tarafını **kesin** olarak ayırıyor (kullanıcının "orada kullanıldıysa tekrara
+> düşmez" kuralı için sağlam bir sınır çizgisi).
+
+**✅ Kazanç 1 — 9 kelimelik anahtar resmî teyit aldı:**
+*"the hidden words spell the sentence **Every Challenge Leads Towards Location Name
+Somewhere Around World**"* → dokümanlarımızdaki değer birebir doğru.
+
+**✅ Kazanç 2 — bulmaca türü sözlüğü (yeni ipucu hattı):**
+`crossword`×11 · `rebus`×10 · `cipher`×7 · `word search`×5 · `GeoGuessr`×5 · `cryptic`×5 ·
+`anagram`×5 · `wordoku`×4 · `tentje-boompje`×4 · `kriss kross`×4 · `venn diagram`×3 ·
+`geography quiz`×3 · `triangle counting`×2 · **`transdeletions`×2** · `word pyramid`×1 ·
+`spot the differences`×1 · **`beheadments`×1**
+
+💡 Bu ekibin tarzı: **tür adını ima et, mekanizmayı söyleme.** Bizim İ9 (*"bird fence?"*),
+İ10 (*"Alphabetize?"*), İ12 (*"Boo! → BOOK / Five of these"*) tam bu kalıpta.
+`beheadments` (baş harf atma) ve `transdeletions` (harf taşıma) İ9'un
+"böl → tersle → dönüşümlü oku" mekanizmasıyla aynı aileden → **İ9'un resmî karşılığı
+muhtemelen bir transdeletion/beheadment varyantı.**
+
+**✅ Kazanç 3 — `dogrulama.py` 78 kontrole çıktı, 78/78.** Yeni `[11]` bloğu PDF dökümünü
+doğrudan denetliyor (anahtar cümle var mı, $10K izleri gerçekten yok mu).

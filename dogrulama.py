@@ -168,5 +168,23 @@ k("FOURTH UPLOAD mezarlıkta", True, "FOURTH UPLOAD" in c)
 k("NQX FILM mezarlıkta", True, "NQX FILM" in c)
 k("README tur 11'i anıyor", True, "Tur 11" in R("README.md"))
 
+# ---------------------------------------------------------------- resmî PDF
+print("\n[11] Resmî çözüm PDF'i (puzzle.pdf → RESMI_PDF_METIN.md)")
+# Yalnızca PDF DÖKÜMÜ taranır (dosyanın kendi açıklama başlığı değil).
+tam = R("RESMI_PDF_METIN.md")
+pdf = tam[tam.index("===== SAYFA 1 ====="):]
+k("döküm 84 sayfayı kapsıyor", True, "===== SAYFA 84 =====" in pdf)
+k("9 kelimelik $1M anahtarı resmî PDF'te birebir", True,
+  "Every Challenge Leads Towards Location Name" in pdf.replace("\n", " "))
+k("PDF'te 'Colin' geçmiyor → $10K bulmacası belgelenmemiş", 0, len(re.findall(r"Colin", pdf)))
+k("PDF'te 'Audubon' geçmiyor", 0, len(re.findall(r"Audubon", pdf, re.I)))
+k("PDF'te 'Birds of America' geçmiyor", 0, len(re.findall(r"Birds of America", pdf, re.I)))
+k("PDF'te 'LAST WORD' geçmiyor", 0, len(re.findall(r"LAST WORD", pdf, re.I)))
+k("PDF'te 'NINTH' geçmiyor", 0, len(re.findall(r"NINTH", pdf, re.I)))
+k("PDF'te 'QX' geçmiyor", 0, len(re.findall(r"\bQX\b", pdf)))
+k("PDF'te 'PLATES' geçmiyor", 0, len(re.findall(r"\bPLATES\b", pdf)))
+k("PDF'te 'sweepstakes' geçmiyor", 0, len(re.findall(r"sweepstakes", pdf, re.I)))
+k("PDF'te 'Alphabetize' geçmiyor", 0, len(re.findall(r"Alphabetize", pdf, re.I)))
+
 print(f"\n{'='*78}\nTOPLAM: {OK} doğrulandı, {FAIL} uyuşmadı")
 sys.exit(1 if FAIL else 0)

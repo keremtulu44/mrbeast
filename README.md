@@ -17,7 +17,9 @@ Sıfırdan gelen biri için **tek giriş noktası.** Baştan sona okunduğunda n
 | Dosya | İçerik |
 |---|---|
 | `cikti.md` | Çalışma defteri (tüm turların tarihçesi) |
-| `dogrulama.py` | 🔢 **Otomatik doğrulama** — `python3 dogrulama.py` (67 kontrol) |
+| `dogrulama.py` | 🔢 **Otomatik doğrulama** — `python3 dogrulama.py` (78 kontrol) |
+| `puzzle.pdf` | 📕 Resmî 84 sayfalık $1M çözüm PDF'i (kullanıcı ekledi, 66 MB) |
+| `RESMI_PDF_METIN.md` | 🔎 O PDF'in tam metin dökümü — **$10K bulmacasını İÇERMİYOR** (kanıtlı) |
 | `ucuncu_taraf_degerlendirme.md` | Harici iddiaların bağımsız denetimi |
 | `ipuclari_ham.md` | 17 ipucunun ham kaydı (değişmemiş birincil veri) |
 | `ipucu2_24_duzmetin.txt` | 24 plaka → 24 harf (satır satır gerekçe) |
@@ -43,6 +45,7 @@ Sıfırdan gelen biri için **tek giriş noktası.** Baştan sona okunduğunda n
   - ❌ **9-kelime avı:** 10 metin + bulmaca videosunun 268 cümlesi tarandı → şartı sağlayan **0** metin. `(66)`'nin kaynağı elimizde değil.
   - ⛔ **84 sayfalık resmî çözüm PDF'i** `https://mrb.gg/p/puzzle` sandbox'tan indirilemedi (TLS engeli) → **kullanıcının tarayıcısından indirip repoya koyması gerekiyor**
 
+- 📕 **Tur 11b:** resmî PDF repoya geldi → metni çıkarıldı. **Kesin sonuç: PDF yalnızca $1M'i anlatıyor, $10.000 bulmacası belgelenmemiş** (`Colin`/`Audubon`/`LAST WORD`/`QX`/`PLATES` → 0 geçiş). Kazanç: 9 kelimelik anahtar **resmî teyit** aldı + ekibin bulmaca-türü sözlüğü ele geçti (`beheadments`, `transdeletions` → İ9 ile aynı aile).
 - 🔢 **Tur 11 altyapı:** `/tmp/verify.py` sandbox sıfırlanınca kayboldu → artık repoda: **`dogrulama.py`** (67/67). 24 harf havuzu artık `ipucu2_24_duzmetin.txt` tablosundan **bağımsız türetiliyor**. 9. veri hatası düzeltildi: `142674`/`461427` 1-6 permütasyonu **değil** ({1,2,4,4,6,7}).
 
 ## Altın kurallar
