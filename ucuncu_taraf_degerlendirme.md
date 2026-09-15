@@ -259,3 +259,26 @@ BEASTSAND (9, kırmızı)  +  STUNTS (6, mavi)  =  BEASTSANDSTUNTS (15)
 Çıktı 3 buna %20 güven veriyor (STUNTS türetmesi zayıf: U ve N×2 havuzda yok,
 yani pembe 24 havuzdan gelmiyor). Ama `BEASTS AND STUNTS` İngilizce olarak
 **düzgün bir ifade** — tek başına bu, diğer 307 adaydan daha anlamlı.
+
+
+---
+
+## TUR 11 EK — `FOURTH UPLOAD` / `STUNTS` iddialarının kaynağı bulundu
+
+**Kaynak:** Reddit r/MrBeast, kullanıcı `gg4999`, 4 Eyl 2026.
+**İddia zinciri (birebir):** `364 -> xor superb owls -> fourth upload` ·
+`4445 -> last word then ninth` · `fourth upload -> last word -> ninth extraction -> stunts` ·
+`(9) -> beastsand` · `(6) -> stunts`
+
+**Denetim sonucu:**
+
+| Satır | Karar | Gerekçe |
+|---|---|---|
+| `(9) -> beastsand` | ✅ **DOĞRU** | 4 bağımsız kanıt + topluluk teyidi |
+| `364 -> xor superb owls` | ❌ **ÇÜRÜK** | "xor" işlemi tanımsız; "superb owls" 18 ham girdinin hiçbirinde yok |
+| `-> fourth upload` | ❌ **ÇÜRÜK** | "4"ün hiçbir girdide karşılığı yok (tek sayı-kelime İpucu 12'nin "Five"ı) |
+| `-> stunts` | ❌ **ÇÜRÜK** | `stunt` video-4 transkriptinde **0 kez** geçiyor (`dogrulama.py` [8]) |
+| `(6) -> stunts` | ❌ **ÇÜRÜK** | yukarıdakinin devamı |
+
+**Sonuç:** zincirin yalnızca kırmızı ucu doğru. Mavi uç (`(6)`) bu kaynaktan **beslenemez**.
+`cikti.md` §0-R'deki gömme kararı geçerli; §0-T/13'e kaynak kaydı eklendi.

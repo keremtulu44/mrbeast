@@ -1802,3 +1802,60 @@ yazıyordu (`ipuclari_ham.md`, `BULMACA_ANA_DOKUMAN.md:163`, `IPUCU_AGACI.md:109
 **Dokümanlar doğru:** çıkarılan şey `BEASTSAND` değil, İ13'ün çıktısı olan
 **`MRBEASTSAND` (11 harf)** → `24 − 11 = 13` → `DEEEFHIMORTTW` ✅.
 Bu ayrım hiçbir dosyada açıkça yazmıyordu; artık `dogrulama.py`'da iki kontrol olarak var.
+
+### 12 · ⛔ 84 SAYFALIK PDF — 6 YOLDAN DENENDİ, ÇEKİLEMİYOR (tekrar deneme)
+
+| # | Yöntem | Sonuç |
+|---|---|---|
+| 1 | `curl https://mrb.gg/p/puzzle/file.pdf` | `(35) SSL_connect: SSL_ERROR_SYSCALL` |
+| 2 | `curl --tlsv1.2 --http1.1` | aynı |
+| 3 | `python requests` | `SSLZeroReturnError` (TLS/SSL connection closed EOF) |
+| 4 | `fetch_page` (canlı + Wayback `id_`) | **HTTP 500** |
+| 5 | `r.jina.ai` üzerinden | içerik **boş** döndü |
+| 6 | Wayback sarmalayıcı sayfası | araç çubuğu geldi, PDF metni yok |
+
+**Kök neden (ölçüldü):** sandbox'ın ağ çıkışı **SNI tabanlı izin listesi** kullanıyor.
+`curl -v` çıktısı: DNS çözüyor (`104.21.85.95`, Cloudflare) → TCP bağlanıyor →
+**TLS Client Hello gönderildikten hemen sonra bağlantı kesiliyor.** Karşılaştırma:
+`pypi.org` → **200**, `en.wikipedia.org` → **000**, `youtube.com` → **000**, `web.archive.org` → **000**.
+Yani bash'ten yalnızca izinli birkaç ana makineye çıkılabiliyor; `fetch_page`/`web_search`
+platform proxy'sinden geçtiği için onlar çalışıyor.
+
+**✅ Doğrulanan iyi haber:** Wayback Machine'de PDF **arşivlenmiş** —
+`archive.org/wayback/available` API'si: `"status":"200","available":true`,
+kayıt `20260903133247`, toplam **3 capture** (2–3 Eyl 2026). Dosya kaybolmuyor,
+ama baytlarını buraya alamıyorum.
+
+> **👉 Kullanıcıdan istenen:** tarayıcıdan `https://mrb.gg/p/puzzle` → *Download* →
+> PDF'i bu repoya koy. Yedek: `http://web.archive.org/web/20260903133247/https://mrb.gg/p/puzzle/file.pdf`
+
+### 13 · 🔎 `FOURTH UPLOAD` ve `STUNTS`'IN GERÇEK KAYNAĞI BULUNDU
+
+§0-R'de "kaynaksız tahmin" diye gömdüğümüz iki iddianın **nereden geldiği artık belli.**
+Kaynak: Reddit r/MrBeast, kullanıcı **`gg4999`**, 4 Eyl 2026, *"If we don't work together…"* başlığı:
+
+```
+527  -> birds of america -> Roman/index extraction -> alphabetize -> beastsand
+364  -> xor superb owls -> fourth upload
+4445 -> last word then ninth
+fourth upload -> last word -> ninth extraction -> stunts
+(9)  -> beastsand      (6) -> stunts
+```
+
+**Değerlendirme:**
+- `(9) -> beastsand` satırı **bizimle uyumlu** ✅ (4 bağımsız kanıtımız var).
+- `364 -> xor superb owls -> fourth upload` satırı **gerekçesiz**: "xor" işlemi tanımsız,
+  "superb owls" hiçbir girdide yok, "fourth"un "4"ü yine kaynaksız. **Çürütme geçerli kaldı.**
+- `-> stunts` da aynı zincirin devamı; `stunt` kelimesi video-4 transkriptinde **0 kez** geçiyor
+  (`dogrulama.py` [8] ile ölçüldü). **Mezarlık kararı doğruydu.**
+- Yani §0-R'deki gömme işlemi **doğruydu**, ama "kaynaksız" demek eksikti: kaynak bir
+  Reddit spekülasyonuydu. Artık kayıtlı.
+
+### 14 · Tur 11'de ele geçen diğer birincil/topluluk verileri
+
+| Veri | Kaynak |
+|---|---|
+| **Colin'in tam adı: Colin Sanders** | salesforce.com *"Beastly Complicated: How Colin Sanders Solved the Million Dollar Puzzle"* |
+| $1M final cevap formatı talimatı: *"IN JIMMYS VAULT FIRST PART STICKS ROAMY RESULTS IN BETWEEN STAGE ONE ANSWER PAIRS LAST PART HE SHOWED AT START"* (40 adet 12 harfli kelimenin yığılmasından) | laurencetennant.com dökümü |
+| Lone Shark Games çapraz bulmaca PDF'i: `lonesharkgames.com/wp-content/uploads/2026/02/Million-Dollar-Crossword.pdf` | Reddit + arama |
+| İpucu envanteri teyidi: Book Cipher / T9 telefon / `QX=TH` / `PLATES`+`251634` aynı karakter sayısı | r/MrBeast `Due-Appearance-4701`, `Kim-trumpun` |
