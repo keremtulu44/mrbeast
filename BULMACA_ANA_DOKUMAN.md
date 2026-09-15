@@ -160,7 +160,8 @@ Sübstitüsyon + ordinal ek. A1Z26 `17=Q, 24=X` → `QX → TH` → `46 + TH = 4
 Bağımsız teyit: Reddit "yeşil not: QX = TH".
 
 **✅ İPUCU 6 — `142674 / 251634 / 461427`** ✅
-Hepsi 1-6 permütasyonu. Kullanıcı teyidi: 2. satır **`251634`** → sıralama anahtarı
+~~Hepsi 1-6 permütasyonu.~~ ❌ **Tur 11 düzeltmesi:** üçü de 1-6 permütasyonu DEĞİL. Yalnızca `251634` {1,2,3,4,5,6}. `142674` ve `461427`'nin rakam kümesi {1,2,4,4,6,7} (7 var, 3 ve 5 yok; 4 iki kez) ve İpucu 16'nın `214674`'üyle AYNI küme. Kanıt: `dogrulama.py` [7].
+Kullanıcı teyidi: 2. satır **`251634`** → sıralama anahtarı
 `[2.,5.,1.,6.,3.,4.]` → `214674 → 172446`. ⚠️ 2. turda aritmetikle çelişti, teyit bekliyor.
 **EKSİK:** `142674` ve `461427`'nin işlevi bilinmiyor.
 

@@ -1619,3 +1619,186 @@ ile bitiyor → o değil. **6 harfli kelimeyle biten 9 kelimelik metin hâlâ bu
 2. FRIDAY'i doğrulayacak/çürütecek test: `(364)` → iki tarih → CUMA zincirini
    videodaki tarih notlarıyla birebir eşleştir (İpucu 17'nin kaynağı görsel mi?).
 3. İpucu 1'in 5 tespiti (envantere `s/r/u/e` kazandıracak adaylar öncelikli).
+
+---
+
+## §0-T — TUR 11 · BİRİNCİL KAYNAKLARA ERİŞİM: KIRILMA
+
+> **Tur 0-L/0-P'de "internet yok" diye bir engel kaydedilmişti. Bu engel YANLIŞTI.**
+> PyPI'den sonra YouTube'a, resmî yarışma sayfasına ve resmî kurallara da erişildi.
+> Bu turda proje tarihinde ilk kez **$10.000'in resmî tanımı** ele geçti.
+
+### 1 · 🔴 $10.000 NEDİR? — RESMÎ KURALLARDAN BİREBİR
+
+Kaynak: `https://puzzle-video-sweepstakes.mrbeast.app/official-rules` (Tur 11'de çekildi)
+
+| Alan | Resmî metin |
+|---|---|
+| Ödül | *"One (1) Grand Prize is available consisting of **$10,000** awarded to the confirmed winner"* |
+| Yarışma | *"the first person to solve a puzzle at the Contest Website (the "Puzzle")"* |
+| Süre | *"begins at 12:00 p.m. ET on **September 2, 2026** and ends at 11:59 a.m. ET on **September 2, 2027** or when the winning answer has been successfully received"* |
+| Video | *"watch the Contest video published on **@MrBeast2** on YouTube.com on September 2, 2026"* → **`82CX6WULNA0`** |
+| İpuçları | *"**Clues to solving the Puzzle will be available in the Video.**"* |
+| Cevap | *"go to https://puzzle-video-sweepstakes.mrbeast.app and follow the on-screen instructions to provide your answer **along with your email address**"* |
+| Format | Site formunda tek serbest metin alanı: **"Guess the answer\*"** + e-posta. *"You can guess multiple times, but there is only 1 correct answer."* |
+
+**Sonuç:** `$10.000` = **Colin'in video içine gizlediği bulmaca.** Cevap **tek bir metin**.
+Yarışma **hâlâ açık** (bitiş 2 Eyl 2027). Türkiye ambargo listesinde **değil** → uygun.
+
+### 2 · Videonun kendi ağzından (yeni birincil dosya: `PUZZLE_VIDEOSU_82CX6WULNA0.md`)
+
+> *"at the end of this video, I'll tell you how you can solve the puzzle in this video and win $10,000."*
+> *"there is a puzzle hidden within this video **created by Colin himself**, and the first person
+> to answer correctly wins $10,000. So if you think you've solved it, **scan this QR code**
+> and enter your final answer."*
+
+Videonun tamamı (3.226 kelime, 268 cümle) repoya eklendi — repo'da hiç yoktu.
+**İpucu 8'in "Youtube link watch?" sorusunun hedefi bu video.**
+
+### 3 · 👤 Colin kim?
+
+Video açıklaması: *"Check out Colin: `https://www.youtube.com/@doctorxor` — `https://youtu.be/XCOkRKUe3Nc`"*
+→ **Colin = `@doctorxor`.** Videoda kasa başında: *"Is this Colin? / Hundreds and hundreds [hours]."*
+Reddit'te `DoctorXOR` hesabıyla yorum bırakmış: *"was used last puzzle"*.
+
+### 4 · 📕 84 SAYFALIK RESMÎ ÇÖZÜM PDF'İ — ALINAMADI
+
+`https://mrb.gg/p/puzzle` → *"Million Dollar Puzzle Answers"*, 1 Eyl 2026, **84 sayfa**.
+`https://mrb.gg/p/puzzle/file.pdf`
+- `curl`/`requests` → **TLS EOF** (SSLZeroReturnError)
+- `fetch_page` → **HTTP 500**
+→ **Sandbox'tan indirilemiyor. Kullanıcının kendi tarayıcısından açması gerekiyor.**
+⚠️ Bu PDF **$1M** bulmacasının dökümü; $10K bulmacası ayrı ve Colin'e ait. Yine de
+aynı ekibin (Lone Shark Games) mekaniklerini gösterdiği için zincire ışık tutabilir.
+
+### 5 · $1M kasa kodu — ve içindeki `66`
+
+Transkriptten birebir: `R-62 · L-39 · R-05 · L-73` + *"The score was 6 to 0"* +
+*"Foul on the play, **number 66**"* + *"Quarter two"* + *"3:09 on the clock"* + *"Ball on the 12"* + *"0-0-3, 0-0"* → 30 haneli kod.
+
+> ⚠️ **Karıştırmayalım:** bu `66` $1M kodunun parçası. Bizim `(66)`'mız **kelime-uzunluğu
+> notasyonu** (kanıt aşağıda, madde 6). İkisi ayrı şey.
+
+### 6 · 🔑 NOTASYONUN KESİN KANITI (yeni)
+
+İpucu 15: `(364) (4445) → (66) → (6)`
+
+```
+(4445) = LAST(4)  WORD(4)  THEN(4)  NINTH(5)     ← BİREBİR, harf harf tutuyor
+```
+
+Bu, parantezli sayıların **kelime uzunlukları** olduğunu **kesinleştirir**:
+
+| Notasyon | Kelime sayısı | Toplam harf |
+|---|---|---|
+| `(364)` | 3 | 13 |
+| `(4445)` | 4 | 17 = *LAST WORD THEN NINTH* ✅ |
+| `(66)` | 2 | 12 |
+| `(6)` | 1 | 6 |
+
+İpucu 13'teki `MR(9)` = **"MR" + 9 harf** = `MRBEASTSAND` aynı notasyonu doğrular.
+(İpucu 13'ün zinciri: `(527)` 3 kelime/14 harf → `(83544)` 5 kelime/24 harf → `MR(9)`.)
+
+### 7 · ADIM 1 SONUCU — 9 KELİME AVI  ❌ (ve bir öz-düzeltme)
+
+**Önceki turda yaptığım hata:** "kaynak metin **tam 9 kelime** olmalı" dedim.
+Bu bir **AŞIRI GENELLEME.** Doğru şart daha zayıf:
+
+```
+(66)  ⇔  9. kelime 6 HARF   ve   SON kelime 6 HARF
+        (aynı kelime olmaları ŞART DEĞİL — iki ayrı 6 harfli kelime de (66) verir)
+        (metin tam 9 kelime ise son = 9. olur, yani X|X — özel hal)
+```
+
+**Test edilen 10 metin — hiçbirisi geçmiyor:**
+
+| Metin | Kelime | 9. | Son | Sonuç |
+|---|---|---|---|---|
+| **`82CX6WULNA0` tam transkripti** | 3.226 | `this` (4) | `video` (5) | ❌ |
+| $1M 9 kelimelik anahtar | 9 | `world` (5) | `world` (5) | ❌ → `(55)` |
+| *Ornithological Biography* tam adı | 45 | `States` (6) | `localities` (10) | ❌ |
+| Video-4 transkripti | 3.060 | `million` (7) | `guys` (4) | ❌ |
+| İ9 / İ10 / İ12 / İ17 notları, 2 gerçek başlık, GENEL not | <9 | — | — | ❌ 9. kelime yok |
+
+**Transkriptin cümle düzeyinde taranması:** 268 cümle → tam 9 kelimelik **8** cümle →
+son kelimesi 6 harf olan **0** tane. (8'i: `vault`(5), `X's`(3), `commercial`(10), `Bolivia`(7),
+`arrived`(7), `Roamy`(5), `Iceland`(7), `Territories`(11).)
+
+⚠️ Video-4 transkriptinde şartı sağlayan 2 cümle çıktı (*"What we have coming up next is
+even better."* ve *"Chandler either didn't jump or splatted on the ground."*) ama
+**video 4 $1M avının parçası** → kullanıcı kuralı gereği kullanılamaz.
+
+→ **`(66)`'nin kaynağı elimizdeki hiçbir metin değil.**
+
+### 8 · 🌐 TOPLULUK ENVANTERİ — İpucu 1-17 ile birebir eşleşme (Reddit r/MrBeast)
+
+| Topluluk adı | Bizim kayıttaki karşılığı | Durum |
+|---|---|---|
+| Blue Sticky Note `LSWRTE/NNHTIN/HDOTA` + *"Should I call it bird fence?"* | **İ9** | ✅ aynı, çözüm `LAST WORD THEN NINTH` |
+| Green Sticky Note `QX = TH` | **İ5** | ✅ aynı |
+| Orange Sticky Note `081 XIV / Seahawks?` (ve `021 XIV`) | **İ2/İ3** | ✅ aynı |
+| Pink list → **Book Cipher** | **İ10** *"Book w/ old names… Alphabetize?"* | 🔥 **işlevi ilk kez duyuldu** |
+| White paper → **T9 telephone system** | **park edilen telefon ipucu** | 🔥 **işlevi ilk kez duyuldu** |
+| `PLATES` + `251634` → *"same number of characters, a transformation to apply"* | **İ6/İ7** | 🔥 yeni yorum: 251634 bir **dönüşüm** |
+| Puzzle pieces → category-index with red/blue Roman numerals | **İ1** | ✅ aynı |
+| White pad below TV: `(364) → (6…` | **İ14** | ✅ aynı |
+| `$10,000` sketch with wavy contour lines | **İ6 konturları** | ✅ aynı |
+
+**Yeni, henüz bizde olmayan gözlemler:** bilgisayar **5:34–5:35'te çöküyor**;
+televizyonun sağındaki çıkartmada bir **YouTube linki** var; **jigsaw parçaları birleşiyor**;
+0:30'daki abone ol mesajı döndürülebiliyor; 17:00 civarı altta **sarı yapışkan notta sayılar**.
+
+### 9 · Doğrulanmamış topluluk iddiası
+
+*"from LAST WORD THEN NINTH, i finally got **money video** … Airrack's video → Beast Games
+Episode 3 → area code **+674** → **Nauru** island … i really think its a phone number that we are cracking"*
+
+- `MONEY`(5) `VIDEO`(5) → `(55)`, **bizim `(66)` ile uyuşmuyor** → ya farklı bir metin, ya hatalı.
+- Ama `+674` ilginç: İ6'nın `142674`'ünde `674` var.
+- **Doğrulanmadı. Kullanılmıyor.** Kayıt amaçlı buraya yazıldı.
+
+### 10 · Tur 11 bilançosu
+
+| Konu | Durum |
+|---|---|
+| $10.000'in ne olduğu | ✅ **KAPANDI** — resmî kurallardan doğrulandı |
+| Colin'in kimliği | ✅ **KAPANDI** — `@doctorxor` |
+| Notasyonun anlamı | ✅ **KESİNLEŞTİ** — kelime uzunlukları |
+| Bulmaca videosunun transkripti | ✅ **repoya eklendi** |
+| `(66)`'nin kaynağı | ❌ hâlâ açık — 10 metin elendi |
+| `(6)` = ? | ❌ hâlâ açık |
+| 84 sayfalık resmî PDF | ⛔ sandbox engelli → **kullanıcı indirecek** |
+
+**Sıradaki en verimli adım:** kullanıcının `https://mrb.gg/p/puzzle` PDF'ini indirip
+repoya koyması. İkinci sırada: Colin'in `XCOkRKUe3Nc` videosu.
+
+### 11 · 🧹 Doğrulama altyapısı repoya alındı + 1 veri hatası düzeltildi
+
+**Sorun:** projenin tek otomatik kontrolü `/tmp/verify.py` idi (58 kontrol). `/tmp` geçici —
+bu turda sandbox sıfırlanınca **kayboldu** ve aynı turda yerel git deposu da `b4ce99c`'ye
+geri klonlanmıştı. Uzak `ea88e4d` sağlamdı; `git fetch` + `git reset --mixed` ile hizalandı.
+**İş kaybı yok**, ama ders alındı: kontrol aracı artık repoda → **`dogrulama.py`**.
+
+**Yeniden yazılan `dogrulama.py`: 67 kontrol, 67 doğrulandı, 0 uyuşmadı.**
+Eskisinden daha güçlü — iki kontrol artık **bağımsız türetme**:
+
+| Kontrol | Eski hali | Yeni hali |
+|---|---|---|
+| 24 harf havuzu | sabit dizi kendi kendine karşı | `ipucu2_24_duzmetin.txt` tablosunun son sütunundan **satır satır yeniden türetildi** → `IBRTADSSOREMHTDFNATEEMEW` ✅ |
+| `MRWBEASTSATDHEREOFNIDTEM` | "alfabetik" diye etiketli | kuşların **İngilizce adlarına göre** sıralama olarak yeniden hesaplandı → ✅ (`American Bittern→M`, `Blue Jay→R`, `Brown Longspur→W`, `Crested Titmouse→B`, …) |
+
+**❌ Bulunan ve düzeltilen veri hatası (9. hata):** üç dosyada *"üçü de 1-6 permütasyonu"*
+yazıyordu (`ipuclari_ham.md`, `BULMACA_ANA_DOKUMAN.md:163`, `IPUCU_AGACI.md:109`). **Yanlış:**
+```
+251634 → {1,2,3,4,5,6}   ✅ tek gerçek 1-6 permütasyonu (sıralama anahtarı)
+214674 → {1,2,4,4,6,7}   ❌ 7 var, 3 ve 5 yok, 4 iki kez
+142674 → {1,2,4,4,6,7}   ❌ 214674 ile AYNI küme (zaten cikti.md:254'te yazıyordu)
+461427 → {1,2,4,4,6,7}   ❌ aynı
+```
+`cikti.md` doğruyu biliyordu, diğer üç dosya bilmiyordu → çelişki giderildi.
+
+**⚠️ Kendi hatam, son anda yakalandı:** kalan havuzu `24 − BEASTSAND(9) = 15 harf`
+(`DEEEFHIMMORRTTW`) diye hesaplayıp dokümanların 13 harfini "hatalı" ilan etmek üzereydim.
+**Dokümanlar doğru:** çıkarılan şey `BEASTSAND` değil, İ13'ün çıktısı olan
+**`MRBEASTSAND` (11 harf)** → `24 − 11 = 13` → `DEEEFHIMORTTW` ✅.
+Bu ayrım hiçbir dosyada açıkça yazmıyordu; artık `dogrulama.py`'da iki kontrol olarak var.

@@ -86,6 +86,8 @@ QX = TH
 461427
 ```
 (6 haneli, hepsi 1-6 permütasyonu → İpucu 16'yı sıralamak için.)
+> ⚠️ **Tur 11:** yukarıdaki satır YANLIŞ — ❌ **Tur 11 düzeltmesi:** üçü de 1-6 permütasyonu DEĞİL. Yalnızca `251634` {1,2,3,4,5,6}. `142674` ve `461427`'nin rakam kümesi {1,2,4,4,6,7} (7 var, 3 ve 5 yok; 4 iki kez) ve İpucu 16'nın `214674`'üyle AYNI küme. Kanıt: `dogrulama.py` [7].
+> (Ham kayıt olduğu için kullanıcının orijinal satırı değiştirilmedi.)
 
 ## İPUCU 7
 ```

@@ -106,7 +106,8 @@ olarak okumuş → bizim kaydımız doğrulandı.
 diyor → kaydımız doğrulandı.
 
 ## ✅ İPUCU 6 — `142674 / 251634 / 461427`   ✅ anahtar bulundu
-**Nasıl tanımlandı:** Üçü de 1-6 permütasyonu. Kullanıcı teyidi: 2. satır **`251634`**
+**Nasıl tanımlandı:** ~~Üçü de 1-6 permütasyonu.~~ ❌ **Tur 11 düzeltmesi:** üçü de 1-6 permütasyonu DEĞİL. Yalnızca `251634` {1,2,3,4,5,6}. `142674` ve `461427`'nin rakam kümesi {1,2,4,4,6,7} (7 var, 3 ve 5 yok; 4 iki kez) ve İpucu 16'nın `214674`'üyle AYNI küme. Kanıt: `dogrulama.py` [7].
+Kullanıcı teyidi: 2. satır **`251634`**
 (⚠️ tur 2'de aritmetikle çelişti, yeniden teyit bekleniyor).
 **Nasıl kullanıldı:** `251634` = sıralama anahtarı → `214674` → `1 7 2 4 4 6`.
 **EKSİK:** `142674` ve `461427`'nin işlevi bilinmiyor (41427 → "JUN"? kanıtsız).
