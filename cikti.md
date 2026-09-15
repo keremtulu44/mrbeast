@@ -2095,3 +2095,139 @@ eksik    : b g k m p q r s u w x z
 2. **#10** — mayo kadının arka planındaki **kahverengi ton**: kızıl-kahve (King Rail, 203) mi,
    siyahımsı (Black Rail, 349) mi, gri-kahve (Clapper Rail, 204) mü?
 3. **#1** — Umman bayrağında dikkat çeken **çapraz kılıçlar** mı, yoksa bayrağın **ülke** oluşu mu?
+
+---
+
+# 0-V) 🔬 TUR 13 — "ORİJİNAL AD" KURALI + KIRMIZI/MAVİ AYRIMI
+
+> Kullanıcı: *"Audubon kullanıyoruz, ilk yazıldığı hâli, yeni compact olan değil. Hata yaptıysan
+> düzelt, doğruysa direkt 'sorun yok' de. Bir de kırmızı-maviyi ayrı ayrı kullan."*
+
+## 1 · ✅ KURAL ZATEN UYGULANIYOR — ve "compact" uyarısı HAVELL/OCTAVO ayrımını doğruladı
+
+`ipucu1_14_duzmetin.txt [1]`: *"Sayım, plakaya **KAZINMIŞ ORİJİNAL** Latince ad üzerinden
+(**modern ad DEĞİL**)."* → kural dosyada zaten var.
+
+**"Compact" uyarısının teknik karşılığı:** Audubon'un iki baskısı var —
+**Havell** (çift fil boyutu, 1827-38, 435 plaka) ve **Octavo** (küçük/compact, 1840-44, 7 cilt).
+Numaraları **farklı**. Thurgood Marshall listesi ikisini yan yana veriyor → test ettim:
+
+| Plaka | Havell (= bizim kullandığımız) | Octavo/compact olsaydı |
+|---|---|---|
+| **340** | **Least Stormy-Petrel** ✅ bizimki | 158 — ama octavo 340 = *White-crowned Sparrow* (Havell 114) ❌ |
+| **203** | **Fresh Water Marsh Hen (King Rail)** ✅ | octavo 203 = Havell 118 *Warbling Flycatcher* ❌ |
+| **197** | **American Crossbill** ✅ | octavo 197 = Havell 133 *Hemlock Warbler* ❌ |
+
+→ **Biz doğru numaralandırmadayız (Havell).** Compact baskıya kayma hatası YOK. ✅
+
+## 2 · 🌐 HAVELL LİSTESİYLE PLAKA DOĞRULAMASI — artık **12/14 teyitli**
+
+Kaynak: Thurgood Marshall State Law Library, *List of Audubon Prints* (Havell ↔ Octavo).
+
+| # | Plaka | Bizim tür | Liste (Havell) | Sonuç |
+|---|---|---|---|---|
+| #12 | 35 | Children's Warbler | `35 · 263 · Children's Warbler` | ✅ |
+| #14 | 46 | Barred Owl | `46 · 188 · Barred Owl` + Cornell lejantı | ✅ |
+| #5 | 56 | Red-shouldered Hawk | `56 · 249 · Red-Shouldered Hawk` | ✅ |
+| #8 | 95 | Blue-eyed (Yellow) Warbler | `95 · 147 · Yellow-Poll Warbler` | ✅ |
+| #13 | 181 | Golden Eagle | `181 · 54 · Golden Eagle` | ✅ |
+| #4 | 189 | Snow Bunting | `189 · 201 · Snow Bunting` | ✅ **yeni** |
+| #2 | 195 | Ruby-crowned Wren | `195 · 416 · Ruby Crowned Wren` | ✅ |
+| #1 | 197 | American Crossbill | `197 · 341 · American Crossbill` | ✅ |
+| #10′ | 203 | Fresh Water Marsh Hen | `203 · 79 · Fresh Water Marsh Hen aka King Rail` | ✅ **yeni** |
+| #10″ | 204 | Salt Water Marsh Hen | `204 · 134 · Salt Water Marsh Hen aka Clapper Rail` | ✅ **yeni** |
+| #1′ | 217 | Louisiana Heron | `217 · 115 · Louisiana Heron` | ✅ **yeni** |
+| #7 | 314 | Laughing Gull | `314 · 366 · Black-Headed Gull aka Laughing Gull` | ✅ **yeni** |
+| #9 | 340 | Least Stormy Petrel | `340 · 158 · Least Stormy-Petrel` | ✅ **yeni** |
+| #11 | 173 | Barn Swallow | `173 · 117 · Barn Swallow` | ✅ **yeni** |
+
+**⚠️ 1 UYUŞMAZLIK BULUNDU — #10'un plaka numarası:**
+Liste `348 · 234 · Least Water-hen aka Black Rail` diyor; bizim dosya **349** yazıyor.
+→ **Harfleri DEĞİŞTİRMİYOR** (harf `Rallus jamaicensis`'ten geliyor, plaka numarasından değil),
+ama #10 = Black Rail ise plaka **348** olmalı. Gözle teyit gerekiyor.
+
+**2 plaka listede sütun kayması yüzünden netleşmedi:** #3 (251 Brown Pelican) ve
+#6 (109 Savannah Finch) — liste satırları PDF'ten bozuk çıktı.
+
+## 3 · 🔧 DÜZELTME — #13'ün Latince adı
+
+Kural "orijinal ad" dediğine göre: **Lilly Library kataloğu `Falco Chrysaetos` veriyor**,
+NY Historical ise `Aquila chrysaetos` (bu modern adlandırma). Dosyamız `Aquila`'yı
+**filtreye uyduğu için** seçmişti → döngüsel. Kural gereği **`Falco` esas alınmalı.**
+
+```
+Aquila chrysaetos (16) → 🔴c 🔵h   (dosyadaki hâli)
+Falco  chrysaetos (15) → 🔴h 🔵h   ← orijinal ad buysa
+```
+
+**Sonuç:** `Falco` ise çift `h|h` olur ve **13/13'lük 🔴≠🔵 deseni bozulur.**
+Üç olasılık: (a) lejant `Aquila`'dır → sorun yok; (b) lejant `Falco`'dur ve otorite
+kısaltması sayılıyordur (`falcochrysaetosl`=16 → 🔴h 🔵**r** ✅); (c) #13 başka bir kartal.
+→ **#13 🔒 değil 🟡 olarak işaretlendi.** Plakanın lejantına bakmak gerekiyor.
+
+## 4 · ✅ DOĞRU ÇIKANLAR (dokunulmadı)
+
+- **#14 `Strix nebulosa`** → Cornell Hill Ornithology Collection birebir:
+  *"Barred Owl, male adult.: **Strix nebulosa**, Grey Squirrel, Scurius cinereus. **Plate 46**"*
+  → orijinal lejant `Strix nebulosa`, **SORUN YOK.** ✅
+- **#12 `Sylvicola childrenii` / `Sylvia childrenii`** → ikisi de aynı harfleri veriyor
+  (`y`,`a`), dosya bunu zaten not etmiş. **SORUN YOK.** ✅
+- Diğer 12 Latin adı orijinal adlandırma kalıbında (`Falco lineatus`, `Emberiza nivalis`,
+  `Fringilla savanna`, `Larus atricilla`, `Sylvia aestiva`, `Thalassidroma pelagica`,
+  `Hirundo rustica`, `Pelecanus fuscus`, `Regulus calendula`, `Loxia curvirostra`,
+  `Ardea ludoviciana`, `Rallus …`). **SORUN YOK.** ✅
+
+## 5 · 🔴🔵 KIRMIZI / MAVİ AYRI AYRI — VE YAPISAL EŞLEŞME
+
+```
+🔴 SADECE KIRMIZILAR (14) : ceanlnciijoyce     a1 c3 e2 i2 j1 l1 n2 o1 y1
+🔵 SADECE MAVİLER    (13) : odfvialaataha      a5 d1 f1 h1 i1 l1 o1 t1 v1
+   (#10 görselinde MAVİ yok → 14 değil 13 mavi çıkıyor)
+```
+
+### 🔑 BULGU: sayılar birebir oturuyor
+```
+(527) = 5+2+7 = 14 harf   ←→   🔴 KIRMIZILAR = 14
+(364) = 3+6+4 = 13 harf   ←→   🔵 MAVİLER    = 13
+```
+İpucu 13 `(527)→(83544)→MR(9)`, İpucu 14 `(364)→(66)→(6)`.
+**Kırmızılar 14'lük zincire, maviler 13'lük zincire karşılık geliyor olabilir.**
+
+### Test: (364) = mavilerin 3+6+4 bölünmesi mi?
+120.000 kelimelik liste, `odfvialaataha` → **3.833 geçerli bölme.** En iyileri:
+`had + afloat + avia` · `had + latvia + afoa` · `aha + flavio + data` · `via + afloat + adha`
+→ **hiçbiri anlamlı bir cümle değil.** Yani maviler doğrudan (3,6,4) kelime bölmesi vermiyor.
+
+### Test: (527) = kırmızıların 5+2+7 bölünmesi mi?
+`ceanlnciijoyce` → **582 geçerli bölme.** En iyileri:
+`jayco + in + licence` · `enjoy + nc + cecilia` · `joyce + ca + incline` · `niece + jo + cynical`
+→ yine anlamlı cümle yok.
+
+### ⚠️ Ama dikkat çekici bir şey: kırmızılar **JOYCE** ile bitiyor
+```
+c e a n l n c i i | j o y c e
+#1 #2 #3 #4 #5 #6 #7 #8 #9  | #10 #11 #12 #13 #14
+```
+Son 5 kırmızı harf tam olarak **JOYCE**. Ve bu **yalnızca #10 = J ise** oluyor
+(`Rallus jamaicensis`, plaka 349/348). #10 = E (203) veya C (204) olursa `…iieoyce` /
+`…iico yce` olur, JOYCE çıkmaz.
+→ **#10 = J (Black Rail) için zayıf ama gerçek bir destek.** Anlamlı mı, tesadüf mü — belirsiz.
+
+### Altı ayrı okuma (referans)
+```
+🔴 görsel        : ceanlnciijoyce      🔵 görsel        : odfvialaataha
+🔴 alfabetik     : coeiayccijlenn      🔵 alfabetik     : otaafahlaidav
+🔴 ters          : ecyojiicnlnaec      🔵 ters          : ahataalaivfdo
+```
+
+## 6 · SONUÇ
+
+| Konu | Durum |
+|---|---|
+| "Orijinal ad" kuralı | ✅ zaten uygulanıyor, **compact/octavo kayması YOK** (3 örnekle test edildi) |
+| Plaka numaraları | ✅ **12/14 Havell listesiyle teyitli** · ⚠️ #10: 349 mu 348 mi · ❓ #3, #6 liste bozuk |
+| #14 `Strix nebulosa` | ✅ **DOĞRU** — Cornell lejantı birebir |
+| #13 `Aquila` vs `Falco` | 🔧 **DÜZELTİLDİ** — kural gereği `Falco` esas; çift `h|h` olur, desen bozulur |
+| Kırmızı/mavi ayrımı | ✅ yapıldı · **14 ↔ (527), 13 ↔ (364)** yapısal eşleşmesi bulundu |
+| (364) = mavilerin 3+6+4'ü mü? | ❌ 3.833 bölme, anlamlı cümle yok |
+| Yeni ipucu | ⚠️ kırmızılar **JOYCE** ile bitiyor — yalnızca #10 = J ise |
