@@ -112,6 +112,16 @@
       NEDEN  : 'su + dişi' uyuyor ama Clapper Rail gri-kahve; deniz (salt water) vurgusu görselde yok.
       NOT    : Lejant: 'Salt water marsh hen : Rallus crepitans, Gm.' → kırmızı VII = 7. harf = C
 
+  [10] GÖRSEL : (aynı görsel)  ⭐ TUR 17 — KULLANICININ İPUCUYLA ÇÖZÜLDÜ
+      KUŞ    : BOOBY GANNET (= BROWN BOOBY)  —  PLAKA 207  —  Sula fusca
+      SAYIM  : sulafusca   →   🔴 VII = S    🔵 — = —    →  HARF ÇİFTİ: S—   ✅
+      NEDEN  : mayo/swimsuit kadın = 'BOOBY' (argo) + KAHVERENGİ arka plan = 'BROWN'
+               → BROWN BOOBY. Kitaptaki ESKİ adı 'Booby Gannet' (İpucu 10 'Book w/ old names').
+      NOT    : Pittsburgh lejantı birebir: 'Booby Gannet, Sula fusca; J WHATMAN TURKEY MILL 1834'
+               Audubon, Ornithological Biography III: 'THE BOOBY GANNET. Adult Male. Plate CCVII.'
+      ❌ MEZARLIK: yukarıdaki üç Rallus adayı (jamaicensis/elegans/crepitans) ÇÜRÜDÜ —
+         'su + dişi' okuması kahverengi vurgusunu ve pun'u karşılamıyordu.
+
   [11] GÖRSEL : ABD Bayrağı + AHIR
       KUŞ    : Barn Swallow   —   PLAKA 173   —   Hirundo rustica
       SAYIM  : hirundorustica   →   🔴 VII = O    🔵 IV = t    →  HARF ÇİFTİ: Ot   🔒
@@ -139,8 +149,11 @@
   Görsel sırasıyla (kırmızı, mavi):
    co | ed | af | nv | li | na | cL | ia | ia | ?- | ot | ya | ch | ea
 
-  Sadece KIRMIZILAR : c e a n l n c i i ? o y c e
-  Sadece MAVİLER    : o d f v i a L a a t a h a
+  Sadece KIRMIZILAR (ESKİ, #10=rail kabulüyle) : c e a n l n c i i ? o y c e
+  ⭐ TUR 17 — #10 = BOOBY GANNET (Sula fusca, pl.207) → 🔴 VII = S
+  Sadece KIRMIZILAR (YENİ) : c e a n l n c i i S o y c e   = ceanlnciisoyce
+  Sadece MAVİLER  (değişmedi) : o d f v i a L a a t a h a  = odfvialaataha
+  ⚠️ 'j' gitti, 's' geldi → kırmızı alfabe artık {a,c,e,i,l,n,o,s,y}
   TERS sırada (14→1): eachyaot?-iaiacLnalinvafedco
 
   ⚠️ DİKKAT ÇEKİCİ: ters sırada (14→1, kırmızı+mavi dönüşümlü) dizi şöyle başlıyor:
@@ -154,7 +167,11 @@
 [5] AÇIK / KİLİTLİ OLMAYANLAR
 ------------------------------------------------------------------------------------------------------------------------------------------------------
   #1  → 197 Loxia curvirostra (c,o)  mu  217 Ardea ludoviciana (l,c)  mü?   [bayrak=ülke mi, çapraz kılıç mı]
-  #10 → 349 Rallus jamaicensis (J)  mu  203 Rallus elegans (E)  mü  204 Rallus crepitans (C)  mü?
-        Üçü de 'Rallus' ile başlıyor, kırmızı VII = tür adının İLK harfi: J / E / C.
-        KAHVERENGİ vurgusu 203'ü (King Rail = kızıl-kahve) işaret ediyor olabilir.
+  ✅ #10 ÇÖZÜLDÜ (TUR 17) → 207 BOOBY GANNET (Brown Booby), Sula fusca → 🔴 VII = S
+        Kullanıcı ipucu: 'Brown booby anlamına gelen bir kuş vardı sanki 10 için.'
+        Pun: swimsuit kadın = 'booby' + KAHVERENGİ zemin = 'brown'. Eski kitap adı
+        'Booby Gannet' → İpucu 10 'Book w/ old names' ile birebir.
+        ❌ 349/203/204 Rallus adayları ÇÜRÜDÜ (mezarlık: cikti.md §0-Z/1).
+  🟡 #1  → 'eski isimlere bağlı kalmadan düz Umman bayrağı' (kullanıcı, TUR 17) — AÇIK.
+        197 lejantı teyitli: 'American crossbill : Loxia curvirostra, Linn.' → (c,o).
   🟡 olan 5 tespit (#1, #8, #10, #12, #13) netleşmeden 27 harf okunamaz.

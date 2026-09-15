@@ -12,7 +12,8 @@
 🎯 HEDEF: İKİ HAVUZ ÜRET → KOMBİNASYON KİLİDİ
 │
 ├── 🔴 KIRMIZI TARAF  →  (9) = BEASTSAND                        ✅ TAMAMLANDI
-│   └── TUR 14: İpucu 1'in 14 KIRMIZI harfinden yazılabilen TEK ülke adı = CEYLON (6)
+│   └── ❌ TUR 14 'TEK ülke = CEYLON' iddiası TUR 15'te ÇÜRÜDÜ (elle kurulmuş liste;
+│       pycountry 249 güncel ülkeyle kırmızı havuz SIFIR ülke yazıyor — bkz. §0-X/1)
 │   │
 │   ├── İ7   PLATES ................. sayı = PLAKA numarası (Havell 1-435)
 │   ├── İ11  "Roman numbers for Roman words?" → ROMA RAKAMI = LATİNCE adın harfi
@@ -25,8 +26,10 @@
 │   ├── İ3   081 XIV / "SeaHawks?" ............ DOĞRULAMA (İ2 ile aynı satır)
 │   └── SONUÇ: MRBEASTS(8) + AND(3) − MR = **BEASTSAND** (9 harf) ✅
 │
-├── 🔵 MAVİ TARAF (TUR 14: 13 MAVİ harften yazılabilen TEK ülke adı = LATVIA (6))
-│   CEYLON(6) + LATVIA(6) = 12 = (66) → 🥇 (6) adayı LATVIA
+├── ❌ TUR 14 'TEK ülke = LATVIA / CEYLON+LATVIA=(66)' → TUR 15'te ÇÜRÜDÜ
+│   mavi havuzda 6+6+1 bölmesi yalnızca 8 adet ve LATVIA HİÇBİRİNDE YOK → (66)'yı karşılamıyor
+│   🔑 YERİNE (tur 15, kodla): KIRMIZI alfabe {a,c,e,i,j,l,n,o,y} · MAVİ {a,d,f,h,i,l,o,t,v}
+│   → b,r,s,u,g,m,p,w YOK → 'BEAST' bile yazılamaz → 27 harf İNGİLİZCE CÜMLE OLAMAZ (§0-X/3)
 ├── 🔵 MAVİ TARAF  →  (6) = ???                                 ❌ AÇIK
 │   │
 │   ├── İ9   LSWRTE / NNHTIN / HDOTA + "bird fence?"
@@ -224,3 +227,59 @@ Kullanıcı tarifi: sol **üçgen** (2 tepede, 1 ve 4 tabanda) + sağ **dikey ko
    `ISLAND`, `PUZZLE`. ❌ ölenler: `STUNTS`, `UPLOAD` (dayanağı çürüdü).
 3. **İ1'in 27 harfi ne zaman kullanılacak?** — 5/14 tespit belirsiz.
 4. **İ8 ve İ12 hangi dalı besliyor?** — bulunamadı.
+
+---
+
+## TUR 16 EK — İpucu 1: 3 plaka kesinleşti, varyantlar tamamı tarandı
+
+| Plaka | Satır | Birincil kaynak | Kazınmış lejant |
+|---|---|---|---|
+| **109** ✅ | #6 Savannah Finch | Pittsburgh / Pitt Darlington `pitt:aud0109` | *"Savannah Finch, **Fringilla savanna**, Male 1. Female 2."* |
+| **251** ✅ | #3 Brown Pelican | Boston Public Library | *"Brown pelican : **Pelecanus fuscus**. Male adult. plate 251"* |
+| **349** ✅ | #10 Least Water-hen | **audubon.org** (resmî) | *"Least Water-hen — **Plate 349**"* (Black Rail) |
+
+- **Plaka teyidi 12/14 → 14/14.** Tur 13'ün `348` satırı Maryland PDF'inde **sütun
+  kayması**ydı → ❌ **348 çürüdü, 349 doğru.**
+- ⚠️ **#13 lejantı artık gerçek bir ikilem:** Library of Congress baskının kendi yazısını
+  *"Golden eagle (**falco chrysaetos**)…"* diye transkribe ediyor; BPL katalog başlığı
+  `Aquila chrysaetos`. `falcochrysaetos`(15) → 🔴`h` = 🔵`h` → **kırmızı≠mavi filtresi
+  kırılıyor**; `aquilachrysaetos`(16) → 🔴`c` 🔵`h` ✅. **🔵 mavi harf ikisinde de `h`** —
+  değişen yalnızca 🔴 13. harf.
+- **24 varyant (12 farklı 🔴 havuz + 4 farklı 🔵 havuz) ayrı ayrı türetildi ve tarandı:
+  HİÇBİRİ tek kelime vermiyor.** 🔴 2-kelime çözümleri hep özel ad çifti
+  (`CIENCIA JOCELYN`, `CYCLONIC JEANIE`, `CALICO LENIENCY`…); 🔵 ya 0 ya sadece özel ad.
+- **`(66)`'ın kaynağı hâlâ yok:** İpucu 2'nin kalan 13 harfi `DEEEFHIMORTTW`'de
+  **6+6 bölmesi = 0** → `(66)` oradan çıkamaz. İpucu 1'in mavi havuzunda 6+6+1 = 8 adet
+  ama hiçbiri anlamlı değil ve hiçbiri `LATVIA` içermiyor.
+
+---
+
+## ⭐ TUR 17 — #10 ÇÖZÜLDÜ: **BOOBY GANNET** (Brown Booby), plaka 207
+
+Kullanıcı ipucu: *"Brown booby anlamına gelen bir kuş vardı sanki 10 için."* → **doğru.**
+
+| Kanıt | Birebir |
+|---|---|
+| Pittsburgh `pitt:aud0207` | *"**Booby Gannet, Sula fusca**; J WHATMAN TURKEY MILL 1834"* |
+| Audubon, *Ornithological Biography* III | *"**THE BOOBY GANNET.** Adult Male. **Plate CCVII**"* |
+| audubon.org | *"Booby Gannet — Featured in this Plate: **Brown Booby**"* |
+| NY Historical | *"Brown Booby (Sula leucogaster), **Havell plate no. 207**"* |
+
+- **Pun:** mayo/swimsuit kadın = `booby` (argo) + **KAHVERENGİ** zemin = `brown` → **BROWN BOOBY**.
+  `#3 Feastables→fuscus`, `#14 kapı→Barred Owl`, `#11 ahır→Barn Swallow` ile aynı üslûp.
+- **İpucu 10 *"Book w/ old names"*** ile birebir: eski ad **Booby Gannet**, modern ad Brown Booby.
+- `sulafusca` (9) → 🔴 VII = **`s`**.
+- ❌ **MEZARLIK:** ~~`Rallus jamaicensis` (349)~~ · ~~`Rallus elegans` (203)~~ · ~~`Rallus crepitans` (204)~~
+
+> ### 🔴 KIRMIZI HAVUZ DEĞİŞTİ
+> `ceanlnciijoyce` → **`ceanlnciisoyce`** — **`j` gitti, `s` geldi.** 🔵 mavi değişmedi.
+> Artık yazılabilen gerçek kelimeler: **SCIENCE · SILENCE · LICENSE · OCEANIC · CONCISE ·
+> INSOLENCE · CONCISELY · LENIENCY · SOCIAL · CYCLONE · CONCEAL · INCENSE**
+> (6 harfli kelime sayısı 204 → **400**). **Ama hâlâ düz cümle yok** (`r,t,b,m,p,u` yok).
+
+- ✅ **#1** plaka 197 lejantı teyit: *"American crossbill : **Loxia curvirostra, Linn.**"* →
+  (c,o) değişmiyor. ⚠️ Kullanıcının *"eski isimlere bağlı kalmadan düz Umman bayrağı"*
+  talimatı **AÇIK** — bayraktan hangi kuşa gidileceği belirlenmedi.
+- #1'in kırmızı harfi tersten arandı (26 seçenek): yalnızca `d g h k m r v w` yaygın
+  kelimelerle 2-kelime bölmesi veriyor (`v`→CONVINCE EASILY, `k`→OCEANIC SKYLINE).
+  🔵 mavi 26 seçeneğin **hiçbirinde** 2 kelime vermiyor.

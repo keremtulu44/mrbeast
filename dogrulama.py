@@ -186,5 +186,172 @@ k("PDF'te 'PLATES' geçmiyor", 0, len(re.findall(r"\bPLATES\b", pdf)))
 k("PDF'te 'sweepstakes' geçmiyor", 0, len(re.findall(r"sweepstakes", pdf, re.I)))
 k("PDF'te 'Alphabetize' geçmiyor", 0, len(re.findall(r"Alphabetize", pdf, re.I)))
 
+
+# ------------------------------------------------- İPUCU 1: kırmızı/mavi AYRI (tur 15)
+print("\n[12] İpucu 1 — kırmızı ve mavi havuz, ayrı ayrı (TUR 15)")
+_ROM = {"I":1,"V":5,"X":10,"L":50,"C":100}
+def _r2i(t):
+    t=t.strip(); tot=0; pv=0
+    for ch in reversed(t):
+        v=_ROM[ch]; tot += v if v>=pv else -v; pv=max(pv,v)
+    return tot
+_i1 = R("ipucu1_14_duzmetin.txt")
+_pat = re.compile(r"SAYIM\s*:\s*([a-z]+)\s*→\s*🔴\s*([IVX]+)\s*=\s*([A-Za-z])"
+                  r"\s*🔵\s*([IVX—]+)\s*=\s*([A-Za-z—])")
+_sat = _pat.findall(_i1)
+k("İpucu 1 SAYIM satırı (14 görsel + 4 varyant)", 18, len(_sat))
+_hata = 0
+for _ad,_kr,_kh,_mr,_mh in _sat:
+    _L=len(_ad); _ki=_r2i(_kr)
+    if _ad[_ki-1].upper()!=_kh.upper(): _hata+=1
+    if _mr!="—":
+        _mi=_r2i(_mr)
+        if _ad[_L-_mi].upper()!=_mh.upper(): _hata+=1
+k("17 satırın kırmızı+MAVİ harf aritmetiği hatasız", 0, _hata)
+
+_PRIM=[0,2,3,4,5,6,7,8,9,13,14,15,16,17]      # TUR 17: #10 = Sula fusca (satır 13)
+K="".join(_sat[i][2].lower() for i in _PRIM)
+M="".join(_sat[i][4].lower() for i in _PRIM if _sat[i][4]!="—")
+k("🔴 KIRMIZI havuz — TUR 17 (#10=Booby Gannet)", "ceanlnciisoyce", K)
+k("🔵 MAVİ havuz (kaynaktan yeniden türetildi)",   "odfvialaataha", M)
+k("🔴 kırmızı harf sayısı = (527)=5+2+7", 14, len(K))
+k("🔵 mavi harf sayısı   = (364)=3+6+4", 13, len(M))
+k("dosyadaki §4 kırmızı dizisi birebir", True, "c e a n l n c i i ? o y c e" in _i1)
+
+_kK,_kM = set(K), set(M)
+k("🔴 kırmızı alfabe {a,c,e,i,l,n,o,s,y} — j gitti, s geldi", set("aceilnosy"), _kK)
+k("🔵 mavi alfabe {a,d,f,h,i,l,o,t,v}",    set("adfhilotv"), _kM)
+_bir = _kK|_kM
+for _h in "brumgpw":
+    k(f"birleşik 27 harfte '{_h}' YOK", False, _h in _bir)
+k("TUR 17: 's' artık KIRMIZI havuzda VAR", True, "s" in _kK)
+_w = lambda hav,soz: all(Counter(soz)[c] <= Counter(hav)[c] for c in set(soz))
+k("'BEAST' kırmızıdan yazılamaz",   False, _w(K,"beast"))
+k("'BEAST' maviden yazılamaz",      False, _w(M,"beast"))
+k("'BEAST' birleşikten yazılamaz",  False, _w(K+M,"beast"))
+k("'MRBEASTSAND' birleşikten yazılamaz", False, _w(K+M,"mrbeastsand"))
+k("TUR 15 iddiası: 'CEYLON' kırmızıdan YAZILABİLİYOR", True,  _w(K,"ceylon"))
+k("TUR 15 iddiası: 'LATVIA' maviden YAZILABİLİYOR",    True,  _w(M,"latvia"))
+k("TUR 15 iddiası: 'SRI LANKA' kırmızıdan YAZILAMIYOR (CEYLON güncel ad değil)",
+  False, _w(K,"srilanka"))
+_art = Counter(M)-Counter("latvia")
+k("mavi − LATVIA = 7 harf", 7, sum(_art.values()))
+k("mavi − LATVIA envanteri a3 d f h o", "aaadfho", "".join(sorted(_art.elements())))
+k("mavi − LATVIA'da yalnızca 3 'a' var (6+6+1 için yetmez)", 3, _art["a"])
+k("TUR 15: kırmızıda 'b' yok → CEYLON+LATVIA birleşik yazılamaz mı? (LATVIA'da v/t/d/f/h var)",
+  False, _w(K,"latvia"))
+
+_x = R("cikti.md")
+k("cikti.md §0-X bölümü var", True, bool(re.search(r"^#+ *§?0-X\)", _x, re.M)))
+k("§0-W'daki ülke testi çürütme işareti taşıyor", True, "TUR 15'TE ÇÜRÜDÜ" in _x)
+k("IPUCU_AGACI.md CEYLON iddiasını çürütüyor", True, "ÇÜRÜDÜ" in R("IPUCU_AGACI.md"))
+k("BULMACA_ANA_DOKUMAN.md LATVIA'yı mezarlığa aldı", True,
+  "TUR 15'TE ÖLDÜ" in R("BULMACA_ANA_DOKUMAN.md"))
+
+
+# ------------------------------------------------- TUR 16: 24 varyant + kesinleşen plakalar
+print("\n[13] İpucu 1 — 24 varyant, kesinleşen plakalar, (66) kaynak testi (TUR 16)")
+def _hv(ad, kr, mr):
+    t=''.join(ch for ch in ad.lower() if ch.isascii() and ch.isalpha()); L=len(t)
+    return t[L-_r2i(mr)] if mr else None, t[_r2i(kr)-1]
+
+# --- kesinlesen 3 plaka: kazinmis lejant -> harf
+for _pl,_ad,_kr,_mr,_bk,_bm in [
+    (109,'Fringilla savanna','IV','VIII','n','a'),      # Pitt Darlington pitt:aud0109
+    (251,'Pelecanus fuscus','VI','VI','a','f'),         # Boston Public Library
+    (349,'Rallus jamaicensis','VII',None,'j',None)]:    # audubon.org "Plate 349"
+    _m,_k=_hv(_ad,_kr,_mr)
+    k(f"plaka {_pl}: 🔴 {_kr}→'{_bk}'" + ("  [#10 ÇÜRÜDÜ: TUR 17 → Booby Gannet]" if _pl==349 else ""), _bk, _k)
+    if _bm: k(f"plaka {_pl}: 🔵 {_mr}→'{_bm}'", _bm, _m)
+
+# --- #13: Falco mu Aquila mi — mavi ayni, kirmizi degisiyor
+_m1,_k1=_hv('Aquila chrysaetos','VII','IX')
+_m2,_k2=_hv('Falco chrysaetos','VII','IX')
+_m3,_k3=_hv('Falcochrysaetosl','VII','IX')
+k("#13 Aquila: 🔴 c / 🔵 h", ('c','h'), (_k1,_m1))
+k("#13 Falco (15): 🔴 h = 🔵 h → filtre KIRILIYOR", ('h','h'), (_k2,_m2))
+k("#13 Falco+otorite (16): 🔴 h / 🔵 r", ('h','r'), (_k3,_m3))
+k("ÖNEMLİ: mavi harf Aquila ve Falco'da AYNI", _m1, _m2)
+
+# --- 24 varyantin hicbiri tek kelime degil: kirmizi/mavi alfabeleri degisiyor mu?
+_V1=[('Loxia curvirostra','VI','V'),('Ardea ludoviciana','VI','V')]
+_V10=[('Rallus jamaicensis','VII',None),('Rallus elegans','VII',None),('Rallus crepitans','VII',None)]
+_V13=['Aquila chrysaetos','Aquilachrysaetosl','Falcochrysaetosl','Falco chrysaetos']
+_S=[('Regulus calendula','II','IV'),('Pelecanus fuscus','VI','VI'),('Emberiza nivalis','IX','V'),
+    ('Falco lineatus','VI','VII'),('Fringilla savanna','IV','VIII'),('Larus atricilla','X','XIV'),
+    ('Sylvia aestiva','V','VII'),('Thalassidroma pelagica','VIII','IX'),('Hirundo rustica','VII','IV'),
+    ('Sylvicola childrenii','II','XI'),('Strix nebulosa','VII','I')]
+_komb=0; _kuz=set(); _muz=set(); _filtre=0
+for _a in _V1:
+  for _b in _V10:
+    for _c in _V13:
+      _komb+=1
+      _K=[];_M=[]
+      for _ad,_kr,_mr in _S+[_a,_b,(_c,'VII','IX')]:
+        _m,_k=_hv(_ad,_kr,_mr); _K.append(_k)
+        if _m: _M.append(_m)
+        if _m and _m==_k: _filtre+=1
+      _kuz.add(''.join(_K)); _muz.add(''.join(_M))
+k("varyant kombinasyonu (2×3×4) — TARİHSEL: #10 TUR 17'de çözüldü", 24, _komb)
+k("farklı 🔴 KIRMIZI havuz sayısı (#1×2 · #10×3 · #13×2)", 12, len(_kuz))
+k("farklı 🔵 MAVİ havuz sayısı (#1×2 · #13×2)", 4, len(_muz))
+k("MAVI havuz 'r' İÇEREN varyant var (yalnızca +otorite)", True,
+  any('r' in x for x in _muz))
+k("MAVI havuz 'r' İÇERMEYEN varyant da var", True,
+  any('r' not in x for x in _muz))
+k("kırmızı=mavi çakışması yalnızca 'Falco chrysaetos'ta (24'te 6)", 6, _filtre)
+k("hiçbir varyantta 🔴 uzunluk 14 değil", False, any(len(x)!=14 for x in _kuz))
+k("hiçbir varyantta 🔵 uzunluk 13 değil", False, any(len(x)!=13 for x in _muz))
+
+# --- İpucu 2'nin kalan 13 harfi: (66) buradan cikamaz
+_h24 = harf
+_mr  = "MRBEASTSAND"
+kalan = Counter(_h24) - Counter(_mr)
+k("İpucu 2 kalan harf sayısı (24-11)", 13, sum(kalan.values()))
+k("kalan harfler DEEEFHIMORTTW", "DEEEFHIMORTTW", ''.join(sorted(kalan.elements())))
+_6 = [w for w in ("MOTHER","WITHER","HERMIT","FOTHER","WIDTHX") if all(Counter(w)[c]<=kalan[c] for c in w)]
+_iki6 = 0
+for _x in _6:
+    _r = kalan - Counter(_x)
+    for _y in _6:
+        if all(Counter(_y)[c]<=_r[c] for c in _y): _iki6 += 1
+k("(6,6,1) için iki 6-harfli kelime birlikte sığıyor mu", 0, _iki6)
+k("(66) = 12 harf, kalan havuzda 6+6 mümkün değil", True, _iki6==0)
+
+_y = R("cikti.md")
+k("cikti.md §0-Y bölümü var", True, bool(re.search(r"^#+ *§?0-Y\)", _y, re.M)))
+k("348/349 uyuşmazlığı çözüldü olarak işaretli", True, "349 DOĞRU" in _y)
+k("#13 lejant ikilemi kaydedildi (LOC Falco)", True, "falco chrysaetos" in _y)
+
+
+# ------------------------------------------------- TUR 17: Booby Gannet
+print("\n[14] İpucu 1 #10 = BOOBY GANNET (Sula fusca, plaka 207) — TUR 17")
+_t,_k = _hv('Sula fusca','VII',None)
+k("Sula fusca = 9 harf", 9, len('sulafusca'))
+k("🔴 VII = 7. harf = 's'", 's', _k)
+k("#10'da 🔵 mavi rakam yok", None, _t)
+k("L=9 ≥ kırmızı 7 (filtre tutuyor)", True, 9 >= 7)
+_ESKI='ceanlnciijoyce'
+k("eski havuzda 10. harf 'j' idi (Rallus jamaicensis)", 'j', _ESKI[9])
+_YENI=_ESKI[:9]+'s'+_ESKI[10:]
+k("yeni kırmızı havuz ceanlnciisoyce", "ceanlnciisoyce", _YENI)
+k("havuz uzunluğu hâlâ 14 = (527)", 14, len(_YENI))
+k("rail adayları mezarlıkta (jamaicensis/elegans/crepitans)", True,
+  all(x in R("cikti.md") for x in ("jamaicensis","elegans","crepitans")))
+_i1t = R("ipucu1_14_duzmetin.txt")
+k("dosyada Booby Gannet lejantı var", True, "Booby Gannet, Sula fusca" in _i1t)
+k("dosyada plaka 207 kayıtlı", True, "PLAKA 207" in _i1t)
+k("dosyada yeni kırmızı dizi var", True, "ceanlnciisoyce" in _i1t)
+k("plaka 197 lejantı (Loxia curvirostra, Linn.) kayıtlı", True,
+  "Loxia curvirostra, Linn." in R("cikti.md"))
+_C=Counter(_YENI)
+for _w,_n in (("science",7),("silence",7),("concise",7),("oceanic",7),
+              ("insolence",9),("concisely",9),("leniency",8),("social",6)):
+    k(f"🔴 yeni havuzdan '{_w}' yazılabiliyor", True,
+      all(_C[c] >= Counter(_w)[c] for c in set(_w)))
+k("🔴 'beast' hâlâ yazılamıyor (b ve t yok)", False,
+  all(_C[c] >= Counter("beast")[c] for c in set("beast")))
+k("cikti.md §0-Z bölümü var", True, bool(re.search(r"^#+ *§?0-Z\)", R("cikti.md"), re.M)))
+
 print(f"\n{'='*78}\nTOPLAM: {OK} doğrulandı, {FAIL} uyuşmadı")
 sys.exit(1 if FAIL else 0)

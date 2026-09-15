@@ -533,6 +533,8 @@ Topluluğun en popüler iddiası `STUNTS`. Bağımsız denetim:
 | ~~`UPLOAD`~~ | dayanağı `(66)=FOURTH UPLOAD` idi → o çürüdü (tur 9) | ❌ **dayanağı öldü** |
 | `ISLAND` | 6 harf + $10.000 çizimindeki kontur/ada + anahtar cümle KONUM diyor | ⚠️ orta |
 | `PUZZLE` | video başlığının son kelimesi | ⚠️ spekülatif |
+| ~~`LATVIA`~~ | ~~tur 14: mavi havuzdan yazılabilen tek ülke adı~~ | ❌ **TUR 15'TE ÖLDÜ** — mavi havuzda 6+6+1 bölmesi 8 adet, `LATVIA` hiçbirinde yok → `(66)`'ı karşılamıyor (`cikti.md` §0-X/2) |
+| ~~`CEYLON`~~ | ~~tur 14: kırmızı havuzdan yazılabilen tek ülke adı~~ | ❌ **TUR 15'TE ÖLDÜ** — güncel ISO ülkesi değil; elle kurulmuş liste artefaktı. Kırmızıdan yazılabilen 204 altı harfli kelimenin 16.'sı (`cikti.md` §0-X/1) |
 
 ## Uygulanan ama sonuç vermeyen denemeler (Video 4, `Xj0Jtjg3lHQ`)
 | Okuma | Sonuç |

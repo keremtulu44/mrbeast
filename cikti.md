@@ -2258,7 +2258,16 @@ anagram sonuçları birebir aynı çıktı. Yani `(3,6,4)` / `(5,2,7)` bölmesi 
 **Ne maviler ne kırmızılar düz bir cümle vermiyor.** (Rail fence 2-8, sütun 2-13, ters,
 çift/tek indeks, alfabetik — hepsi denendi, hiçbiri metin değil.)
 
-## 3 · 🔑 ASIL BULGU — ÜLKE ADI TESTİ
+## 3 · ❌ ASIL BULGU DİYE YAZILAN — ÜLKE ADI TESTİ  →  **TUR 15'TE ÇÜRÜDÜ, BKZ. §0-X/1**
+
+> ### ⛔ BU ALT BÖLÜMÜN SONUCU YANLIŞ (tur 15 düzeltmesi)
+> Aşağıdaki "iki havuzdan da tam bir ülke adı çıkıyor" simetrisi **veride yok, listede
+> vardı**: ~190'luk liste elle kurulmuştu ve içine `CEYLON` gibi **geçerliliğini yitirmiş**
+> adlar konmuştu. `pycountry`'nin 249 güncel ISO ülkesiyle kırmızı havuz **SIFIR** ülke
+> yazıyor, mavi havuz **bir** (`latvia`). Ayrıca `CEYLON` kırmızı havuzdan yazılabilen
+> 204 altı harfli kelimenin yalnızca **16.**sı; önünde `ANYONE, ONLINE, CLINIC, CANCEL…`
+> var. Ölçüler ve tam düzeltme: **§0-X/1**. Aşağıdaki metin proje kuralı gereği
+> (çürütülen iddia silinmez) olduğu gibi bırakıldı.
 
 Bulmacanın cevapları **KONUM** ($1M anahtarı: *"…location name somewhere around world"*).
 ~190 ülke adı iki havuza karşı test edildi:
@@ -2303,12 +2312,333 @@ LATVIA = L A T V I A  (6 harf)   ← 🔵 mavilerden
 - `(364)`'ün 13 harfi ile mavilerin 13 harfi arasındaki bağ hâlâ **kanıtlanmış değil**
   (sayısal örtüşme var, mekanizma yok).
 
-## 4 · Güncellenmiş `(6)` sıralaması
+## 4 · ❌ `(6)` sıralaması (tur 14 hâli) → **TUR 15'TE GEÇERSİZ, BKZ. §0-X/5**
+
+> ### ⛔ Bu tablo tur 15'te düzeltildi
+> `LATVIA` 🥇'likten düştü: mavi havuzda **6+6+1 bölmesi yalnızca 8 adet** ve `LATVIA`
+> **hiçbirinde yok** → `(66)` bu havuzdan geliyorsa `LATVIA` cevap olamaz (§0-X/2).
+> `CEYLON` 🥈'likten düştü: geçersiz ülke adı + 204 altı harfli kelimenin 16.'sı (§0-X/1).
+> **Güncel 🥇 = `FRIDAY`** (tek doğrulanmış-veri adayı).
 
 | | Aday | Gerekçe |
 |---|---|---|
-| 🥇 | **`LATVIA`** | 🔵 havuzdan yazılabilen **tek ülke adı** · 6 harf ✓ · bulmaca konum-temelli · `CEYLON`+`LATVIA` = `(66)` |
-| 🥈 | **`CEYLON`** | 🔴 havuzdan yazılabilen **tek ülke adı** · 6 harf ✓ · "old names" ile uyumlu |
+| 🥇 | **`LATVIA`** | ~~🔵 havuzdan yazılabilen **tek ülke adı** · 6 harf ✓ · bulmaca konum-temelli · `CEYLON`+`LATVIA` = `(66)`~~ ❌ **tur 15: `(66)`'ı karşılamıyor** |
+| 🥈 | **`CEYLON`** | ~~🔴 havuzdan yazılabilen **tek ülke adı** · 6 harf ✓ · "old names" ile uyumlu~~ ❌ **tur 15: güncel ülke değil, 16. sırada** |
 | 🥉 | `FRIDAY` | İ17'nin 364 günü = 52 hafta, iki tarih de Cuma — veri sağlam ama mekanizma yok |
 | — | `TOWHEE` · `ISLAND` | zayıf |
 | ❌ | `STUNTS` · `UPLOAD` · `DOG/EMI/FOG` | çürüdü |
+
+---
+
+# 0-X) TUR 15 — HARFLERİ TÜRETME, KIRMIZI / MAVİ AYRI (VE TUR 14'ÜN DÜZELTMESİ)
+
+> Kullanıcı talimatı (4. kez): *"Harfleri türetmeye çalış dikkatlice kırmızı mavi ayrı."*
+> Bu tur iki havuzu **kaynaktan yeniden türetti**, sonra ikisini **tamamen ayrı** işledi.
+> Sonuç: **Tur 14'ün manşet bulgusu yanlıştı.** Aşağıda önce yanlış olan, sonra ölçülenler.
+
+## 1 · ❌ TUR 14'ÜN `CEYLON | LATVIA` BULGUSU ÇÜRÜDÜ — yöntem hatası
+
+Tur 14'te *"~190 ülke adı test edildi, kırmızılardan tek ülke `CEYLON`, mavilerden tek ülke
+`LATVIA`"* yazdım. **Bu simetri veride yok, listede vardı.**
+
+| Test | 🔴 KIRMIZI `ceanlnciijoyce` | 🔵 MAVİ `odfvialaataha` |
+|---|---|---|
+| `pycountry` — **güncel ISO ülke adları** (249 ülke) | **0 ülke** | **1 ülke: `latvia`** |
+| `pycountry` — idari birimler (eyalet/bölge) | 20 adet | 15 adet |
+| Tur 14'te **elle kurulmuş** tarihi-ad listesi | `ceylon` | `latvia` |
+
+`CEYLON` yalnızca **listeye elle koyduğum için** çıkıyordu (Seylan'ın 1972 öncesi adı —
+`pycountry`'de ülke `Sri Lanka`). Aynı yöntemle kırmızılardan **20 gerçek idari birim** de
+yazılıyor: `alec, cayo, celje, cocl, coln, elino, enna, jenin, laij, lecce, lecco, lija,
+locai, loei, loja, neno, ocnia, yilan, yonne`. Yani "tek yer adı" da hiçbir zaman doğru
+değildi; doğru olan tek şey "elle kurulan listede tek ülke" idi.
+
+**Asimetriyi gösteren ölçü** — havuzdan yazılabilen 6 harfli kelimeler, `wordfreq` sıklığına
+göre sıralı (300.000 kelimelik liste):
+
+```
+🔴 KIRMIZI: 204 adet.  İlk 15: anyone online clinic cancel iconic nicely nicole canyon
+                        elaine nicola joanne connie jeanne janice canine
+             CEYLON  →  16. sırada.   (ayrıca 'ceylan' da var)
+🔵 MAVİ   :  49 adet.  1. sıra: latvia
+```
+
+`LATVIA` mavi havuzun **en sık** 6 harfli kelimesi; `CEYLON` kırmızı havuzun **16.** —
+önünde `ANYONE`, `ONLINE`, `CLINIC`, `CANCEL` gibi sıradan kelimeler var.
+**İki havuz aynı türden bir sonuç vermiyor. Eşleştirme temelsiz.**
+
+## 2 · ❌ `LATVIA`, `(66)` adımını **karşılayamıyor**
+
+Mavi zincir `(364) → (66) → (6)`. `(66)` = iki 6 harfli kelime = 12 harf.
+Mavi havuz 13 harf → demek ki **6 + 6 + 1** bölünmesi gerekiyor. Tarama sonucu:
+
+```
+mavi havuzda 6+6+1 bölmesi:  TOPLAM 8 ADET
+  avodah + latifa  (artan 'a')     alafia + avodah  (artan 't')
+  fatiha + lavado  (artan 'a')     haifaa + tavola  (artan 'd')
+  fathia + lavado  (artan 'a')     alafia + vahdat  (artan 'o')
+  haifaa + lavado  (artan 't')     lavado + taiaha  (artan 'f')
+```
+
+**`LATVIA` bu 8 bölmenin HİÇBİRİNDE yok.** Sebep aritmetik: `LATVIA` çıkarılınca geriye
+`a a a d f h o` kalıyor (3 tane `a`), oysa havuzdaki öteki 6 harfli kelimelerin hepsi
+daha çok `a` veya havuzda olmayan harf istiyor.
+→ **`(66)` bu havuzdan geliyorsa `LATVIA` cevap olamaz. İkisi aynı anda doğru değil.**
+
+## 3 · 🔑 TURUN ASIL SONUCU — ALFABE KISITI (yeni, kodla doğrulandı)
+
+```
+🔴 KIRMIZI alfabesi : a c e i j l n o y      (9 harf)  → b, r, s, t YOK
+🔵 MAVİ    alfabesi : a d f h i l o t v      (9 harf)  → b, e, n, r, s YOK
+   BİRLEŞİK         : a c d e f h i j l n o t v y  (14) → b, g, m, p, r, s, u, w YOK
+```
+
+Kodla doğrulanan sonuç:
+
+```
+'BEAST'       kırmızıdan yazılabilir mi? False
+'BEAST'       maviden    yazılabilir mi? False
+'BEAST'       birleşikten yazılabilir mi? False
+'MRBEASTSAND' birleşikten yazılabilir mi? False
+```
+
+**Bunun anlamı:** 27 harf ne kadar karıştırılırsa karıştırılsın `b`, `r`, `s`, `u`, `g`,
+`m`, `p`, `w` harflerini **içeremez**. İngilizce düz yazıda bu sekiz harf birlikte ~%40
+sıklıkta. Yani **İpucu 1'in çıktısı İngilizce bir cümle OLAMAZ** — bu artık "arama
+yetmedi" değil, **alfabe kanıtı**. Tur 12'de frekans dağılımıyla söylüyordum (şüpheliydi);
+şimdi harf kümesinin kendisiyle kesinleşti.
+
+## 4 · Bu tur taranan her yöntem (hepsi negatif)
+
+| Yöntem | 🔴 KIRMIZI | 🔵 MAVİ | Sonuç |
+|---|---|---|---|
+| **Kaynaktan yeniden türetme** | 14/14 harf birebir | 13/13 harf birebir | ✅ **tek pozitif** |
+| `(527)` = 5·2·7 bölmesi (300k sözlük) | **1321** bölme | — | ❌ ayırt edici değil |
+| `(364)` = 3·6·4 bölmesi (300k sözlük) | — | **10792** bölme | ❌ ayırt edici değil |
+| Tam anagram, 7 dil (en/tr/it/es/fr/de) | `ACE CLINIC ENJOY` · `ENJOY ENCICLICA` · `JEANIE CYCLONIC` | `AHA AVOID FATAL` · `HAFTA OVADA ALI` · `HAI DATA FAVOLA` | ❌ gürültü |
+| 2 kelimeye bölme (İngilizce) | **yalnızca 1**: `JEANIE + CYCLONIC` | **SIFIR** | ❌ |
+| 7+7 bölmesi | **tam 1 adet**: `CIENCIA + JOCELYN` | — | ⚠️ tek ama anlamsız |
+| Caesar 1-25 + gerçek anagram araması | kayma 0 → 438 bölme (**en çok**); hiçbir kayma cümle vermiyor | kayma 19 → 60, kayma 0 → 36; cümle yok | ❌ Caesar ölü |
+| Atbash | khi² = 639,7 | khi² = 2601,7 | ❌ |
+| 4 sayım-yönü varyantı (kırmızı/mavi × baştan/sondan) | en iyi khi² 73,6 (`rlfznasspiriye` 110,7) | en iyi khi² 25,7 (`auarilaaduhrs`) | ❌ hiçbiri okunmuyor |
+| Plaka sırasıyla okuma | `yelinocnecacij` | `aaiaathvdofla` | ❌ |
+
+⚠️ **Tur 14 sayım düzeltmesi:** Tur 14 "(3,6,4) → 353, (5,2,7) → 106 bölme" demişti.
+O sayılar **eksikti** — sözlük `top_n_list(100000)` ile ve uzunluk başına ≤400 adayla
+sınırlandırılmıştı. Sınır kaldırılınca **10792** ve **1321**. Yani o iki bölme biçimi
+düşündüğümden de az kısıtlayıcı.
+
+## 5 · Dürüst durum ve ne gerek
+
+- İpucu 1'in **harf türetme aritmetiği sağlam**: 14 kırmızı + 13 mavi, kaynaktan
+  bağımsız yeniden hesaplandı, birebir tuttu. Kilitli 13 satırın `kırmızı ≠ mavi` ve
+  `L ≥ max(kırmızı, mavi)` filtreleri de tutuyor.
+- **Harflerin ne söylediği bulunamadı** ve artık biliniyor ki İngilizce bir cümle olamaz.
+- `(6)` için **doğrulanmış veriye dayanan tek aday `FRIDAY`** olarak kaldı (İpucu 17:
+  iki tarih de Cuma, aradaki 364 gün = 52 hafta). `LATVIA` 🥇'likten düştü (§2),
+  `CEYLON` 🥈'likten düştü (§1).
+- Bu kolu açacak şey **harf oyunu değil, eksik veri**: #13'ün plakaya kazınmış Latince
+  lejantı (`Falco` mı `Aquila` mı), #10'un plakası (348 mi 349 mu) ve İpucu 1'in
+  görsellerindeki yön/ok işareti. `audubon.pitt.edu` hâlâ denenmedi.
+
+---
+
+# 0-Y) TUR 16 — HARFLERİ TÜRETME: 24 VARYANTIN TAMAMI + 3 PLAKA KESİNLEŞTİ
+
+> Kullanıcı talimatı (5. kez): *"Harfleri türetmeye çalış dikkatlice kırmızı mavi ayrı."*
+> Bu tur, önceki turların **hiç sorgulamadığı** şeyi sorguladı: şimdiye kadar hep
+> **tek bir sabit harf kümesi** üzerinde anagram aradım. Oysa tabloda **5 belirsiz satır**
+> var (#1, #8, #10, #12, #13). Harfler bu satırların seçimine göre değişiyor.
+> **24 kombinasyonun hepsi ayrı ayrı türetildi ve ayrı ayrı tarandı.**
+
+## 1 · 24 varyant — 🔴 ve 🔵 her biri ayrı (200.000 kelimelik liste)
+
+Varyantlar: **#1** ∈ {`Loxia curvirostra` 197, `Ardea ludoviciana` 217} ·
+**#10** ∈ {`R. jamaicensis` 349 → j, `R. elegans` 203 → e, `R. crepitans` 204 → c} ·
+**#13** ∈ {`Aquila chrysaetos`, `Aquila chrysaetos L.`, `Falco chrysaetos L.`, `Falco chrysaetos`}.
+(#8 ve #12'nin alternatifleri harfleri **değiştirmiyor**: `Sylvia childrenii` da (y,a) verir.)
+
+```
+24 kombinasyon → 12 FARKLI 🔴 havuz (#1×2 · #10×3 · #13'te kırmızı c/h = ×2)
+              →  4 FARKLI 🔵 havuz (#1×2 · #13'te mavi h/r = ×2)
+              = 16 ayrı türetme, hepsi ayrı tarandı
+  → TEK KELİME veren varyant sayısı : 0   (on altıda SIFIR)
+  → 🔵 MAVİ 2 kelimeye bölünen     : yalnızca #13'e 'r' girince, o da ADVAITA ALFARO /
+                                       CALATRAVA FIDA gibi sadece özel ad çiftleri
+  → 🔴 KIRMIZI 2 kelimeye bölünen  : 1-3 adet, hepsi özel ad çifti
+       CIENCIA JOCELYN · CYCLONIC JEANIE · CAYENNE CECILIO · CALICO LENIENCY
+       CHALICE ENJOYIN · ANECHOIC NICELY · EYELINE LACONIC · CHELONIA NICELY …
+```
+
+**Hiçbir varyant tek kelime vermiyor.** Anagram yolu varyant seçimiyle da açılmıyor.
+
+### 🔑 Yapısal bulgu: #13 seçimi MAVİ havuzun ALFABESİNİ değiştiriyor
+```
+#13 = 'Aquila chrysaetos' veya 'Falco chrysaetos'  →  🔵 odfvialaataha  (r YOK)
+#13 = '…+ otorite L.' (16 harf)                    →  🔵 odfvialaatara  (r VAR)
+#13 = 'Falco chrysaetos' (15 harf)                 →  🔴 h = 🔵 h  → kırmızı≠mavi FİLTRESİ KIRILIYOR
+```
+Yani #13'ün lejantı yalnızca bir harfi değil, **mavi havuzda `r` bulunup bulunmadığını**
+belirliyor. `r` İngilizcenin en sık 5. harfi — bu tek satır, mavi havuzun İngilizce
+okunabilirliğini baştan aşağı değiştiriyor. **#13 en kritik açık satır.**
+
+## 2 · ✅ 3 PLAKA KESİNLEŞTİ — birincil kaynaklardan, lejant birebir
+
+| Plaka | Satır | Birincil kaynak | Kazınmış lejant (birebir) | Harfler |
+|---|---|---|---|---|
+| **109** | #6 Savannah Finch | **Pittsburgh / Pitt Darlington** `pitt:aud0109` | *"Savannah Finch, **Fringilla savanna**, Male 1. Female 2."* | 🔴 IV→`n` · 🔵 VIII→`a` ✅ |
+| **251** | #3 Brown Pelican | **Boston Public Library** (Digital Commonwealth) | *"Brown pelican : **Pelecanus fuscus**. Male adult. c.1 v.3 plate 251"* | 🔴 VI→`a` · 🔵 VI→`f` ✅ |
+| **349** | #10 Least Water-hen | **audubon.org** (resmî Audubon) | *"Least Water-hen — **Plate 349**"*, Black Rail | 🔴 VII→`j` ✅ |
+
+> ### ⚠️ TUR 13'ÜN "348 mi 349 mu" UYUŞMAZLIĞI ÇÖZÜLDÜ → **349 DOĞRU**
+> Maryland Hukuk Kütüphanesi PDF'inde `348 · 234 · Least Water-hen` görünüyordu; o satır
+> **sütun kayması**ydı (251 ve 109 satırlarında da aynı bozulma vardı). Resmî Audubon
+> sitesi *"Least Water-hen — Plate 349"* diyor. **Bizim dosyamızdaki 349 doğru.**
+
+> ### ⚠️ #13 LEJANTI — BİRİNCİL KAYNAK `FALCO` DİYOR, FİLTRE `AQUILA` DİYOR
+> **Library of Congress** (`loc.gov/item/92517328`) baskının **kendi yazısını** şöyle
+> transkribe ediyor: *"Golden eagle (**falco chrysaetos**), female adult, [with] northern
+> hare / drawn from nature by J.J. Audubon, F.R.S.F.L.S. ; engraved, & coloured by
+> R. Havell, 1833."* → **kazınmış lejant `Falco chrysaetos`.**
+> Boston Public Library'nin **katalog başlığı** ise `Aquila chrysaetos` (modern ad).
+> `audubonart.com` üçüncü bir tarihî ad veriyor: `Falco fulvus`.
+> **Hesap:** `falcochrysaetos` (15) → 🔴 VII = `h`, 🔵 IX = `h` → **kırmızı = mavi**,
+> 13/13 tutan filtre kırılıyor. `aquilachrysaetos` (16) → 🔴 `c`, 🔵 `h` ✅.
+> **ÖNEMLİ:** 🔵 mavi harf **iki durumda da `h`** → **mavi havuz değişmiyor**,
+> yalnızca 🔴 kırmızının 13. harfi `c` ↔ `h` oluyor.
+
+**Plaka teyit durumu: 12/14 → 14/14.** Kalan açıklar plaka numarası değil, **görsel
+yorumu**: #1 (197 mi 217 mi) ve #10 (hangi rail). Bir de #13'ün lejant yazımı.
+
+## 3 · 🔵 Öteki 13 harfli havuz da `(66)`'yı ÜRETEMİYOR
+
+İpucu 2'nin 24 harfinden `MRBEASTSAND` (11) çıkınca kalan **13 harf**:
+```
+D E E E F H I M O R T T W      envanter: d1 e3 f1 h1 i1 m1 o1 r1 t2 w1
+```
+`(364)` = 3+6+4 = **13** → bu havuz da `(364)`'e uyuyor. Ölçüm:
+```
+tek 13 harfli kelime : 0
+(3,6,4) bölmesi      : 28.621   (en iyi: FOR+TEEMED+WITH · FIT+METHOD+WERE · EDITOR+FEW+THEM)
+(6,6,1) bölmesi      : 0        ← (66) = iki 6 harfli kelime BURADAN ÇIKMAZ
+(5,8)                : 3        (4,9) : 6
+```
+Karşılaştırma: İpucu 1'in mavi havuzunda `(6,6,1)` = **8** adet (tur 15). Yani:
+
+> **`(66)`'ı üretebilen tek aday havuz İpucu 1'in MAVİ havuzu** — ama orada da 8 bölmenin
+> hiçbiri anlamlı değil ve hiçbiri `LATVIA` içermiyor. İpucu 2'nin kalanı ise `(66)`'ı
+> **hiç** üretemiyor. `(66)`'ın kaynağı hâlâ **bulunamadı**.
+
+## 4 · Dürüst durum
+
+- **Harf türetme aritmetiği artık 14/14 plaka teyitli** ve 24 varyantın tamamı kodla
+  yeniden üretildi. Bu kısım sağlam.
+- **Harflerin ne söylediği hâlâ yok** ve üç ayrı kanıtla İngilizce cümle olamaz:
+  alfabe kısıtı (§0-X/3), 48 varyantın hiçbirinde tek kelime çıkmaması (§0-Y/1),
+  Caesar/atbash/sayım-yönü taramaları (§0-X/4).
+- Bu tur **yeni veri** kazandırdı: 3 plaka kesinleşti, #13'ün lejantı birincil kaynakla
+  `Falco` lehine netleşti (ve bu, kırmızı≠mavi filtresiyle **çelişiyor** — artık
+  "bizim seçimimiz" değil, gerçek bir ikilem).
+- Sıradaki en verimli adım **görsel**: #1'in bayrağındaki çapraz kılıçlar ve #10'un
+  kahverengi vurgusu. Harf tarafı tükendi.
+
+---
+
+# 0-Z) TUR 17 — #10 ÇÖZÜLDÜ: **BOOBY GANNET** (Brown Booby) → 🔴 havuza `s` GİRDİ
+
+> Kullanıcı: *"Brown booby anlamına gelen bir kuş vardı sanki 10 için."* → **HAKLI ÇIKTI.**
+> Bu, 17 turun en büyük veri kazanımı: kırmızı havuzun harfi değişti.
+
+## 1 · ✅ #10 = BOOBY GANNET, PLAKA **207** — kazınmış lejant birebir
+
+Üç bağımsız kaynak aynı plakada birleşiyor:
+
+| Kaynak | Birebir |
+|---|---|
+| **Pittsburgh / Pitt Darlington** `pitt:aud0207` | *"aud0207 – **Booby Gannet, Sula fusca**; J WHATMAN TURKEY MILL 1834"* |
+| **Audubon'un kendi** *Ornithological Biography* III | *"**THE BOOBY GANNET.** Adult Male. **Plate CCVII**"* (CCVII = 207) |
+| **audubon.org** | *"Booby Gannet — Featured in this Plate: **Brown Booby**, Sula leucogaster"* |
+| NY Historical Society | *"Brown Booby (Sula leucogaster), **Havell plate no. 207**"* |
+
+### 🔑 İpucu 10 *"Book w/ **old names**…"* ile birebir örtüşme
+Kitaptaki **ESKİ ad** = **Booby Gannet** · **modern ad** = **Brown Booby**.
+Yani "eski adlı kitap" kuralı tam da burada devreye giriyor — bu, `#14 Strix nebulosa`
+(modern: *Strix varia*) ile aynı türden bir kanıt.
+
+### Görsel pun (öteki satırlarla aynı üslûp)
+`#3` Feastables çikolata → `fuscus` (koyu çikolata kahvesi) · `#14` hapishane kapısı →
+**Barred** Owl · `#11` ahır → **Barn** Swallow · `#7` 😂 → **Laughing** Gull.
+→ `#10` mayo/swimsuit kadın = **"booby"** (argo) + **KAHVERENGİ** arka plan = **"brown"**
+→ **BROWN BOOBY**. Önceki "water-hen" okuması bu pun'u hiç karşılamıyordu.
+
+### Harf
+```
+Sula fusca  →  s u l a f u s c a   (9 harf)
+🔴 VII = 7. harf = 's'          L=9 ≥ 7 ✓    🔵 yok (ipucu listesinde #10'da mavi rakam yok)
+```
+
+> ### 🔴 KIRMIZI HAVUZ DEĞİŞTİ
+> ```
+> ESKİ : c e a n l n c i i j o y c e    (j = Rallus jamaicensis)
+> YENİ : c e a n l n c i i s o y c e    (s = Sula fusca)
+> ```
+> **`j` gitti, `s` geldi.** `j` İngilizcede en ender harf ve tüm anagram taramalarını
+> boğuyordu; `s` ise en sık 6. harf. 🔵 mavi havuz **değişmedi** (`odfvialaataha`).
+>
+> ### ❌ MEZARLIK: #10'un üç rail adayı da öldü
+> ~~`Rallus jamaicensis` (349)~~ · ~~`Rallus elegans` (203)~~ · ~~`Rallus crepitans` (204)~~
+> Üçü de "su + dişi" okumasına dayanıyordu; görseldeki **kahverengi** vurgusu ve pun
+> Brown Booby'yi gösteriyor.
+
+## 2 · ✅ #1 = 197 Loxia curvirostra — lejant birebir teyit
+
+**Boston Public Library:** *"American crossbill : **Loxia curvirostra, Linn.** Male adult,
+1. Young male, 2, 3. Female adult, 4. Young female, 5. Hemlock. c.1 v.2 **plate 197**"*
+→ otorite kısaltması `Linn.` kuralımız gereği **sayılmıyor** → `loxiacurvirostra` (16)
+→ 🔴 VI = `c` · 🔵 V = `o`. **Harfler değişmiyor.**
+
+## 3 · Yeni 🔴 havuzun envanteri — artık gerçek kelimeler çıkıyor
+
+`🔴 ceanlnciisoyce` · envanter `a1 c3 e2 i2 l1 n2 o1 s1 y1`
+
+| Uzunluk | Kaç kelime | Örnekler (wordfreq sırasıyla) |
+|---|---|---|
+| 9 | **yalnızca 4** | `insolence` `concisely` `lyonnaise` `canciones` |
+| 8 | 38 | silicone · leniency · conceals · coalesce · inclines · cyclonic · salience · **ensconce** |
+| 7 | 158 | **science** · license · **silence** · silicon · cocaine · clinics · cynical · liaison · conceal · cyclone · cleanse · concise · **oceanic** · incense · incline · cancels · conical |
+| 6 | 400 | social · anyone · online · easily · insane · clinic · cancel · casino · iconic · nicely · **oceans** · scenic · **sicily** · ceylon · seneca |
+| 2 kelime | 6 | `CAINE + CONCISELY` · `CAICOS + LENIENCY` · `ILYA + CONSCIENCE` |
+| en iyi 3 kelime | — | **`CIA SCIENCE ONLY`** |
+| `(527)`=5,2,7 | **5906** bölme | `CONCISE+IN+LACEY` · `LYCIA+ON+SCIENCE` · `CYNICAL+NIECE+SO` · `COLIN+SCIENCE+YA` |
+
+**Karşılaştırma:** eski havuzda 6 harfli **204** kelime yazılabiliyordu, şimdi **400**;
+7 harfli **158**. `SCIENCE`, `SILENCE`, `LICENSE`, `OCEANIC`, `CONCISE` gibi gerçek
+kelimeler ilk kez mümkün. **Ama hâlâ düz bir cümle yok** — çünkü `r`, `t`, `b`, `m`,
+`p`, `u` hâlâ havuzda yok.
+
+## 4 · #1'in harfini tersten arama (kullanıcı: *"1 de çok zor değil"*)
+
+#1'in kırmızı harfini bilmediğimizi varsayıp **26 harfin hepsi** denendi
+(#10 = `Sula fusca` sabit, yalnızca yaygın kelimeler zipf≥3):
+
+```
+2 kelime verenler : d  g  h  k  m  r  v  w        (yalnızca 8 harf)
+  'v' → CONVINCE EASILY      'd' → DECENCY LIAISON
+  'k' → OCEANIC SKYLINE      'r' → NICELY SCENARIO
+  'g' → AGENCY SILICONE      'h' → CHOICE INSANELY
+  'm' → ALIMONY SCIENCE      'w' → ICONIC WESLEYAN
+2 kelime vermeyenler : a b c e f i j l n o p q s t u x y z
+🔵 MAVİ: 26 harfin HİÇBİRİ 2 kelimelik bölme vermiyor → mavi #1'den bağımsız okunmuyor
+```
+⚠️ Bu tarama **yalnızca yaygın kelimelerle** yapıldı; geniş sözlükle mevcut `c`
+(Crossbill) de `CAINE+CONCISELY` ve `ILYA+CONSCIENCE` veriyor. Yani `c` elenmiyor —
+ama **`c` en zayıf 8'in dışında.**
+
+## 5 · ⚠️ Açık kalan: Umman bayrağının "düz" okuması
+
+Kullanıcı talimatı: *"eski isimlere bağlı kalmadan düz Umman bayrağını çözmeye çalış."*
+Plaka 197'nin lejantı doğrulandı, ama **bayrağın kendisinden hangi kuşa gidileceği
+hâlâ belirlenmedi.** Bayrakta: kırmızı/beyaz/yeşil bantlar + kızıl direk şeridi +
+amblemde **hançer (khanjar) ve iki çapraz kılıç**. Bilinen iki okuma
+(`çapraz kılıç → cross → Crossbill` ve `bayrak = ülke → American`) aynı kuşa çıkıyor.
+"Düz" okuma için ek bilgi gerekiyor.
