@@ -2231,3 +2231,84 @@ Son 5 kırmızı harf tam olarak **JOYCE**. Ve bu **yalnızca #10 = J ise** oluy
 | Kırmızı/mavi ayrımı | ✅ yapıldı · **14 ↔ (527), 13 ↔ (364)** yapısal eşleşmesi bulundu |
 | (364) = mavilerin 3+6+4'ü mü? | ❌ 3.833 bölme, anlamlı cümle yok |
 | Yeni ipucu | ⚠️ kırmızılar **JOYCE** ile bitiyor — yalnızca #10 = J ise |
+
+---
+
+# 0-W) 🔬 TUR 14 — HARFLERİ TÜRETME: KIRMIZI / MAVİ AYRI AYRI
+
+> Kullanıcı: *"Harfleri türetmeye çalış dikkatlice, kırmızı mavi ayrı."*
+
+## 1 · Havuzlar
+
+```
+🔴 KIRMIZILAR (14): ceanlnciijoyce    a1 c3 e2 i2 j1 l1 n2 o1 y1
+🔵 MAVİLER   (13): odfvialaataha     a5 d1 f1 h1 i1 l1 o1 t1 v1
+```
+
+## 2 · Sıra değil HAVUZ belirleyici (ölçüldü)
+
+Görsel sırası ile İngilizce adına göre alfabetik sıra **aynı multiseti** veriyor →
+anagram sonuçları birebir aynı çıktı. Yani `(3,6,4)` / `(5,2,7)` bölmesi için sıra fark etmez.
+
+| Test | Bölme sayısı | En iyileri | Anlamlı mı |
+|---|---|---|---|
+| 🔵 (3,6,4) | **353** | `had+afloat+avia` · `aha+flavio+data` · `via+afloat+adha` | ❌ |
+| 🔴 (5,2,7) | **106** | `enjoy+nc+cecilia` · `joyce+ca+incline` · `niece+jo+cynical` | ❌ |
+
+**Ne maviler ne kırmızılar düz bir cümle vermiyor.** (Rail fence 2-8, sütun 2-13, ters,
+çift/tek indeks, alfabetik — hepsi denendi, hiçbiri metin değil.)
+
+## 3 · 🔑 ASIL BULGU — ÜLKE ADI TESTİ
+
+Bulmacanın cevapları **KONUM** ($1M anahtarı: *"…location name somewhere around world"*).
+~190 ülke adı iki havuza karşı test edildi:
+
+```
+🔴 KIRMIZILAR  ceanlnciijoyce  →  yazılabilen TEK ülke adı :  CEYLON
+🔵 MAVİLER     odfvialaataha   →  yazılabilen TEK ülke adı :  LATVIA
+```
+
+**İki havuzdan da TAM BİR ülke adı çıkıyor — biri kırmızıdan, biri maviden.**
+~190 aday içinden iki havuzda da "tam bir" isabet olması tesadüf olmayacak kadar düzenli.
+
+```
+CEYLON = C E Y L O N  (6 harf)   ← 🔴 kırmızılardan
+LATVIA = L A T V I A  (6 harf)   ← 🔵 mavilerden
+                       ─────────
+                       6 + 6 = 12  =  (66)
+```
+
+> ### 🎯 `(66)` = iki 6 harfli kelime → **CEYLON | LATVIA**
+> `(66)`'in "iki 6 harfli kelime" olduğu notasyondan kesin. Havuzların her biri
+> **tam bir** 6 harfli ülke adı veriyor. Kırmızı birini, mavi öbürünü üretiyor —
+> kullanıcının "kırmızı mavi ayrı ayrı" talimatının karşılığı bu.
+
+### Neden inandırıcı?
+1. **`CEYLON` Seylan'ın ESKİ adı** → İpucu 10 *"Book w/ **old names**…"* ile birebir uyuyor.
+2. **`LATVIA` 6 harf** → `(6)` = 1 kelime / 6 harf şartını sağlıyor.
+3. **İpucu 1'in görselleri coğrafya temalı**: Umman bayrağı, ABD bayrağı + ahır,
+   Afrika kıtası → ülke/konum çağrışımı zaten var.
+4. İki havuzun **eş simetrisi**: 14 kırmızı / 13 mavi, birinden bir ülke, öbüründen bir ülke.
+5. Havuzlar o kadar kısıtlı ki başka seçenek yok: mavilerden yazılabilen **sadece 28**
+   altı harfli kelime var (`latvia, afloat, dahlia, flavia, thalia, flavio, davila, latifa,
+   valdai, haldia, adalia, avodah, tavola, hiatal, avital, ovadia, tahlia, alvida, adalah,
+   adalat, fatiha, davita, fadhil, fadhli, haloti, availa, aaaaah, haaaaa`) —
+   **tek ülke LATVIA.**
+
+### ⚠️ Dürüst sınırlar
+- `(6)`'nın **hangisi** olduğu belli değil: zincir `(66) → (6)` "LAST WORD" ile gidiyorsa
+  iki kelimeden **sonuncusu** cevap. Sıra (CEYLON|LATVIA mı, LATVIA|CEYLON mı) belirlenmedi.
+- Kırmızılardan yazılabilen başka 6 harfli **yer** adları da var (`annecy, nicoya, encino,
+  iolani, elcano, leonia`) — ama **ülke** olarak yalnızca `CEYLON`.
+- `(364)`'ün 13 harfi ile mavilerin 13 harfi arasındaki bağ hâlâ **kanıtlanmış değil**
+  (sayısal örtüşme var, mekanizma yok).
+
+## 4 · Güncellenmiş `(6)` sıralaması
+
+| | Aday | Gerekçe |
+|---|---|---|
+| 🥇 | **`LATVIA`** | 🔵 havuzdan yazılabilen **tek ülke adı** · 6 harf ✓ · bulmaca konum-temelli · `CEYLON`+`LATVIA` = `(66)` |
+| 🥈 | **`CEYLON`** | 🔴 havuzdan yazılabilen **tek ülke adı** · 6 harf ✓ · "old names" ile uyumlu |
+| 🥉 | `FRIDAY` | İ17'nin 364 günü = 52 hafta, iki tarih de Cuma — veri sağlam ama mekanizma yok |
+| — | `TOWHEE` · `ISLAND` | zayıf |
+| ❌ | `STUNTS` · `UPLOAD` · `DOG/EMI/FOG` | çürüdü |

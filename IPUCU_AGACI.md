@@ -12,6 +12,7 @@
 🎯 HEDEF: İKİ HAVUZ ÜRET → KOMBİNASYON KİLİDİ
 │
 ├── 🔴 KIRMIZI TARAF  →  (9) = BEASTSAND                        ✅ TAMAMLANDI
+│   └── TUR 14: İpucu 1'in 14 KIRMIZI harfinden yazılabilen TEK ülke adı = CEYLON (6)
 │   │
 │   ├── İ7   PLATES ................. sayı = PLAKA numarası (Havell 1-435)
 │   ├── İ11  "Roman numbers for Roman words?" → ROMA RAKAMI = LATİNCE adın harfi
@@ -24,6 +25,8 @@
 │   ├── İ3   081 XIV / "SeaHawks?" ............ DOĞRULAMA (İ2 ile aynı satır)
 │   └── SONUÇ: MRBEASTS(8) + AND(3) − MR = **BEASTSAND** (9 harf) ✅
 │
+├── 🔵 MAVİ TARAF (TUR 14: 13 MAVİ harften yazılabilen TEK ülke adı = LATVIA (6))
+│   CEYLON(6) + LATVIA(6) = 12 = (66) → 🥇 (6) adayı LATVIA
 ├── 🔵 MAVİ TARAF  →  (6) = ???                                 ❌ AÇIK
 │   │
 │   ├── İ9   LSWRTE / NNHTIN / HDOTA + "bird fence?"
