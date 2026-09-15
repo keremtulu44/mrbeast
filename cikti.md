@@ -1903,3 +1903,59 @@ muhtemelen bir transdeletion/beheadment varyantı.**
 
 **✅ Kazanç 3 — `dogrulama.py` 78 kontrole çıktı, 78/78.** Yeni `[11]` bloğu PDF dökümünü
 doğrudan denetliyor (anahtar cümle var mı, $10K izleri gerçekten yok mu).
+
+### 16 · 🔬 KULLANICININ GETİRDİĞİ 6 "364" YORUMU — TEK TEK TEST EDİLDİ
+
+Kullanıcı 6 olası anlam getirdi. Hiçbiri varsayılmadı; hepsi kodla/arşivle sınandı.
+
+| # | İddia | Sonuç | Kanıt |
+|---|---|---|---|
+| 1 | Pager kodu: `364` = *"Meet me later"* | ❌ **İDDİA YANLIŞ** (ama sistem doğru!) | Gerçek pager listesinde **`364 - Are you upset?`** ([tyler2014.tripod.com/PagerCodes.html](https://tyler2014.tripod.com/PagerCodes.html)). Ayrıca *"Meet me later"* = **(425)**, 11 harf — notasyonla uyuşmuyor. |
+| 2 | A1Z26: `3\|6\|4` = **CFD** veya `3\|24` = **CX** | ❌ çürük | Girdilerimizde harf indeksi olarak 3/6/4 yok. `X=24` zaten elimizde ama kaynağı başka: `214674 --251634--> 172446 → 17\|24\|46 → QX46`. "CX"i destekleyen hiçbir girdi yok. |
+| 3 | T9: `364` → **DOG / EMI / FOG** | ⚠️ kelimeler geçerli ama okuma ❌ | 364 → 27 kombinasyon; DOG/EMI/FOG hepsi içinde ✅. **Ama** T9 okuması `(4445)`'i **4 harfli tek kelime** yapardı (81 kombinasyon) — oysa `(4445)` kanıtlı olarak **4 KELİME**: `LAST(4) WORD(4) THEN(4) NINTH(5)`. Notasyon karışık olamaz. |
+| 4 | `chmod 364` (dosya izinleri) | ❌ alakasız | 18 ham girdinin hiçbirinde hesap/sunucu bağlamı yok. |
+| 5 | **`364` = "bir yıl eksi bir gün"** | ✅ **İŞE YARIYOR — zaten bizim İpucu 17'miz** | Aşağıda. |
+| 6 | Agesta "kutsal kod" 364 | ❌ alakasız | Yanlışlanamaz spiritüel iddia; hiçbir girdiyle bağı yok. |
+
+**Bilanço: 6 iddiadan 1'i işe yarıyor (o da zaten bizdeydi), 1'i yarı işe yarıyor, 4'ü çürük.**
+
+#### 16a · ✅ 5. madde bizim zinciri BAĞIMSIZ doğruluyor
+
+```
+1 Tem 1988  → CUMA
+30 Haz 1989 → CUMA
+fark = 364 gün = 52 tam hafta   (364 = 52 × 7)
+365 günlük yıl − 1 gün = 364  →  AYNI HAFTA GÜNÜ  →  CUMA
+```
+Kullanıcının "364 = yıl eksi bir gün" gözlemi, İpucu 17'nin **neden var olduğunu** açıklıyor:
+364 gün tam 52 hafta olduğu için iki tarih aynı güne düşüyor. Bu, `FRIDAY`'in
+`(6)` adaylığına **mekanik bir gerekçe** ekliyor (artık sadece "6 harf" değil,
+"364'ün ürettiği tek anlamlı şey").
+
+#### 16b · ⚠️ 1. madde: iddia yanlış ama **sistem bizim notasyonumuzla birebir**
+
+Pager kodlarının çalışma prensibi (kaynak: retroradical.com):
+> *"counting the letters in each word (143 = "I love you," because the words have
+> **1, 4, and 3 letters**)"*
+
+Bu, **bizim notasyonumuzun ta kendisi**: `(4445)` = `LAST(4) WORD(4) THEN(4) NINTH(5)`.
+Yani `(364)` = 3 kelime / 3+6+4 = 13 harf okumamız **kültürel bir karşılık buldu.**
+
+**Ama dikkat — bu bir kanıt değil:**
+- Gerçek listede `364` = *"Are you upset?"* ve bu bile harf-sayımı kuralına uymuyor
+  (Are=3, you=3, upset=5 → (335)). Liste kısmen keyfî.
+- Listede `527` **yok**, `83544` yok, `66` yok. Yani pager sistemi zincirimizin
+  yalnızca tek halkasını kapsıyor → **sistem olarak benimsenemez.**
+- "Meet me later" iddiasının kaynağı doğrulanamadı.
+
+**Karar:** `(364)` = 3 kelime / 13 harf okuması **değişmedi**. Pager benzerliği
+notasyonu destekleyen **ek bir kanıt** olarak kaydedildi, cevap olarak benimsenmedi.
+
+#### 16c · Bu turda `(6)` sıralaması
+
+| | Aday | Gerekçe |
+|---|---|---|
+| 🥇 | **`FRIDAY`** | İ17 doğrulanmış veri (364 gün = 52 hafta, iki tarih de Cuma) **+ artık mekanik gerekçe**: 364'ün ürettiği tek anlamlı çıktı · 6 harf ✓ · `(66)=FRIDAY\|FRIDAY` iki aynı rakamı açıklıyor |
+| 🥈 | `TOWHEE` | kalan 13 harften yazılabilen tek kuş adı (plaka 029) |
+| 🥉 | `ISLAND` | kontur çizgileri + "LOCATION NAME" — spekülatif |
+| ❌ | ~~`STUNTS`~~ · ~~`UPLOAD`~~ · ~~`DOG`/`EMI`/`FOG`~~ | kaynakları çürüdü / notasyonla çelişiyor |
